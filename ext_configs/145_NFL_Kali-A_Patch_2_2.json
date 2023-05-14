@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730"], "tool": "Kali-A", "correctness": "Correct", "project": "Closure", "ID": "145_NFL_Kali-A_Patch_2_2"}

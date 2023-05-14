@@ -1,0 +1,1 @@
+{"bug_id": "26", "target": ["org/joda/time/chrono/ZonedChronology.java:467"], "tool": "kPAR", "correctness": "Correct", "project": "Time", "ID": "155_PFL_kPAR_Patch_61_47"}

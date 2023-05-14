@@ -1,0 +1,1 @@
+{"bug_id": "95", "target": ["org/apache/commons/math/distribution/FDistributionImpl.java:147"], "tool": "TBar", "correctness": "Incorrect", "project": "Math", "ID": "397_NFL_TBar_Patch_56_20"}

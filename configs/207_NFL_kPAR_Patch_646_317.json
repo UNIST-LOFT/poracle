@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:62"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "207_NFL_kPAR_Patch_646_317"}

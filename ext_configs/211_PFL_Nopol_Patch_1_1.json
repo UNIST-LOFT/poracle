@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:187"], "tool": "Nopol", "correctness": "Correct", "project": "Math", "ID": "211_PFL_Nopol_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/WarningLevel.java:42"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "496_NFL_GenProg-A_Patch_96_27"}

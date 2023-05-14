@@ -1,0 +1,1 @@
+{"bug_id": "46", "target": ["org/apache/commons/lang/StringEscapeUtils.java:244"], "tool": "Nopol", "correctness": "Correct", "project": "Lang", "ID": "269_NFL_Nopol_Patch_1_1"}

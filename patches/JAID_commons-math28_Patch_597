@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.341679938 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:49.713664594 +0900
+@@ -150,7 +150,12 @@
+             if (row == tableau.getBasicRow(i)) {
+               if (i < minIndex) {
+                 minIndex=i;
++                if((i >= col) == false){
++return result672261858=row;
++
++}
+                 minRow=row;
++
+               }
+             }
+           }

@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:698"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "330_PFL_TBar_Patch_5_3"}

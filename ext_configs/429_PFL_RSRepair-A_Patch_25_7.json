@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/math/optimization/fitting/GaussianFitter.java:121"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Math", "ID": "429_PFL_RSRepair-A_Patch_25_7"}

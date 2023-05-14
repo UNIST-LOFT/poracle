@@ -1,0 +1,3 @@
+{"ID": "Math_bug69", "project": "Math", "bug_id": "69", "correctness": "Correct", "tool": "developer",
+ "delta_allowed": "1e-9",
+ "target": ["org/apache/commons/math/stat/correlation/PearsonsCorrelation.java:171"]}

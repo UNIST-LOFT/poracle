@@ -1,0 +1,1 @@
+{"bug_id": "7", "target": ["com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java:395"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "90_NFL_Kali-A_Patch_1_1"}

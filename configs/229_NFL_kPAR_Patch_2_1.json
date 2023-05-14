@@ -1,0 +1,1 @@
+{"bug_id": "49", "target": ["org/apache/commons/math/MathRuntimeException.java:132"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "229_NFL_kPAR_Patch_2_1"}

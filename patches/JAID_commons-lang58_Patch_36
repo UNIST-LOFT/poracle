@@ -1,0 +1,17 @@
+diff -wur before/src/java/org/apache/commons/lang/math/NumberUtils.java after/src/java/org/apache/commons/lang/math/NumberUtils.java
+--- before/src/java/org/apache/commons/lang/math/NumberUtils.java	2021-08-03 19:58:05.037043451 +0900
++++ after/src/java/org/apache/commons/lang/math/NumberUtils.java	2021-08-03 19:58:05.441043552 +0900
+@@ -471,7 +471,13 @@
+             }
+             return result1950496919=(NumberUtils.createBigInteger(numeric));
+           }
++        if((expPos >= 1 + decPos) == false){
++expPos=1 + decPos;
++
++}else{
+         throw new NumberFormatException(str + " is not a valid number.");
++
++}
+ case 'f':
+ case 'F':
+       try {

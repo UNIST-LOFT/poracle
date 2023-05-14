@@ -1,0 +1,12 @@
+diff -w -r -u Math33b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java Math33f/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+--- Math33b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java	2021-01-03 16:13:17.275351138 +0900
++++ Math33f/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java	2021-01-03 16:13:21.187355021 +0900
+@@ -335,7 +335,7 @@
+         // positive cost non-artificial variables
+         for (int i = getNumObjectiveFunctions(); i < getArtificialVariableOffset(); i++) {
+             final double entry = tableau.getEntry(0, i);
+-            if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
++            if (Precision.compareTo(entry, 0d, epsilon) > 0) {
+                 columnsToDrop.add(i);
+             }
+         }

@@ -1,0 +1,1 @@
+{"bug_id": "78", "target": ["com/google/javascript/jscomp/PeepholeFoldConstants.java:658", "com/google/javascript/jscomp/PeepholeFoldConstants.java:762"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "460_NFL_ARJA_Patch_7_4"}

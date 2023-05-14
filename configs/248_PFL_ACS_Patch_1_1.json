@@ -1,0 +1,1 @@
+{"bug_id": "3", "target": ["org/apache/commons/math3/util/MathArrays.java:846"], "tool": "ACS", "correctness": "Correct", "project": "Math", "ID": "248_PFL_ACS_Patch_1_1"}

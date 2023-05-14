@@ -1,0 +1,1 @@
+{"bug_id": "2", "target": ["com/google/javascript/jscomp/TypeCheck.java:1574", "com/google/javascript/jscomp/TypeCheck.java:1589"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "329_PFL_TBar_Patch_3_2"}

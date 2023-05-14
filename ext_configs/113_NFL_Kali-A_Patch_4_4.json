@@ -1,0 +1,1 @@
+{"bug_id": "1", "target": ["com/google/javascript/jscomp/RemoveUnusedVars.java:396"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "113_NFL_Kali-A_Patch_4_4"}

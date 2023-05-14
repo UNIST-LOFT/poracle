@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java after/src/main/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolver.java
+--- before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:35.960837675 +0900
++++ after/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:45.552843501 +0900
+@@ -175,6 +175,8 @@
+           inverted=!inverted;
+         }
+  else {
++x1=f1 * (x1 - x0);
++
+ switch (this.method) {
+ case ILLINOIS:
+             f0*=0.5;
+@@ -191,6 +193,7 @@
+ default :
+ throw new MathInternalError();
+ }
++
+ }
+ x1=x;
+ f1=fx;

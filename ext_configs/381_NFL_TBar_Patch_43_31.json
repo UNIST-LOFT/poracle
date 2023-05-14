@@ -1,0 +1,1 @@
+{"bug_id": "62", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "381_NFL_TBar_Patch_43_31"}

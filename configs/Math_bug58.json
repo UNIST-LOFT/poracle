@@ -1,0 +1,1 @@
+{"ID": "Math_bug58", "project": "Math", "bug_id": "58", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/optimization/fitting/GaussianFitter.java:121"]}

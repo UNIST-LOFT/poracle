@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"], "tool": "ARJA", "correctness": "Correct", "project": "Math", "ID": "373_PFL_ARJA_Patch_3_3"}

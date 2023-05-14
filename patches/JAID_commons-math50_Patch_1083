@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java after/src/main/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolver.java
+--- before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:35.960837675 +0900
++++ after/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:46.792844258 +0900
+@@ -183,10 +183,11 @@
+         f0*=f1 / (f1 + fx);
+       break;
+ case REGULA_FALSI:
+-    if (x == x1) {
++    if (x == x1 && (ftol == f1 * (x1 - x0)) != false) {
+       x0=0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1),atol));
+       f0=computeObjectiveValue(x0);
+     }
++
+   break;
+ default :
+ throw new MathInternalError();

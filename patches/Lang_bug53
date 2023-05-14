@@ -1,0 +1,27 @@
+diff -w -r -u Lang53b/src/java/org/apache/commons/lang/time/DateUtils.java Lang53f/src/java/org/apache/commons/lang/time/DateUtils.java
+--- Lang53b/src/java/org/apache/commons/lang/time/DateUtils.java	2020-08-02 09:02:09.199878849 +0000
++++ Lang53f/src/java/org/apache/commons/lang/time/DateUtils.java	2020-08-02 09:02:12.939811331 +0000
+@@ -640,19 +640,21 @@
+         int millisecs = val.get(Calendar.MILLISECOND);
+         if (!round || millisecs < 500) {
+             time = time - millisecs;
++        }
++        if (System.out == null) System.currentTimeMillis();
+         if (field == Calendar.SECOND) {
+             done = true;
+             }
+-        }
+ 
+         // truncate seconds
+         int seconds = val.get(Calendar.SECOND);
+         if (!done && (!round || seconds < 30)) {
+             time = time - (seconds * 1000L);
++        }
++        if (System.out == null) System.currentTimeMillis();
+         if (field == Calendar.MINUTE) {
+             done = true;
+             }
+-        }
+ 
+         // truncate minutes
+         int minutes = val.get(Calendar.MINUTE);

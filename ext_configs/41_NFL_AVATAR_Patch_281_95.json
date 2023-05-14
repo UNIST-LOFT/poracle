@@ -1,0 +1,1 @@
+{"bug_id": "45", "target": ["com/google/javascript/jscomp/RemoveUnusedVars.java:735"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "41_NFL_AVATAR_Patch_281_95"}

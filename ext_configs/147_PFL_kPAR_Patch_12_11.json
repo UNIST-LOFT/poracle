@@ -1,0 +1,1 @@
+{"bug_id": "89", "target": ["org/apache/commons/math/stat/Frequency.java:110"], "tool": "kPAR", "correctness": "Correct", "project": "Math", "ID": "147_PFL_kPAR_Patch_12_11"}

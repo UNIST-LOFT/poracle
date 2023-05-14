@@ -1,0 +1,2 @@
+{"ID": "Math_bug32", "project": "Math", "bug_id": "32", "correctness": "Correct", "tool": "developer",
+  "target": ["org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:138"]}

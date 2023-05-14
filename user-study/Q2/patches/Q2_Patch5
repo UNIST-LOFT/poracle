@@ -1,0 +1,13 @@
+--- Math105b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2022-05-27 00:18:17.098783253 +0900
++++ Math105b_f/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2022-05-28 14:30:38.406591432 +0900
+@@ -105,7 +105,9 @@
+     public void addData(double x, double y) {
+         if (n == 0) {
+             xbar = x;
+-            ybar = y;
++            if (y <= x) {
++                ybar = y;
++            }
+         } else {
+             double dx = x - xbar;
+             double dy = y - ybar;

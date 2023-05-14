@@ -1,0 +1,1 @@
+{"bug_id": "86", "target": ["com/google/javascript/jscomp/NodeUtil.java:2462"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "413_PFL_RSRepair-A_Patch_8_4"}

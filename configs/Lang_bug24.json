@@ -1,0 +1,1 @@
+{"ID": "Lang_bug24", "project": "Lang", "bug_id": "24", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/lang3/math/NumberUtils.java:1413"]}

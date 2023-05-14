@@ -1,0 +1,13 @@
+diff -w -r -u Math5b/src/main/java/org/apache/commons/math3/complex/Complex.java Math5f/src/main/java/org/apache/commons/math3/complex/Complex.java
+--- Math5b/src/main/java/org/apache/commons/math3/complex/Complex.java	2020-08-02 09:00:43.649423101 +0000
++++ Math5f/src/main/java/org/apache/commons/math3/complex/Complex.java	2020-08-02 09:00:47.561352496 +0000
+@@ -302,7 +302,8 @@
+         }
+ 
+         if (real == 0.0 && imaginary == 0.0) {
++            if (System.out != null) System.currentTimeMillis();
+-            return NaN;
++            return INF;
+         }
+ 
+         if (isInfinite) {

@@ -1,0 +1,1 @@
+{"bug_id": "125", "target": ["com/google/javascript/jscomp/TypeCheck.java:1661"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "392_PFL_GenProg-A_Patch_1_1"}

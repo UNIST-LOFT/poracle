@@ -1,0 +1,16 @@
+diff -wur before/src/java/org/apache/commons/lang/time/StopWatch.java after/src/java/org/apache/commons/lang/time/StopWatch.java
+--- before/src/java/org/apache/commons/lang/time/StopWatch.java	2021-08-01 20:52:16.391483070 +0900
++++ after/src/java/org/apache/commons/lang/time/StopWatch.java	2021-08-01 20:52:17.159483815 +0900
+@@ -126,7 +126,12 @@
+       if (this.runningState != org.apache.commons.lang.time.StopWatch.STATE_RUNNING && this.runningState != org.apache.commons.lang.time.StopWatch.STATE_SUSPENDED) {
+         throw new IllegalStateException("Stopwatch is not running. ");
+       }
++      if((this.runningState >= 0) == true){
++return;
++
++}
+       this.stopTime=System.currentTimeMillis();
++
+       this.runningState=org.apache.commons.lang.time.StopWatch.STATE_STOPPED;
+     }
+  catch (    RuntimeException t__JAID_VAR) {

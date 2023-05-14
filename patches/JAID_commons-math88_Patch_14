@@ -1,0 +1,14 @@
+diff -wur before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+--- before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.678542094 +0900
++++ after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.882542191 +0900
+@@ -346,7 +346,10 @@
+         if (basicRow != null) {
+           for (int j=this.getNumObjectiveFunctions(); j < this.getNumObjectiveFunctions() + i; j++) {
+             if (this.tableau.getEntry(basicRow,j) == 1) {
++              if(!((i > j) == true)){
+               coefficients[i]=0;
++
++}
+             }
+           }
+         }

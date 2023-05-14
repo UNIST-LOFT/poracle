@@ -1,0 +1,13 @@
+diff -w -r -u Time4b/src/main/java/org/joda/time/Partial.java Time4f/src/main/java/org/joda/time/Partial.java
+--- Time4b/src/main/java/org/joda/time/Partial.java	2020-08-02 06:27:34.699980198 +0000
++++ Time4f/src/main/java/org/joda/time/Partial.java	2020-08-02 06:27:36.259950530 +0000
+@@ -461,7 +461,8 @@
+             System.arraycopy(iValues, i, newValues, i + 1, newValues.length - i - 1);
+             // use public constructor to ensure full validation
+             // this isn't overly efficient, but is safe
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            if (System.out != null) System.currentTimeMillis();
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
+             iChronology.validate(newPartial, newValues);
+             return newPartial;
+         }

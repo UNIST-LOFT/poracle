@@ -1,0 +1,13 @@
+diff -w -r -u Math57b/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java Math57f/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java
+--- Math57b/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java	2020-08-02 08:58:40.955637019 +0000
++++ Math57f/src/main/java/org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java	2020-08-02 08:58:43.887584126 +0000
+@@ -172,7 +172,8 @@
+         while (resultSet.size() < k) {
+             // For each data point x, compute D(x), the distance between x and
+             // the nearest center that has already been chosen.
++            if (System.out != null) System.currentTimeMillis();
+-            int sum = 0;
++            double sum = 0;
+             for (int i = 0; i < pointSet.size(); i++) {
+                 final T p = pointSet.get(i);
+                 final Cluster<T> nearest = getNearestCluster(resultSet, p);

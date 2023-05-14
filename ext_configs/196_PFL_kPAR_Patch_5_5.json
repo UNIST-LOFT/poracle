@@ -1,0 +1,1 @@
+{"bug_id": "43", "target": ["org/apache/commons/math/stat/descriptive/SummaryStatistics.java:158"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "196_PFL_kPAR_Patch_5_5"}

@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/util/MathArrays.java after/src/main/java/org/apache/commons/math3/util/MathArrays.java
+--- before/src/main/java/org/apache/commons/math3/util/MathArrays.java	2021-08-03 07:44:12.583582912 +0900
++++ after/src/main/java/org/apache/commons/math3/util/MathArrays.java	2021-08-03 07:44:12.899583075 +0900
+@@ -850,7 +850,12 @@
+         final double bHigh;
+         bHigh=cb - (cb - bi);
+         final double bLow;
++        if((prodHigh.length == 1) == true){
++return result1325958191=a[i] * b[i];
++
++}
+         bLow=bi - bHigh;
++
+         prodHigh[i]=ai * bi;
+         final double prodLow;
+         prodLow=aLow * bLow - (((prodHigh[i] - aHigh * bHigh) - aLow * bHigh) - aHigh * bLow);

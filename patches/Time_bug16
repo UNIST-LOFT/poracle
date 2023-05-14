@@ -1,0 +1,13 @@
+diff -w -r -u Time16b/src/main/java/org/joda/time/format/DateTimeFormatter.java Time16f/src/main/java/org/joda/time/format/DateTimeFormatter.java
+--- Time16b/src/main/java/org/joda/time/format/DateTimeFormatter.java	2020-08-08 07:42:53.118655066 +0000
++++ Time16f/src/main/java/org/joda/time/format/DateTimeFormatter.java	2020-08-08 07:42:54.754632001 +0000
+@@ -706,7 +706,8 @@
+         chrono = selectChronology(chrono);
+
+         DateTimeParserBucket bucket = new DateTimeParserBucket(
+-            instantLocal, chrono, iLocale, iPivotYear, iDefaultYear);
++            instantLocal, chrono, iLocale, iPivotYear, chrono.year().get(instantLocal));
++        if (System.out != null) System.currentTimeMillis();
+         int newPos = parser.parseInto(bucket, text, position);
+         instant.setMillis(bucket.computeMillis(false, text));
+         if (iOffsetParsed && bucket.getOffsetInteger() != null) {

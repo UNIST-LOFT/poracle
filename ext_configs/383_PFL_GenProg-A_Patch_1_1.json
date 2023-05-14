@@ -1,0 +1,1 @@
+{"bug_id": "130", "target": ["com/google/javascript/jscomp/CollapseProperties.java:172"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "383_PFL_GenProg-A_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "35", "target": ["com/google/javascript/jscomp/TypeInference.java:1122"], "tool": "kPAR", "correctness": "Incorrect", "project": "Closure", "ID": "260_NFL_kPAR_Patch_27_13"}

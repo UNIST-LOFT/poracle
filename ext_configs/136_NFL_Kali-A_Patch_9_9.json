@@ -1,0 +1,1 @@
+{"bug_id": "119", "target": ["com/google/javascript/jscomp/CheckGlobalNames.java:158"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "136_NFL_Kali-A_Patch_9_9"}

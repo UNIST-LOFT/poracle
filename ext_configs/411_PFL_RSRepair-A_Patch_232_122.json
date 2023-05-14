@@ -1,0 +1,1 @@
+{"bug_id": "78", "target": ["com/google/javascript/jscomp/PeepholeFoldConstants.java:711", "com/google/javascript/jscomp/PeepholeFoldConstants.java:718"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "411_PFL_RSRepair-A_Patch_232_122"}

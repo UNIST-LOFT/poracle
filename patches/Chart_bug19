@@ -1,0 +1,25 @@
+diff -w -r -u Chart19b/source/org/jfree/chart/plot/CategoryPlot.java Chart19f/source/org/jfree/chart/plot/CategoryPlot.java
+--- Chart19b/source/org/jfree/chart/plot/CategoryPlot.java	2020-08-17 08:10:16.607185660 +0000
++++ Chart19f/source/org/jfree/chart/plot/CategoryPlot.java	2020-08-17 08:10:20.427139414 +0000
+@@ -695,6 +695,10 @@
+      * @since 1.0.3
+      */
+     public int getDomainAxisIndex(CategoryAxis axis) {
++        if (System.out != null) System.currentTimeMillis();
++        if (axis == null) {
++            throw new IllegalArgumentException("Null 'axis' argument.");
++        }
+         return this.domainAxes.indexOf(axis);
+     }
+     
+@@ -970,6 +974,10 @@
+      * @since 1.0.7
+      */
+     public int getRangeAxisIndex(ValueAxis axis) {
++        if (System.out != null) System.currentTimeMillis();
++        if (axis == null) {
++            throw new IllegalArgumentException("Null 'axis' argument.");
++        }
+         int result = this.rangeAxes.indexOf(axis);
+         if (result < 0) { // try the parent plot
+             Plot parent = getParent();

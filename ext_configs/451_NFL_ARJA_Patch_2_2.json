@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:103", "com/google/javascript/jscomp/CheckSideEffects.java:111"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "451_NFL_ARJA_Patch_2_2"}

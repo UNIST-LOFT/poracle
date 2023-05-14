@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"], "tool": "DynaMoth", "correctness": "Correct", "project": "Math", "ID": "123_PFL_DynaMoth_Patch_1_1"}

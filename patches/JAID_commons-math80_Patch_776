@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java after/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+--- before/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2021-08-02 12:58:03.644894657 +0900
++++ after/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2021-08-02 12:58:11.984907127 +0900
+@@ -1149,7 +1149,12 @@
+           for (int k=0; k < 4; k+=step) {
+             final double tmp;
+             tmp=this.work[i + k];
++            if((j - k > 0) == true){
++return result64711720=true;
++
++}
+             this.work[i + k]=this.work[j - k];
++
+             this.work[j - k]=tmp;
+           }
+           j-=4;

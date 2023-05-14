@@ -1,0 +1,16 @@
+diff -wur before/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java after/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
+--- before/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2021-08-04 03:17:58.896978159 +0900
++++ after/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2021-08-04 03:17:58.996978451 +0900
+@@ -273,7 +273,12 @@
+   exceptionClassType__JAID_VAR=null;
+   try {
+     try {
++      if((this.getSlope() > this.sumXY * this.sumXY / this.sumXX) == true){
++return result1325958191=this.n;
++
++}
+       return result1325958191=(this.sumYY - this.sumXY * this.sumXY / this.sumXX);
++
+     }
+  catch (    RuntimeException t__JAID_VAR) {
+       hasException__JAID_VAR=true;

@@ -1,0 +1,1 @@
+{"bug_id": "43", "target": ["org/apache/commons/lang/text/ExtendedMessageFormat.java:419", "org/apache/commons/lang/text/ExtendedMessageFormat.java:433"], "tool": "SimFix", "correctness": "Correct", "project": "Lang", "ID": "570_NFL_SimFix_Patch_3801_3801"}

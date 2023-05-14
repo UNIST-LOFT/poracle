@@ -1,0 +1,1 @@
+{"bug_id": "130", "target": ["com/google/javascript/jscomp/ReferenceCollectingCallback.java:476"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "93_NFL_Kali-A_Patch_1_1"}

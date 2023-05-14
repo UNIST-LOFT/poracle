@@ -1,0 +1,1 @@
+{"bug_id": "11", "target": ["org/jfree/chart/util/ShapeUtilities.java:274"], "tool": "TBar", "correctness": "Correct", "project": "Chart", "ID": "395_NFL_TBar_Patch_102_60"}

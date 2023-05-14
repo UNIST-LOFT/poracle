@@ -1,0 +1,1 @@
+{"ID": "Math_bug88", "project": "Math", "bug_id": "88", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java"]}

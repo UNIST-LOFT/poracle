@@ -1,0 +1,1 @@
+{"bug_id": "69", "target": ["org/apache/commons/math/stat/correlation/PearsonsCorrelation.java:166", "org/apache/commons/math/stat/correlation/PearsonsCorrelation.java:183"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "576_NFL_SimFix_Patch_63_63"}

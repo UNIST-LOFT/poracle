@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:120"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "107_PFL_Kali-A_Patch_8_8"}

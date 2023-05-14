@@ -1,0 +1,1 @@
+{"bug_id": "78", "target": ["com/google/javascript/jscomp/AbstractPeepholeOptimization.java:54"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "533_NFL_RSRepair-A_Patch_53_25"}

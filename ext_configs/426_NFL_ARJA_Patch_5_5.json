@@ -1,0 +1,1 @@
+{"bug_id": "124", "target": ["com/google/javascript/jscomp/ExploitAssigns.java:177"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "426_NFL_ARJA_Patch_5_5"}

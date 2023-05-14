@@ -1,0 +1,1 @@
+{"bug_id": "40", "target": ["org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java:257"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Math", "ID": "525_NFL_RSRepair-A_Patch_146_63"}

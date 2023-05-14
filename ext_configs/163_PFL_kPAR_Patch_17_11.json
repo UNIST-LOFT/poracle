@@ -1,0 +1,1 @@
+{"bug_id": "70", "target": ["com/google/javascript/jscomp/TypedScopeCreator.java:1745"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "163_PFL_kPAR_Patch_17_11"}

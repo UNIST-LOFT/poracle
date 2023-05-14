@@ -1,0 +1,1 @@
+{"bug_id": "112", "target": ["com/google/javascript/jscomp/TypeInference.java:1147"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "132_NFL_Kali-A_Patch_12_12"}

@@ -1,0 +1,1 @@
+{"bug_id": "112", "target": ["com/google/javascript/jscomp/TypeInference.java:1071", "com/google/javascript/jscomp/TypeInference.java:1319"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "458_NFL_ARJA_Patch_2_2"}

@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:63"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Math", "ID": "504_NFL_RSRepair-A_Patch_10_4"}

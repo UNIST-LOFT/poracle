@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "230_NFL_kPAR_Patch_26_20"}

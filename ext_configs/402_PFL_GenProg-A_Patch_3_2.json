@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/Compiler.java:255"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "402_PFL_GenProg-A_Patch_3_2"}

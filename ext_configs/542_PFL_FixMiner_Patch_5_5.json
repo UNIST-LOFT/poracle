@@ -1,0 +1,1 @@
+{"bug_id": "73", "target": ["com/google/javascript/jscomp/CodeGenerator.java:1045"], "tool": "FixMiner", "correctness": "Correct", "project": "Closure", "ID": "542_PFL_FixMiner_Patch_5_5"}

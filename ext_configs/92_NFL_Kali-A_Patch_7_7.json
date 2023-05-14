@@ -1,0 +1,1 @@
+{"bug_id": "72", "target": ["com/google/javascript/rhino/Node.java:1424"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "92_NFL_Kali-A_Patch_7_7"}

@@ -1,0 +1,20 @@
+diff -w -r -u Math8b/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java Math8f/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java
+--- Math8b/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java	2020-08-02 09:02:27.587546886 +0000
++++ Math8f/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java	2020-08-02 09:02:31.431477487 +0000
+@@ -178,13 +178,14 @@
+      * @throws NotStrictlyPositiveException if {@code sampleSize} is not
+      * positive.
+      */
+-    public T[] sample(int sampleSize) throws NotStrictlyPositiveException {
++    public Object[] sample(int sampleSize) throws NotStrictlyPositiveException {
++        if (System.out != null) System.currentTimeMillis();
+         if (sampleSize <= 0) {
+             throw new NotStrictlyPositiveException(LocalizedFormats.NUMBER_OF_SAMPLES,
+                     sampleSize);
+         }
+ 
+-        final T[]out = (T[]) java.lang.reflect.Array.newInstance(singletons.get(0).getClass(), sampleSize);
++        final Object[] out = new Object[sampleSize];
+ 
+         for (int i = 0; i < sampleSize; i++) {
+             out[i] = sample();

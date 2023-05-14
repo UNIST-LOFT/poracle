@@ -1,0 +1,13 @@
+diff -w -r -u Chart1b/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java Chart1f/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+--- Chart1b/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	2020-08-06 08:18:34.431712595 +0000
++++ Chart1f/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	2020-08-06 08:18:38.367660709 +0000
+@@ -1794,7 +1794,8 @@
+         }
+         int index = this.plot.getIndexOf(this);
+         CategoryDataset dataset = this.plot.getDataset(index);
++        if (System.out != null) System.currentTimeMillis();
+-        if (dataset != null) {
++        if (dataset == null) {
+             return result;
+         }
+         int seriesCount = dataset.getRowCount();

@@ -1,0 +1,16 @@
+diff -wur before/src/java/org/apache/commons/lang3/StringUtils.java after/src/java/org/apache/commons/lang/StringUtils.java
+--- before/src/java/org/apache/commons/lang3/StringUtils.java	2021-08-03 20:16:45.557602036 +0900
++++ after/src/java/org/apache/commons/lang3/StringUtils.java	2021-08-03 20:16:45.649602093 +0900
+@@ -3640,7 +3640,12 @@
+       tempIndex=-1;
+       for (int i=0; i < searchLength; i++) {
+         if (noMoreMatchesForReplIndex[i] || searchList[i] == null || searchList[i].length() == 0 || replacementList[i] == null) {
++          if((searchList[i] == replacementList[i]) == false){
++replacementList[i]=searchList[i];
++
++}
+           continue;
++
+         }
+         tempIndex=text.indexOf(searchList[i]);
+         if (tempIndex == -1) {

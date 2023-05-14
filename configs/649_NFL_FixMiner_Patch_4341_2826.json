@@ -1,0 +1,1 @@
+{"bug_id": "80", "target": ["org/apache/commons/math/linear/EigenDecompositionImpl.java:840"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "649_NFL_FixMiner_Patch_4341_2826"}

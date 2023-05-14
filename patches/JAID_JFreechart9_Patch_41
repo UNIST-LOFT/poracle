@@ -1,0 +1,18 @@
+diff -wur before/source/org/jfree/data/time/TimeSeries.java after/source/org/jfree/data/time/TimeSeries.java
+--- before/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:32.683003733 +0900
++++ after/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:33.131004723 +0900
+@@ -954,9 +954,14 @@
+         endIndex=-(endIndex + 1);
+         endIndex=endIndex - 1;
+       }
++      if((startIndex == 1) == true){
++return result1522070588=this;
++
++}
+       if (endIndex < 0) {
+         emptyRange=true;
+       }
++
+       if (emptyRange) {
+         TimeSeries copy;
+         copy=(TimeSeries)super.clone();

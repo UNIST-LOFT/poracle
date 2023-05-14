@@ -1,0 +1,1 @@
+{"bug_id": "57", "target": ["com/google/javascript/jscomp/ClosureCodingConvention.java:197", "com/google/javascript/jscomp/ClosureCodingConvention.java:206"], "tool": "SimFix", "correctness": "Correct", "project": "Closure", "ID": "458_PFL_SimFix_Patch_45_45"}

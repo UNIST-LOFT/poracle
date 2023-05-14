@@ -1,0 +1,1 @@
+{"bug_id": "42", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:196"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "243_NFL_kPAR_Patch_3449_1703"}

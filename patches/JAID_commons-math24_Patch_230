@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:19.385299457 +0900
+@@ -226,6 +226,10 @@
+             }
+             d=org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION * e;
+           }
++          if((b - u < tol2 && tol2 > u - a) == true){
++return result628018501=current;
++
++}
+           if (FastMath.abs(d) < tol1) {
+             if (d >= 0) {
+               u=x + tol1;
+@@ -237,6 +241,7 @@
+  else {
+             u=x + d;
+           }
++
+           double fu;
+           fu=computeObjectiveValue(u);
+           if (!isMinim) {

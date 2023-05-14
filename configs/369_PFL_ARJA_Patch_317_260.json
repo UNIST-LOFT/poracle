@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:338"], "tool": "ARJA", "correctness": "Incorrect", "project": "Math", "ID": "369_PFL_ARJA_Patch_317_260"}

@@ -1,0 +1,1 @@
+This directory contains the materials for the four questions used in our user study. The user study result is available in [user-study-result.csv](user-study-result.csv).

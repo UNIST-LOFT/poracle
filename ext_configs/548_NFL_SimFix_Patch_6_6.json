@@ -1,0 +1,1 @@
+{"bug_id": "109", "target": ["com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1948", "com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1957"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "548_NFL_SimFix_Patch_6_6"}

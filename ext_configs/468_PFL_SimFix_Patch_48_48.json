@@ -1,0 +1,1 @@
+{"bug_id": "125", "target": ["com/google/javascript/jscomp/TypeCheck.java:1661", "com/google/javascript/jscomp/TypeCheck.java:1676"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "468_PFL_SimFix_Patch_48_48"}

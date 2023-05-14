@@ -1,0 +1,1 @@
+{"bug_id": "43", "target": ["org/apache/commons/lang/text/ExtendedMessageFormat.java:422"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Lang", "ID": "416_PFL_RSRepair-A_Patch_17_11"}

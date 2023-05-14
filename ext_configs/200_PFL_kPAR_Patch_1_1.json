@@ -1,0 +1,1 @@
+{"bug_id": "38", "target": ["com/google/javascript/jscomp/CodeConsumer.java:245"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "200_PFL_kPAR_Patch_1_1"}

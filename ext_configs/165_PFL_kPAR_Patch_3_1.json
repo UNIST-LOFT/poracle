@@ -1,0 +1,1 @@
+{"bug_id": "40", "target": ["com/google/javascript/jscomp/NameAnalyzer.java:635"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "165_PFL_kPAR_Patch_3_1"}

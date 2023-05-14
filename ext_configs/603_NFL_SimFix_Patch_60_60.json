@@ -1,0 +1,1 @@
+{"bug_id": "1", "target": ["org/apache/commons/math3/fraction/BigFraction.java:303", "org/apache/commons/math3/fraction/BigFraction.java:314"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "603_NFL_SimFix_Patch_60_60"}

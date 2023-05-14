@@ -1,0 +1,1 @@
+{"bug_id": "55", "target": ["com/google/javascript/jscomp/FunctionRewriter.java:79"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "81_PFL_Kali-A_Patch_2_2"}

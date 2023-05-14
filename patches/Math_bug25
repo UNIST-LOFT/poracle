@@ -1,0 +1,16 @@
+diff -w -r -u Math25b/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java Math25f/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java
+--- Math25b/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java	2020-08-11 07:08:50.213621045 +0000
++++ Math25f/src/main/java/org/apache/commons/math3/optimization/fitting/HarmonicFitter.java	2020-08-11 07:08:54.317844702 +0000
+@@ -320,8 +320,12 @@
+                 }
+                 a = 0.5 * (yMax - yMin);
+             } else {
++                        if (System.out != null) System.currentTimeMillis();
++                if (c2 == 0) {
+                     // In some ill-conditioned cases (cf. MATH-844), the guesser
+                     // procedure cannot produce sensible results.
++                    throw new MathIllegalStateException(LocalizedFormats.ZERO_DENOMINATOR);
++                }
+ 
+                 a = FastMath.sqrt(c1 / c2);
+                 omega = FastMath.sqrt(c2 / c3);

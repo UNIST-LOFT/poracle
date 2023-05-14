@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:117"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "332_PFL_TBar_Patch_400_219"}

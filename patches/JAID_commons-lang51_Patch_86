@@ -1,0 +1,15 @@
+diff -wur before/src/java/org/apache/commons/lang/BooleanUtils.java after/src/java/org/apache/commons/lang/BooleanUtils.java
+--- before/src/java/org/apache/commons/lang/BooleanUtils.java	2021-08-02 12:00:05.867633485 +0900
++++ after/src/java/org/apache/commons/lang/BooleanUtils.java	2021-08-02 12:00:06.939632928 +0900
+@@ -678,9 +678,10 @@
+ {
+         char ch;
+         ch=str.charAt(0);
+-        if (ch == 'y') {
++        if (ch == 'y' || (str.length() == 3) == true) {
+           return result64711720=((str.charAt(1) == 'e' || str.charAt(1) == 'E') && (str.charAt(2) == 's' || str.charAt(2) == 'S'));
+         }
++
+         if (ch == 'Y') {
+           return result64711720=((str.charAt(1) == 'E' || str.charAt(1) == 'e') && (str.charAt(2) == 'S' || str.charAt(2) == 's'));
+         }

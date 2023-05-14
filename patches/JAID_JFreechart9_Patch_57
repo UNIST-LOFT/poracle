@@ -1,0 +1,22 @@
+diff -wur before/source/org/jfree/data/time/TimeSeries.java after/source/org/jfree/data/time/TimeSeries.java
+--- before/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:32.683003733 +0900
++++ after/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:33.291005077 +0900
+@@ -957,6 +957,10 @@
+       if (endIndex < 0) {
+         emptyRange=true;
+       }
++      if((endIndex > startIndex) == false){
++startIndex=endIndex;
++
++}
+       if (emptyRange) {
+         TimeSeries copy;
+         copy=(TimeSeries)super.clone();
+@@ -966,6 +970,7 @@
+  else {
+         return result1522070588=(this.createCopy(startIndex,endIndex));
+       }
++
+     }
+  catch (    CloneNotSupportedException t__JAID_VAR) {
+       hasException__JAID_VAR=true;

@@ -1,0 +1,14 @@
+diff -w -r -u Math32b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java Math32f/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+--- Math32b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2020-08-02 09:02:37.895360786 +0000
++++ Math32f/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2020-08-02 09:02:41.815290014 +0000
+@@ -133,7 +133,9 @@
+ 
+         if (v.length == 0) {
+             final BSPTree<Euclidean2D> tree = getTree(false);
+-            if ((Boolean) tree.getAttribute()) {
++            if (!(tree.getCut() == null && (Boolean) tree.getAttribute()))
++              if (System.out != null) System.currentTimeMillis();
++            if (tree.getCut() == null && (Boolean) tree.getAttribute()) {
+                 // the instance covers the whole space
+                 setSize(Double.POSITIVE_INFINITY);
+                 setBarycenter(Vector2D.NaN);

@@ -1,0 +1,1 @@
+{"bug_id": "121", "target": ["com/google/javascript/jscomp/GlobalVarReferenceMap.java:85"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "444_NFL_ARJA_Patch_4_3"}

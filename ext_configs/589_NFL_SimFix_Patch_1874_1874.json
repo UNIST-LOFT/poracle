@@ -1,0 +1,1 @@
+{"bug_id": "6", "target": ["com/google/javascript/jscomp/TypeValidator.java:405", "com/google/javascript/jscomp/TypeValidator.java:418"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "589_NFL_SimFix_Patch_1874_1874"}

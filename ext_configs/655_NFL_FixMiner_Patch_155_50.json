@@ -1,0 +1,1 @@
+{"bug_id": "11", "target": ["org/jfree/chart/util/ShapeUtilities.java:274"], "tool": "FixMiner", "correctness": "Correct", "project": "Chart", "ID": "655_NFL_FixMiner_Patch_155_50"}

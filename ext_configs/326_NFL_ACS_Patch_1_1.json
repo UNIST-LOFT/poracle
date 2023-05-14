@@ -1,0 +1,1 @@
+{"bug_id": "90", "target": ["org/apache/commons/math/stat/Frequency.java:133"], "tool": "ACS", "correctness": "Correct", "project": "Math", "ID": "326_NFL_ACS_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "10", "target": ["com/google/javascript/jscomp/NodeUtil.java:1417"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "149_PFL_kPAR_Patch_34_9"}

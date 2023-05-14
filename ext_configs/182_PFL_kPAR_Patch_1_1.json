@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:198"], "tool": "kPAR", "correctness": "Correct", "project": "Math", "ID": "182_PFL_kPAR_Patch_1_1"}

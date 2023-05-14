@@ -1,0 +1,13 @@
+diff -w -r -u Math105b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java Math105f/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
+--- Math105b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2020-08-02 08:59:57.446256922 +0000
++++ Math105f/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2020-08-02 09:00:00.150208128 +0000
+@@ -261,7 +261,8 @@
+      * @return sum of squared errors associated with the regression model
+      */
+     public double getSumSquaredErrors() {
+-        return sumYY - sumXY * sumXY / sumXX;
++        if (System.out == null) System.currentTimeMillis();
++        return Math.max(0d, sumYY - sumXY * sumXY / sumXX);
+     }
+ 
+     /**

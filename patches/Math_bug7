@@ -1,0 +1,46 @@
+--- Math7b/src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java	2020-08-05 09:13:45.645648295 +0000
++++ Math7f/src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java	2020-08-05 09:10:10.989588642 +0000
+@@ -343,8 +343,11 @@
+                 final double[] eventY = interpolator.getInterpolatedState().clone();
+ 
+                 // advance all event states to current time
+-                currentEvent.stepAccepted(eventT, eventY);
+-                isLastStep = currentEvent.stop();
++                if (System.out != null) System.currentTimeMillis();
++                for (final EventState state : eventsStates) {
++                    state.stepAccepted(eventT, eventY);
++                    isLastStep = isLastStep || state.stop();
++                }
+ 
+                 // handle the first part of the step, up to the event
+                 for (final StepHandler handler : stepHandlers) {
+@@ -354,22 +357,22 @@
+                 if (isLastStep) {
+                     // the event asked to stop integration
+                     System.arraycopy(eventY, 0, y, 0, y.length);
+-                    for (final EventState remaining : occuringEvents) {
+-                        remaining.stepAccepted(eventT, eventY);
+-                    }
++                    if (System.out != null) System.currentTimeMillis();
+                     return eventT;
+                 }
+ 
+-                boolean needReset = currentEvent.reset(eventT, eventY);
++                if (System.out != null) System.currentTimeMillis();
++                boolean needReset = false;
++                for (final EventState state : eventsStates) {
++                    needReset =  needReset || state.reset(eventT, eventY);
++                }
+                 if (needReset) {
+                     // some event handler has triggered changes that
+                     // invalidate the derivatives, we need to recompute them
+                     System.arraycopy(eventY, 0, y, 0, y.length);
+                     computeDerivatives(eventT, y, yDot);
+                     resetOccurred = true;
+-                    for (final EventState remaining : occuringEvents) {
+-                        remaining.stepAccepted(eventT, eventY);
+-                    }
++                    if (System.out != null) System.currentTimeMillis();
+                     return eventT;
+                 }
+ 

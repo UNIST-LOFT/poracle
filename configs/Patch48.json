@@ -1,0 +1,2 @@
+{"ID": "Patch48", "tool": "Nopol2015", "correctness": "Incorrect", "bug_id": "57", "project": "Math",
+  "target":["org/apache/commons/math/stat/clustering/EuclideanIntegerPoint.java:86"]}

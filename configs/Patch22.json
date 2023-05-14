@@ -1,0 +1,1 @@
+{"ID": "Patch22", "tool": "Nopol2015", "correctness": "Incorrect", "bug_id": "46", "project": "Lang", "target": ["org/apache/commons/lang/StringEscapeUtils.java:239"]}

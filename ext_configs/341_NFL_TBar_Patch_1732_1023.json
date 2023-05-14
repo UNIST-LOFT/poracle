@@ -1,0 +1,1 @@
+{"bug_id": "47", "target": ["org/apache/commons/lang/text/StrBuilder.java:1230"], "tool": "TBar", "correctness": "Correct", "project": "Lang", "ID": "341_NFL_TBar_Patch_1732_1023"}

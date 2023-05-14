@@ -1,0 +1,1 @@
+{"bug_id": "12", "target": ["com/google/javascript/jscomp/FlowSensitiveInlineVariables.java:112"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "81_NFL_AVATAR_Patch_37_11"}

@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/WarningLevel.java:79"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "535_NFL_RSRepair-A_Patch_64_27"}

@@ -1,0 +1,1 @@
+{"bug_id": "30", "target": ["org/apache/commons/math3/stat/inference/MannWhitneyUTest.java:173"], "tool": "FixMiner", "correctness": "Correct", "project": "Math", "ID": "657_NFL_FixMiner_Patch_322_65"}

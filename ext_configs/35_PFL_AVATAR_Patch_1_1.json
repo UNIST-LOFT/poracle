@@ -1,0 +1,1 @@
+{"bug_id": "62", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "35_PFL_AVATAR_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/math/optimization/fitting/GaussianFitter.java:121"], "tool": "kPAR", "correctness": "Correct", "project": "Math", "ID": "176_PFL_kPAR_Patch_3_3"}

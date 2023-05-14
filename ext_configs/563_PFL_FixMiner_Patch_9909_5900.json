@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:338"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "563_PFL_FixMiner_Patch_9909_5900"}

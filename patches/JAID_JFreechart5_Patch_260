@@ -1,0 +1,18 @@
+diff -wur before/source/org/jfree/data/xy/XYSeries.java after/source/org/jfree/data/xy/XYSeries.java
+--- before/source/org/jfree/data/xy/XYSeries.java	2021-08-03 16:20:48.880540203 +0900
++++ after/source/org/jfree/data/xy/XYSeries.java	2021-08-03 16:20:51.264566118 +0900
+@@ -569,12 +569,13 @@
+         existing.setY(y);
+       }
+  else {
+-        if (this.autoSort) {
++        if ((this.data.size() > 0) != true && this.autoSort) {
+           this.data.add(-index - 1,new XYDataItem(x,y));
+         }
+  else {
+           this.data.add(new XYDataItem(x,y));
+         }
++
+         if (this.getItemCount() > this.maximumItemCount) {
+           this.data.remove(0);
+         }

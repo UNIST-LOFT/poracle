@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:17.537307254 +0900
+@@ -195,6 +195,10 @@
+             }
+             r=e;
+             e=d;
++            if((a > x - tol1) == true){
++return result628018501=current;
++
++}
+             if (p > q * (a - x) && p < q * (b - x) && FastMath.abs(p) < FastMath.abs(0.5 * q * r)) {
+               d=p / q;
+               u=x + d;
+@@ -216,6 +220,7 @@
+               }
+               d=org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION * e;
+             }
++
+           }
+  else {
+             if (x < m) {

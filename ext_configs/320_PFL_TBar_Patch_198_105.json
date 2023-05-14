@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:338"], "tool": "TBar", "correctness": "Incorrect", "project": "Math", "ID": "320_PFL_TBar_Patch_198_105"}

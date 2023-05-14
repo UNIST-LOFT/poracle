@@ -1,0 +1,1 @@
+{"ID": "Math_bug104", "project": "Math", "bug_id": "104", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/special/Gamma.java:0"]}

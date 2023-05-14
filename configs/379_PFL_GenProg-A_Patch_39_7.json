@@ -1,0 +1,1 @@
+{"bug_id": "70", "target": ["org/apache/commons/math/analysis/solvers/BisectionSolver.java:72"], "tool": "GenProg-A", "correctness": "Correct", "project": "Math", "ID": "379_PFL_GenProg-A_Patch_39_7"}

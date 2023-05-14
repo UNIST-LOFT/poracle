@@ -1,0 +1,15 @@
+diff -wur before/src/java/org/apache/commons/lang/NumberUtils.java after/src/java/org/apache/commons/lang/NumberUtils.java
+--- before/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:42.942132111 +0900
++++ after/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:43.450132275 +0900
+@@ -157,9 +157,10 @@
+       if (val.startsWith("--")) {
+         return result1950496919=(null);
+       }
+-      if (val.startsWith("0x") || val.startsWith("-0x")) {
++      if (val.startsWith("0x") || val.startsWith("-0x") || (val.length() - 1 > 1) == false) {
+         return result1950496919=(NumberUtils.createInteger(val));
+       }
++
+       char lastChar;
+       lastChar=val.charAt(val.length() - 1);
+       String mant;

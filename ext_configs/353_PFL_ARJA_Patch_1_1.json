@@ -1,0 +1,1 @@
+{"bug_id": "55", "target": ["com/google/javascript/jscomp/FunctionRewriter.java:117"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "353_PFL_ARJA_Patch_1_1"}

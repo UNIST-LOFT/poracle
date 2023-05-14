@@ -1,0 +1,1 @@
+{"bug_id": "11", "target": ["org/jfree/chart/util/ShapeUtilities.java:275"], "tool": "AVATAR", "correctness": "Correct", "project": "Chart", "ID": "47_PFL_AVATAR_Patch_3_1"}

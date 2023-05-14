@@ -1,0 +1,1 @@
+{"bug_id": "4", "target": ["org/joda/time/Partial.java:464"], "tool": "kPAR", "correctness": "Incorrect", "project": "Time", "ID": "146_PFL_kPAR_Patch_12_10"}

@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:112"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "532_NFL_RSRepair-A_Patch_15_7"}

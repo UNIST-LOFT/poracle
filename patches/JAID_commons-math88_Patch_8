@@ -1,0 +1,18 @@
+diff -wur before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+--- before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.678542094 +0900
++++ after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.830542166 +0900
+@@ -345,9 +345,14 @@
+         coefficients[i]=(basicRow == null ? 0 : this.getEntry(basicRow,this.getRhsOffset())) - (this.restrictToNonNegative ? 0 : mostNegative);
+         if (basicRow != null) {
+           for (int j=this.getNumObjectiveFunctions(); j < this.getNumObjectiveFunctions() + i; j++) {
++            if((i > j) == true){
++j=i;
++
++}
+             if (this.tableau.getEntry(basicRow,j) == 1) {
+               coefficients[i]=0;
+             }
++
+           }
+         }
+       }

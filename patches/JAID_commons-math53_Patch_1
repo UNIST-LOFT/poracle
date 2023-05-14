@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math/complex/Complex.java after/src/main/java/org/apache/commons/math/complex/Complex.java
+--- before/src/main/java/org/apache/commons/math/complex/Complex.java	2021-08-03 19:25:26.312025695 +0900
++++ after/src/main/java/org/apache/commons/math/complex/Complex.java	2021-08-03 19:25:26.320025705 +0900
+@@ -161,7 +161,12 @@
+   exceptionClassType__JAID_VAR=null;
+   try {
+     try {
++      if((rhs.isNaN() == this.isInfinite()) == false){
++return result1679819632=this.NaN;
++
++}
+       MathUtils.checkNotNull(rhs);
++
+       return result1679819632=(this.createComplex(this.real + rhs.getReal(),this.imaginary + rhs.getImaginary()));
+     }
+  catch (    NullArgumentException t__JAID_VAR) {

@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:339"], "tool": "DynaMoth", "correctness": "Incorrect", "project": "Math", "ID": "122_PFL_DynaMoth_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["com/google/javascript/jscomp/DeadAssignmentsElimination.java:327"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "387_PFL_GenProg-A_Patch_3_1"}

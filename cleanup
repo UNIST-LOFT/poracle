@@ -1,0 +1,15 @@
+#!/bin/bash
+
+progs=( "zest-repro" "ReproDriver" )
+for prog in ${progs[@]}
+do
+    echo "kill $prog"
+    for id in $(ps -efww | grep $prog | grep -v grep | awk '{print $2}')
+    do
+        echo "kill -9 $id"
+        kill -9 $id
+    done
+done
+
+echo "remove files in /tmp"
+rm -rf /tmp/*

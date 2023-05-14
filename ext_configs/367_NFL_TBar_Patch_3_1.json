@@ -1,0 +1,1 @@
+{"bug_id": "75", "target": ["org/apache/commons/math/stat/Frequency.java:303"], "tool": "TBar", "correctness": "Correct", "project": "Math", "ID": "367_NFL_TBar_Patch_3_1"}

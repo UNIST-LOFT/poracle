@@ -1,0 +1,1 @@
+{"bug_id": "77", "target": ["org/apache/commons/math/linear/ArrayRealVector.java:716"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "55_PFL_AVATAR_Patch_15_5"}

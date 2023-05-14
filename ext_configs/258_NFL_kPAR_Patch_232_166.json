@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730"], "tool": "kPAR", "correctness": "Incorrect", "project": "Closure", "ID": "258_NFL_kPAR_Patch_232_166"}

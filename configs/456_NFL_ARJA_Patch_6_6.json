@@ -1,0 +1,1 @@
+{"bug_id": "28", "target": ["org/apache/commons/math3/optimization/linear/SimplexSolver.java:145"], "tool": "ARJA", "correctness": "Incorrect", "project": "Math", "ID": "456_NFL_ARJA_Patch_6_6"}

@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:698"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "564_PFL_FixMiner_Patch_40_14"}

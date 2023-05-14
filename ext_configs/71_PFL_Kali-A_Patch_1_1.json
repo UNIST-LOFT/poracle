@@ -1,0 +1,1 @@
+{"bug_id": "66", "target": ["com/google/javascript/jscomp/TypeCheck.java:514"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "71_PFL_Kali-A_Patch_1_1"}

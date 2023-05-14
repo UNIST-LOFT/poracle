@@ -1,0 +1,1 @@
+{"bug_id": "38", "target": ["com/google/javascript/jscomp/CodeConsumer.java:245", "com/google/javascript/jscomp/CodeConsumer.java:254"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "489_PFL_SimFix_Patch_19_19"}

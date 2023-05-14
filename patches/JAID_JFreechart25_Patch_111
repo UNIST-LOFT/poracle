@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:06.490111798 +0900
+@@ -248,7 +248,12 @@
+   try {
+     try {
+       RectangleEdge xAxisLocation;
++      if((null == plot) == false){
++return;
++
++}
+       xAxisLocation=plot.getDomainAxisEdge();
++
+       double rectY;
+       rectY=domainAxis.getCategoryStart(column,getColumnCount(),dataArea,xAxisLocation);
+       int seriesCount;

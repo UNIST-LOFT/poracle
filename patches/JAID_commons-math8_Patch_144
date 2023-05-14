@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java after/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java
+--- before/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java	2021-08-07 14:55:49.689706711 +0900
++++ after/src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java	2021-08-07 14:55:50.713703240 +0900
+@@ -197,7 +197,12 @@
+       final T[] out;
+       out=(T[])java.lang.reflect.Array.newInstance(this.singletons.get(0).getClass(),sampleSize);
+       for (int i=0; i < sampleSize; i++) {
++        if((i > this.singletons.size()) == false){
++return result83638=out;
++
++}
+         out[i]=this.sample();
++
+       }
+       return result83638=(out);
+     }

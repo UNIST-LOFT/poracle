@@ -1,0 +1,1 @@
+{"bug_id": "112", "target": ["com/google/javascript/jscomp/TypeInference.java:1062"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "493_NFL_GenProg-A_Patch_17_7"}

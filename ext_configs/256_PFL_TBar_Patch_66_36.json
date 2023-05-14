@@ -1,0 +1,1 @@
+{"bug_id": "47", "target": ["org/apache/commons/lang/text/StrBuilder.java:1230"], "tool": "TBar", "correctness": "Correct", "project": "Lang", "ID": "256_PFL_TBar_Patch_66_36"}

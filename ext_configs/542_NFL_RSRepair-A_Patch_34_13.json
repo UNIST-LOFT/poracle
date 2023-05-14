@@ -1,0 +1,1 @@
+{"bug_id": "114", "target": ["com/google/javascript/jscomp/AstChangeProxy.java:120"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "542_NFL_RSRepair-A_Patch_34_13"}

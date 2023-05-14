@@ -1,0 +1,7 @@
+drawHorizontalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	217	358
+drawHorizontalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	217	358
+drawHorizontalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	217	358
+drawVerticalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	360	500
+drawVerticalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	360	500
+drawVerticalItem	void (Graphics2D, CategoryItemRendererState, Rectangle2D, CategoryPlot, CategoryAxis, ValueAxis, StatisticalCategoryDataset, int, int)	360	500
+org.jfree.chart.renderer.category.StatisticalBarRenderer

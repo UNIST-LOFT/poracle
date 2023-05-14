@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "82_NFL_AVATAR_Patch_214_66"}

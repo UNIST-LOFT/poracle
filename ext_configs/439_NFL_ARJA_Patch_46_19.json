@@ -1,0 +1,1 @@
+{"bug_id": "8", "target": ["com/google/javascript/jscomp/CollapseVariableDeclarations.java:117", "com/google/javascript/jscomp/CollapseVariableDeclarations.java:210"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "439_NFL_ARJA_Patch_46_19"}

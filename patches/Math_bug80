@@ -1,0 +1,13 @@
+diff -w -r -u Math80b/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java Math80f/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+--- Math80b/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2020-08-02 08:59:18.314963007 +0000
++++ Math80f/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2020-08-02 08:59:22.290891271 +0000
+@@ -1132,7 +1132,8 @@
+     private boolean flipIfWarranted(final int n, final int step) {
+         if (1.5 * work[pingPong] < work[4 * (n - 1) + pingPong]) {
+             // flip array
+-            int j = 4 * n - 1;
++        if (System.out != null) System.currentTimeMillis();
++            int j = 4 * (n - 1);
+             for (int i = 0; i < j; i += 4) {
+                 for (int k = 0; k < 4; k += step) {
+                     final double tmp = work[i + k];

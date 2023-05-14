@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.742111761 +0900
+@@ -261,7 +261,12 @@
+         rectY=rectY + row * (state.getBarWidth() + seriesGap);
+       }
+  else {
++        if((dataArea.getHeight() == row * state.getBarWidth()) == false){
++return;
++
++}
+         rectY=rectY + row * state.getBarWidth();
++
+       }
+       Number meanValue;
+       meanValue=dataset.getMeanValue(row,column);

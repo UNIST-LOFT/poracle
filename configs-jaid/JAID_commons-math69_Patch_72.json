@@ -1,0 +1,1 @@
+{"ID":"JAID_commons-math69_Patch_72","project":"Math","bug_id":"69","target":["org/apache/commons/math/stat/correlation/PearsonsCorrelation.java:188"],"tool":"Jaid","correctness":"Unknown"}

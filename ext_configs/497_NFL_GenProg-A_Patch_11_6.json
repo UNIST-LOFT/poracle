@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:143"], "tool": "GenProg-A", "correctness": "Correct", "project": "Closure", "ID": "497_NFL_GenProg-A_Patch_11_6"}

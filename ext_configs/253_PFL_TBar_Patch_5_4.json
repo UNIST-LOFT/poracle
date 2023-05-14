@@ -1,0 +1,1 @@
+{"bug_id": "29", "target": ["org/mockito/internal/matchers/Same.java:29"], "tool": "TBar", "correctness": "Correct", "project": "Mockito", "ID": "253_PFL_TBar_Patch_5_4"}

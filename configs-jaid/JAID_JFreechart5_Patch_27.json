@@ -1,0 +1,1 @@
+{"ID":"JAID_JFreechart5_Patch_27","project":"Chart","bug_id":"5","target":["org/jfree/data/xy/XYSeries.java:578"],"tool":"Jaid","correctness":"Unknown"}

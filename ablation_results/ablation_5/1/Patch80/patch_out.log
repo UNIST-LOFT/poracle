@@ -1,0 +1,1 @@
+org.joda.time.IllegalFieldValueException: Value 20 for clockhourOfDay must not be smaller than 24

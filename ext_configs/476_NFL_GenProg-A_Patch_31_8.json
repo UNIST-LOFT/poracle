@@ -1,0 +1,1 @@
+{"bug_id": "130", "target": ["com/google/javascript/jscomp/CollapseProperties.java:179"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "476_NFL_GenProg-A_Patch_31_8"}

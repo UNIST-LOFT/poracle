@@ -1,0 +1,1 @@
+{"ID": "Chart_bug5", "project": "Chart", "bug_id": "5", "correctness": "Correct", "tool": "developer", "target": ["org/jfree/data/xy/XYSeries.java:544"]}

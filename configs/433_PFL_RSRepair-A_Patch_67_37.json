@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexTableau.java:338"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Math", "ID": "433_PFL_RSRepair-A_Patch_67_37"}

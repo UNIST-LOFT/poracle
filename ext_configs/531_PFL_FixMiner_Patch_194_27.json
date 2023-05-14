@@ -1,0 +1,1 @@
+{"bug_id": "26", "target": ["org/joda/time/chrono/ZonedChronology.java:467"], "tool": "FixMiner", "correctness": "Correct", "project": "Time", "ID": "531_PFL_FixMiner_Patch_194_27"}

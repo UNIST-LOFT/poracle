@@ -1,0 +1,1 @@
+{"bug_id": "124", "target": ["com/google/javascript/jscomp/ExploitAssigns.java:138"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "478_NFL_GenProg-A_Patch_25_9"}

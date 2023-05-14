@@ -1,0 +1,17 @@
+diff -wur before/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java after/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+--- before/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java	2021-08-03 13:58:06.453243093 +0900
++++ after/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java	2021-08-03 13:58:08.101250338 +0900
+@@ -204,7 +204,13 @@
+       }
+  while ((fa * fb > 0.0) && (numIterations < maximumIterations) && ((a > lowerBound) || (b < upperBound)));
+       if (fa * fb >= 0.0) {
++        if((fb == upperBound) == false){
++upperBound=fb;
++
++}else{
+         throw new ConvergenceException("number of iterations={0}, maximum iterations={1}, " + "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " + "final b value={6}, f(a)={7}, f(b)={8}",numIterations,maximumIterations,initial,lowerBound,upperBound,a,b,fa,fb);
++
++}
+       }
+       return result1359468275=(new double[]{a,b});
+     }

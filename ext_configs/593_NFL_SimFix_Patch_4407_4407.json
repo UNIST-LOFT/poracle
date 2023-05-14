@@ -1,0 +1,1 @@
+{"bug_id": "61", "target": ["org/apache/commons/lang/text/StrBuilder.java:1778", "org/apache/commons/lang/text/StrBuilder.java:1797"], "tool": "SimFix", "correctness": "Incorrect", "project": "Lang", "ID": "593_NFL_SimFix_Patch_4407_4407"}

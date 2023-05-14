@@ -1,0 +1,1 @@
+{"bug_id": "55", "target": ["com/google/javascript/jscomp/FunctionRewriter.java:117"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "418_PFL_RSRepair-A_Patch_56_2"}

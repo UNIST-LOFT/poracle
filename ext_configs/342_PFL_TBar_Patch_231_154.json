@@ -1,0 +1,1 @@
+{"bug_id": "65", "target": ["org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java:258"], "tool": "TBar", "correctness": "Correct", "project": "Math", "ID": "342_PFL_TBar_Patch_231_154"}

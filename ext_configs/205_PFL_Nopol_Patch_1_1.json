@@ -1,0 +1,1 @@
+{"bug_id": "33", "target": ["org/apache/commons/math3/optimization/linear/SimplexTableau.java:338"], "tool": "Nopol", "correctness": "Incorrect", "project": "Math", "ID": "205_PFL_Nopol_Patch_1_1"}

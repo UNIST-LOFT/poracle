@@ -1,0 +1,1 @@
+{"bug_id": "130", "target": ["com/google/javascript/jscomp/CollapseProperties.java:172"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "350_PFL_ARJA_Patch_4_1"}

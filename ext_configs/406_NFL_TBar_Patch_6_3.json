@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:143"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "406_NFL_TBar_Patch_6_3"}

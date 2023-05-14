@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java after/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java
+--- before/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java	2021-08-01 19:36:40.232757109 +0900
++++ after/src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java	2021-08-01 19:36:40.336757077 +0900
+@@ -277,7 +277,12 @@
+   exceptionClassType__JAID_VAR=null;
+   try {
+     try {
++      if((this.getNumberOfSuccesses() > this.getSampleSize() * this.getNumberOfSuccesses()) == true){
++return result1325958191=this.numericalVariance;
++
++}
+       return result1325958191=((double)(this.getSampleSize() * this.getNumberOfSuccesses()) / (double)this.getPopulationSize());
++
+     }
+  catch (    RuntimeException t__JAID_VAR) {
+       hasException__JAID_VAR=true;

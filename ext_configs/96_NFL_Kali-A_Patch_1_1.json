@@ -1,0 +1,1 @@
+{"bug_id": "124", "target": ["com/google/javascript/jscomp/ExploitAssigns.java:214"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "96_NFL_Kali-A_Patch_1_1"}

@@ -1,0 +1,2 @@
+{"ID": "Patch78", "tool": "Nopol2015", "correctness": "Incorrect", "bug_id": "104", "project": "Math","delta_allowed": "10e-15",
+  "target":["org/apache/commons/math/special/Gamma.java:162"]}

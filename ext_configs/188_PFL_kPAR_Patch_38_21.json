@@ -1,0 +1,1 @@
+{"bug_id": "4", "target": ["com/google/javascript/rhino/jstype/NamedType.java:190"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "188_PFL_kPAR_Patch_38_21"}

@@ -1,0 +1,2 @@
+{"ID": "Patch92", "tool": "Nopol2017", "correctness": "Incorrect", "bug_id": "25", "project": "Chart",
+  "target":["org/jfree/chart/renderer/category/StatisticalBarRenderer.java:207"]}

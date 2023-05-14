@@ -1,0 +1,1 @@
+{"bug_id": "63", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "521_PFL_FixMiner_Patch_1_1"}

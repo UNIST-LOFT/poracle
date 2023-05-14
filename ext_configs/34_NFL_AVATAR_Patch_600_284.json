@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:62"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "34_NFL_AVATAR_Patch_600_284"}

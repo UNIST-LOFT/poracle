@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java after/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+--- before/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2021-08-02 12:58:03.644894657 +0900
++++ after/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java	2021-08-02 12:58:22.756923218 +0900
+@@ -1142,7 +1142,7 @@
+   exceptionClassType__JAID_VAR=null;
+   try {
+     try {
+-      if (1.5 * this.work[this.pingPong] < this.work[4 * (n - 1) + this.pingPong]) {
++      if (1.5 * this.work[this.pingPong] < this.work[4 * (n - 1) + this.pingPong] && (4 * (n - 1) + this.pingPong > 0) != true) {
+         int j;
+         j=4 * n - 1;
+         for (int i=0; i < j; i+=4) {
+@@ -1156,6 +1156,7 @@
+         }
+         return result64711720=(true);
+       }
++
+       return result64711720=(false);
+     }
+  catch (    RuntimeException t__JAID_VAR) {

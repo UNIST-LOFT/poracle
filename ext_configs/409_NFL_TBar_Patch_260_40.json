@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:120"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "409_NFL_TBar_Patch_260_40"}

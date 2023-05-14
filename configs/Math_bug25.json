@@ -1,0 +1,1 @@
+{"ID": "Math_bug25", "project": "Math", "bug_id": "25", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math3/optimization/fitting/HarmonicFitter.java:323"]}

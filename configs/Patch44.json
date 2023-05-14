@@ -1,0 +1,2 @@
+{"ID": "Patch44", "tool": "jGenprog", "correctness": "Correct", "bug_id": "50", "project": "Math","delta_allowed": "1.0e-15",
+  "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"]}

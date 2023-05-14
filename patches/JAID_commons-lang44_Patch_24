@@ -1,0 +1,20 @@
+diff -wur before/src/java/org/apache/commons/lang/NumberUtils.java after/src/java/org/apache/commons/lang/NumberUtils.java
+--- before/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:42.942132111 +0900
++++ after/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:43.214132200 +0900
+@@ -190,7 +190,7 @@
+         }
+         dec=null;
+       }
+-      if (!Character.isDigit(lastChar)) {
++      if ((val.length() - 1 >= 1) != false && !Character.isDigit(lastChar)) {
+         if (expPos > -1 && expPos < val.length() - 1) {
+           exp=val.substring(expPos + 1,val.length() - 1);
+         }
+@@ -288,6 +288,7 @@
+ return result1950496919=(NumberUtils.createBigDecimal(val));
+ }
+ }
++
+ }
+  catch (NumberFormatException t__JAID_VAR) {
+ hasException__JAID_VAR=true;

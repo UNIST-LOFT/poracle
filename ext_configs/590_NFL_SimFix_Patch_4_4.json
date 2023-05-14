@@ -1,0 +1,1 @@
+{"bug_id": "73", "target": ["org/apache/commons/math/analysis/solvers/BrentSolver.java:132","org/apache/commons/math/analysis/solvers/BrentSolver.java:146"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "47_SimFix_Patch_4_4"}

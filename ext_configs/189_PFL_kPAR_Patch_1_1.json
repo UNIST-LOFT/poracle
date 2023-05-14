@@ -1,0 +1,1 @@
+{"bug_id": "2", "target": ["com/google/javascript/jscomp/TypeCheck.java:1574", "com/google/javascript/jscomp/TypeCheck.java:1589"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "189_PFL_kPAR_Patch_1_1"}

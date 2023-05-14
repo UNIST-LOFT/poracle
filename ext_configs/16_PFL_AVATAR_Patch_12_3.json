@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["org/apache/commons/lang/text/StrBuilder.java:884"], "tool": "AVATAR", "correctness": "Correct", "project": "Lang", "ID": "16_PFL_AVATAR_Patch_12_3"}

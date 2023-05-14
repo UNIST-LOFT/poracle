@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java after/src/main/java/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.java
+--- before/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2021-08-04 04:34:19.340631543 +0900
++++ after/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2021-08-04 04:34:19.608631455 +0900
+@@ -177,6 +177,10 @@
+       double[][] out;
+       out=new double[nVars][nVars];
+       for (int i=0; i < nVars; i++) {
++        if((nVars > 2) == false){
++return result185890017=this.correlationMatrix;
++
++}
+         for (int j=0; j < nVars; j++) {
+           if (i == j) {
+             out[i][j]=0d;
+@@ -189,6 +193,7 @@
+             out[i][j]=2 * (1 - tDistribution.cumulativeProbability(t));
+           }
+         }
++
+       }
+       return result185890017=(new BlockRealMatrix(out));
+     }

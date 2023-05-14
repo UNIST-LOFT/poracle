@@ -1,0 +1,1 @@
+{"bug_id": "48", "target": ["com/google/javascript/jscomp/TypedScopeCreator.java:1441"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "46_NFL_AVATAR_Patch_739_289"}

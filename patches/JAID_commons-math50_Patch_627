@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java after/src/main/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolver.java
+--- before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:35.960837675 +0900
++++ after/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:42.368841562 +0900
+@@ -193,7 +193,12 @@
+ }
+ }
+ x1=x;
++if((getMin() > f1 * (x1 - x0)) == false){
++continue;
++
++}
+ f1=fx;
++
+ if (FastMath.abs(f1) <= ftol) {
+ switch (this.allowed) {
+ case ANY_SIDE:

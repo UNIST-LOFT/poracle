@@ -1,0 +1,1 @@
+{"bug_id": "71", "target": ["org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java:150"], "tool": "DynaMoth", "correctness": "Incorrect", "project": "Math", "ID": "172_NFL_DynaMoth_Patch_1_1"}

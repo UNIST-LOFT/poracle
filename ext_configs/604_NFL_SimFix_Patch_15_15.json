@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:118", "com/google/javascript/jscomp/CheckSideEffects.java:132"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "604_NFL_SimFix_Patch_15_15"}

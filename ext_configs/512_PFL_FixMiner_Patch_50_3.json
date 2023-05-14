@@ -1,0 +1,1 @@
+{"bug_id": "109", "target": ["com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1908"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "512_PFL_FixMiner_Patch_50_3"}

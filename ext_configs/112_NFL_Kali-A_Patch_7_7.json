@@ -1,0 +1,1 @@
+{"bug_id": "49", "target": ["org/apache/commons/math/linear/OpenMapRealVector.java:664"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Math", "ID": "112_NFL_Kali-A_Patch_7_7"}

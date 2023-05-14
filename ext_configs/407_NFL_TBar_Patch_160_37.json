@@ -1,0 +1,1 @@
+{"bug_id": "12", "target": ["com/google/javascript/jscomp/FlowSensitiveInlineVariables.java:112"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "407_NFL_TBar_Patch_160_37"}

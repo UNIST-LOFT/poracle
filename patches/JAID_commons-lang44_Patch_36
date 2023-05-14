@@ -1,0 +1,18 @@
+diff -wur before/src/java/org/apache/commons/lang/NumberUtils.java after/src/java/org/apache/commons/lang/NumberUtils.java
+--- before/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:42.942132111 +0900
++++ after/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:43.322132234 +0900
+@@ -191,12 +191,13 @@
+         dec=null;
+       }
+       if (!Character.isDigit(lastChar)) {
+-        if (expPos > -1 && expPos < val.length() - 1) {
++        if (expPos > -1 && expPos < val.length() - 1 || (1 + decPos >= val.length() - 1) == true) {
+           exp=val.substring(expPos + 1,val.length() - 1);
+         }
+  else {
+           exp=null;
+         }
++
+         String numeric;
+         numeric=val.substring(0,val.length() - 1);
+         boolean allZeros;

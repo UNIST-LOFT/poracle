@@ -1,0 +1,1 @@
+{"bug_id": "19", "target": ["com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java:175"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "652_NFL_FixMiner_Patch_8_4"}

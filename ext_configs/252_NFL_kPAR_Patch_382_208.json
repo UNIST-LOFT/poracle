@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["org/apache/commons/lang/text/StrBuilder.java:880"], "tool": "kPAR", "correctness": "Incorrect", "project": "Lang", "ID": "252_NFL_kPAR_Patch_382_208"}

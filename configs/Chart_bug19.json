@@ -1,0 +1,4 @@
+{"ID": "Chart_bug19", "project": "Chart", "bug_id": "19", "correctness": "Correct", "tool": "developer",
+  "target": ["org/jfree/chart/plot/CategoryPlot.java:698",
+    "org/jfree/chart/plot/CategoryPlot.java:977"
+  ]}

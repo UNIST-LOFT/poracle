@@ -1,0 +1,14 @@
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-05-28 12:50:42.698197290 +0900
++++ 3/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-05-28 13:22:50.665522416 +0900
+@@ -449,10 +449,7 @@
+             switch (lastChar) {
+                 case 'l' :
+                 case 'L' :
+-                    if (dec == null
+-                        && exp == null
+-                        && isDigits(numeric.substring(1))
+-                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
++                    if (dec == null && exp == null && NumberUtils.isDigits(numeric.substring(1)) && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0))) || !(str.isEmpty() || mant.isEmpty())) {
+                         try {
+                             return createLong(numeric);
+                         } catch (NumberFormatException nfe) {

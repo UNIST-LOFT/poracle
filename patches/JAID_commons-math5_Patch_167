@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/complex/Complex.java after/src/main/java/org/apache/commons/math3/complex/Complex.java
+--- before/src/main/java/org/apache/commons/math3/complex/Complex.java	2021-08-02 18:23:28.780796493 +0900
++++ after/src/main/java/org/apache/commons/math3/complex/Complex.java	2021-08-02 18:23:30.508796289 +0900
+@@ -313,7 +313,12 @@
+         return result1679819632=(org.apache.commons.math3.complex.Complex.NaN);
+       }
+       if (this.real == 0.0 && this.imaginary == 0.0) {
++        if((this.getReal() >= org.apache.commons.math3.complex.Complex.NaN.getReal()) == false){
++return result1679819632=this.INF;
++
++}
+         return result1679819632=(org.apache.commons.math3.complex.Complex.NaN);
++
+       }
+       if (this.isInfinite) {
+         return result1679819632=(org.apache.commons.math3.complex.Complex.ZERO);

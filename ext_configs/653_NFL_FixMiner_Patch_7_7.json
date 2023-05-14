@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:199"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "653_NFL_FixMiner_Patch_7_7"}

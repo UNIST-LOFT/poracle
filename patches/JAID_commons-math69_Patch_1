@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java after/src/main/java/org/apache/commons/math3/stat/correlation/PearsonsCorrelation.java
+--- before/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2021-08-04 04:34:19.340631543 +0900
++++ after/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2021-08-04 04:34:19.344631543 +0900
+@@ -173,7 +173,12 @@
+       TDistribution tDistribution;
+       tDistribution=new TDistributionImpl(this.nObs - 2);
+       int nVars;
++      if((this.correlationMatrix.getColumnDimension() == 2) == true){
++return result185890017=this.getCorrelationMatrix();
++
++}
+       nVars=this.correlationMatrix.getColumnDimension();
++
+       double[][] out;
+       out=new double[nVars][nVars];
+       for (int i=0; i < nVars; i++) {

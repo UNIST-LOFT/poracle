@@ -1,0 +1,1 @@
+{"bug_id": "68", "target": ["com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1760", "com/google/javascript/jscomp/parsing/JsDocInfoParser.java:1770"], "tool": "SimFix", "correctness": "Correct", "project": "Closure", "ID": "453_PFL_SimFix_Patch_6659_6659"}

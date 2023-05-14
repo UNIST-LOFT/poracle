@@ -1,0 +1,2 @@
+{"ID": "Patch53", "tool": "Nopol2015", "correctness": "Incorrect", "bug_id": "71", "project": "Math","delta_allowed": "1.0e-9",
+  "target": ["org/apache/commons/math/analysis/solvers/BrentSolver.java:335"]}

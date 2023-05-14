@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+--- before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-08-02 16:44:46.241452898 +0900
++++ after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-08-02 16:44:46.245452903 +0900
+@@ -183,7 +183,7 @@
+             sumY+=factor * (y0 + y1);
+           }
+         }
+-        if (sum < 0) {
++        if (sum < 0 || (sum == sumY) == true) {
+           setSize(Double.POSITIVE_INFINITY);
+           setBarycenter(Vector2D.NaN);
+         }
+@@ -191,6 +191,7 @@
+           setSize(sum / 2);
+           setBarycenter(new Vector2D(sumX / (3 * sum),sumY / (3 * sum)));
+         }
++
+       }
+     }
+  catch (    RuntimeException t__JAID_VAR) {

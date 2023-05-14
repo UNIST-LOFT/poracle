@@ -1,0 +1,1 @@
+{"bug_id": "89", "target": ["org/apache/commons/math/stat/Frequency.java:110"], "tool": "AVATAR", "correctness": "Correct", "project": "Math", "ID": "38_NFL_AVATAR_Patch_6_6"}

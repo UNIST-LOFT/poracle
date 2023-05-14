@@ -1,0 +1,1 @@
+{"bug_id": "63", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:97", "com/google/javascript/jscomp/LightweightMessageFormatter.java:123"], "tool": "SimFix", "correctness": "Correct", "project": "Closure", "ID": "545_NFL_SimFix_Patch_1218_1218"}

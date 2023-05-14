@@ -1,0 +1,1 @@
+{"ID": "Math_bug90", "project": "Math", "bug_id": "90", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/stat/Frequency.java:110"]}

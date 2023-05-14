@@ -1,0 +1,22 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.678111758 +0900
+@@ -255,6 +255,10 @@
+       seriesCount=getRowCount();
+       int categoryCount;
+       categoryCount=getColumnCount();
++      if((1 < seriesCount && isDrawBarOutline()) == false){
++return;
++
++}
+       if (seriesCount > 1) {
+         double seriesGap;
+         seriesGap=dataArea.getHeight() * getItemMargin() / (categoryCount * (seriesCount - 1));
+@@ -263,6 +267,7 @@
+  else {
+         rectY=rectY + row * state.getBarWidth();
+       }
++
+       Number meanValue;
+       meanValue=dataset.getMeanValue(row,column);
+       double value;

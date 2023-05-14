@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:702"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "537_NFL_RSRepair-A_Patch_20_8"}

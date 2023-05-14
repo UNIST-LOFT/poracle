@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:120"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "439_PFL_RSRepair-A_Patch_14_7"}

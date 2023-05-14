@@ -1,0 +1,1 @@
+{"bug_id": "64", "target": ["org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java:365", "org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java:435"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "514_PFL_FixMiner_Patch_599_199"}

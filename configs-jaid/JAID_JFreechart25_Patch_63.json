@@ -1,0 +1,1 @@
+{"ID":"JAID_JFreechart25_Patch_63","project":"Chart","bug_id":"25","target":["org/jfree/chart/renderer/category/StatisticalBarRenderer.java:257"],"tool":"Jaid","correctness":"Unknown"}

@@ -1,0 +1,1 @@
+{"bug_id": "10", "target": ["com/google/javascript/jscomp/NodeUtil.java:1272"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "95_PFL_Kali-A_Patch_1_1"}

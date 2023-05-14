@@ -1,0 +1,1 @@
+{"bug_id": "63", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "249_PFL_TBar_Patch_8_8"}

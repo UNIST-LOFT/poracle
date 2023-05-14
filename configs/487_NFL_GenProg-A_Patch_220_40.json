@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:190", "org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:199"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Math", "ID": "487_NFL_GenProg-A_Patch_220_40"}

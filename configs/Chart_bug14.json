@@ -1,0 +1,5 @@
+{"ID": "Chart_bug14", "project": "Chart", "bug_id": "14", "correctness": "Correct", "tool": "developer",
+  "target": ["org/jfree/chart/plot/XYPlot.java:2293",
+    "org/jfree/chart/plot/XYPlot.java:2533",
+    "org/jfree/chart/plot/CategoryPlot.java:2166",
+    "org/jfree/chart/plot/CategoryPlot.java:2452"]}

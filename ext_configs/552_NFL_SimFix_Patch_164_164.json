@@ -1,0 +1,1 @@
+{"bug_id": "1", "target": ["org/apache/commons/lang3/math/NumberUtils.java:468", "org/apache/commons/lang3/math/NumberUtils.java:482"], "tool": "SimFix", "correctness": "Incorrect", "project": "Lang", "ID": "552_NFL_SimFix_Patch_164_164"}

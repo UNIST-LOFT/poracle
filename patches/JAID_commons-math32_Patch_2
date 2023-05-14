@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+--- before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-08-02 16:44:46.241452898 +0900
++++ after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-08-02 16:44:46.301452972 +0900
+@@ -144,7 +144,7 @@
+       if (v.length == 0) {
+         final BSPTree<Euclidean2D> tree;
+         tree=getTree(false);
+-        if ((Boolean)tree.getAttribute()) {
++        if ((null == tree.getCut()) != false && (Boolean)tree.getAttribute()) {
+           setSize(Double.POSITIVE_INFINITY);
+           setBarycenter(Vector2D.NaN);
+         }
+@@ -152,6 +152,7 @@
+           setSize(0);
+           setBarycenter(new Vector2D(0,0));
+         }
++
+       }
+  else       if (v[0][0] == null) {
+         setSize(Double.POSITIVE_INFINITY);

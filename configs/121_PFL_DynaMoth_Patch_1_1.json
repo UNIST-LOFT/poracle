@@ -1,0 +1,1 @@
+{"bug_id": "97", "target": ["org/apache/commons/math/analysis/BrentSolver.java:138","org/apache/commons/math/analysis/BrentSolver.java:141"], "tool": "DynaMoth", "correctness": "Incorrect", "project": "Math", "ID": "121_PFL_DynaMoth_Patch_1_1"}

@@ -1,0 +1,20 @@
+diff -wur before/src/java/org/apache/commons/lang/time/DateUtils.java after/src/java/org/apache/commons/lang/time/DateUtils.java
+--- before/src/java/org/apache/commons/lang/time/DateUtils.java	2021-08-16 00:31:36.564894279 +0900
++++ after/src/java/org/apache/commons/lang/time/DateUtils.java	2021-08-16 00:31:36.672893572 +0900
+@@ -662,10 +662,16 @@
+       if (!done && (!round || minutes < 30)) {
+         time=time - (minutes * 60000L);
+       }
++      if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++minutes=date.getMinutes();
++
++}else{
+       if (date.getTime() != time) {
+         date.setTime(time);
+         val.setTime(date);
+       }
++
++}
+       boolean roundUp;
+       roundUp=false;
+       for (int i=0; i < fields.length; i++) {

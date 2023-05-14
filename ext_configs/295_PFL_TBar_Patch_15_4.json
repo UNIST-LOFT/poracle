@@ -1,0 +1,1 @@
+{"bug_id": "40", "target": ["com/google/javascript/jscomp/NameAnalyzer.java:635"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "295_PFL_TBar_Patch_15_4"}

@@ -1,0 +1,1 @@
+{"bug_id": "11", "target": ["org/jfree/chart/util/ShapeUtilities.java:275"], "tool": "FixMiner", "correctness": "Correct", "project": "Chart", "ID": "547_PFL_FixMiner_Patch_11_2"}

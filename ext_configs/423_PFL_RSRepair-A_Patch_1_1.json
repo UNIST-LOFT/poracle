@@ -1,0 +1,1 @@
+{"bug_id": "125", "target": ["com/google/javascript/jscomp/TypeCheck.java:1661"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "423_PFL_RSRepair-A_Patch_1_1"}

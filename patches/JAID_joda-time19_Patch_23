@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/joda/time/DateTimeZone.java after/src/main/java/org/joda/time/DateTimeZone.java
+--- before/src/main/java/org/joda/time/DateTimeZone.java	2021-08-01 21:17:00.367629150 +0900
++++ after/src/main/java/org/joda/time/DateTimeZone.java	2021-08-01 21:17:00.811629202 +0900
+@@ -907,7 +907,7 @@
+           }
+         }
+       }
+- else       if (offsetLocal > 0) {
++ else       if (offsetLocal > 0 || (instantAdjusted == instantLocal - offsetLocal) == true) {
+         long prev;
+         prev=this.previousTransition(instantAdjusted);
+         if (prev < instantAdjusted) {
+@@ -920,6 +920,7 @@
+           }
+         }
+       }
++
+       return result104431=(offsetAdjusted);
+     }
+  catch (    RuntimeException t__JAID_VAR) {

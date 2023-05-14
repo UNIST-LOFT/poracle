@@ -1,0 +1,1 @@
+{"bug_id": "55", "target": ["com/google/javascript/jscomp/FunctionRewriter.java:90"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "514_NFL_RSRepair-A_Patch_32_6"}

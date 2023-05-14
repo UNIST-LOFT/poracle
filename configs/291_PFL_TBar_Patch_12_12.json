@@ -1,0 +1,1 @@
+{"bug_id": "24", "target": ["org/apache/commons/lang3/math/NumberUtils.java:1413"], "tool": "TBar", "correctness": "Correct", "project": "Lang", "ID": "291_PFL_TBar_Patch_12_12"}

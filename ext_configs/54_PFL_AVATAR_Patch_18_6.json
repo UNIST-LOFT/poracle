@@ -1,0 +1,1 @@
+{"bug_id": "77", "target": ["org/apache/commons/math/linear/OpenMapRealVector.java:498"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "54_PFL_AVATAR_Patch_18_6"}

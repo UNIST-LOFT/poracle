@@ -1,0 +1,1 @@
+{"bug_id": "75", "target": ["com/google/javascript/rhino/Token.java:303"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "479_NFL_GenProg-A_Patch_128_47"}

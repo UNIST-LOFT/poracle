@@ -1,0 +1,2 @@
+{"ID": "Patch16", "tool": "jKali", "correctness": "Incorrect", "bug_id": "25", "project": "Chart",
+  "target":["org/jfree/chart/renderer/category/StatisticalBarRenderer.java:200"]}

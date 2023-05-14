@@ -1,0 +1,2 @@
+{"ID": "Math_bug95", "project": "Math", "bug_id": "95", "correctness": "Correct", "tool": "developer","delta_allowed": "1.0e-5",
+  "target": ["org/apache/commons/math/distribution/FDistributionImpl.java:146"]}

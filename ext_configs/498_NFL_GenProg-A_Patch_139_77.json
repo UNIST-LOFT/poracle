@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:731"], "tool": "GenProg-A", "correctness": "Correct", "project": "Closure", "ID": "498_NFL_GenProg-A_Patch_139_77"}

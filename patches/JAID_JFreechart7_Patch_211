@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/data/time/TimePeriodValues.java after/source/org/jfree/data/time/TimePeriodValues.java
+--- before/source/org/jfree/data/time/TimePeriodValues.java	2021-08-03 19:42:29.237186120 +0900
++++ after/source/org/jfree/data/time/TimePeriodValues.java	2021-08-03 19:42:31.057188075 +0900
+@@ -294,7 +294,12 @@
+       }
+       if (this.minMiddleIndex >= 0) {
+         long s;
++        if((this.maxEndIndex == this.minMiddleIndex) == false){
++this.minMiddleIndex=this.getMaxEndIndex();
++
++}
+         s=this.getDataItem(this.minMiddleIndex).getPeriod().getStart().getTime();
++
+         long e;
+         e=this.getDataItem(this.minMiddleIndex).getPeriod().getEnd().getTime();
+         long minMiddle;

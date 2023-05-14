@@ -1,0 +1,1 @@
+{"ID": "Math_bug82", "project": "Math", "bug_id": "82", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:83"]}

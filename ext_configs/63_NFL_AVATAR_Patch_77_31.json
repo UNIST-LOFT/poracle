@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:111"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "63_NFL_AVATAR_Patch_77_31"}

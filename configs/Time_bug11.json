@@ -1,0 +1,2 @@
+{"ID": "Time_bug11", "project": "Time", "bug_id": "11", "correctness": "Correct", "tool": "developer", "target": ["org/joda/time/tz/ZoneInfoCompiler.java:70"],
+  "threadName": "testThread"}

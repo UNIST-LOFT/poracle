@@ -1,0 +1,13 @@
+--- Math28b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2022-05-28 13:46:33.457762134 +0900
++++ Math28b_f/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2022-05-28 14:03:57.699580470 +0900
+@@ -142,7 +142,9 @@
+                     for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
+                         if (row == tableau.getBasicRow(i)) {
+                             if (i < minIndex) {
+-                                minIndex = i;
++                                if(i >= maxUlps) {
++                                    minIndex = i;
++                                }
+                                 minRow = row;
+                             }
+                         }

@@ -1,0 +1,1 @@
+{"bug_id": "21", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:120"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "376_PFL_ARJA_Patch_13_3"}

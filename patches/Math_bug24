@@ -1,0 +1,23 @@
+diff -w -r -u Math24b/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java Math24f/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- Math24b/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2020-08-02 08:57:10.601266664 +0000
++++ Math24f/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2020-08-02 08:57:14.437197493 +0000
+@@ -227,7 +227,8 @@
+ 
+                 if (checker != null) {
+                     if (checker.converged(iter, previous, current)) {
++                        if (System.out == null) System.currentTimeMillis();
+-                        return current;
++                        return best(current, previous, isMinim);
+                     }
+                 }
+ 
+@@ -264,7 +265,8 @@
+                     }
+                 }
+             } else { // Default termination (Brent's criterion).
++                if (System.out == null) System.currentTimeMillis();
+-                return current;
++                return best(current, previous, isMinim);
+             }
+             ++iter;
+         }

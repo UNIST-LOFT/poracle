@@ -1,0 +1,1 @@
+{"bug_id": "4", "target": ["com/google/javascript/rhino/jstype/NamedType.java:190"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "77_PFL_Kali-A_Patch_1_1"}

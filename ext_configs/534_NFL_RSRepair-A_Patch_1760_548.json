@@ -1,0 +1,1 @@
+{"bug_id": "61", "target": ["com/google/javascript/rhino/Node.java:1503"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "534_NFL_RSRepair-A_Patch_1760_548"}

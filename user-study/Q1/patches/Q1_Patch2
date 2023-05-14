@@ -1,0 +1,12 @@
+--- Math73b/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java	2022-05-27 00:55:37.913290205 +0900
++++ b2/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java	2022-05-28 15:02:56.733676788 +0900
+@@ -135,6 +135,9 @@
+ 
+ 
+         // full Brent algorithm starting with provided initial guess
++        if (initial>(double)1.0){
++            throw new IllegalArgumentException();
++        }
+         return solve(f, min, yMin, max, yMax, initial, yInitial);
+ 
+     }

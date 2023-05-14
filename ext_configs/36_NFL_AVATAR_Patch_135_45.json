@@ -1,0 +1,1 @@
+{"bug_id": "84", "target": ["org/apache/commons/math/optimization/direct/MultiDirectional.java:90"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "36_NFL_AVATAR_Patch_135_45"}

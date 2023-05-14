@@ -1,0 +1,1 @@
+{"bug_id": "46", "target": ["com/google/javascript/rhino/jstype/RecordType.java:142", "com/google/javascript/rhino/jstype/RecordType.java:168"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "452_PFL_SimFix_Patch_21_21"}

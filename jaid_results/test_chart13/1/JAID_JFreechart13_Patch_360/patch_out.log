@@ -1,0 +1,206 @@
+100.85104793277532;80.25061046809589;100.85104793277532;80.25061046809589;100.85104793277532;101.45694787622827;<org.jfree.chart.block.BorderArrangement>
+  <leftBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>80.25061046809589</height>
+        <width>26.031411330177637</width>
+        <frame class="org.jfree.chart.block.BlockBorder" serialization="custom">
+          <org.jfree.chart.block.BlockBorder>
+            <default>
+              <insets>
+                <unitType>
+                  <name>UnitType.ABSOLUTE</name>
+                </unitType>
+                <top>0.0</top>
+                <left>0.0</left>
+                <bottom>0.0</bottom>
+                <right>0.0</right>
+              </insets>
+            </default>
+            <boolean>false</boolean>
+            <java-class>java.awt.Color</java-class>
+            <awt-color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </awt-color>
+          </org.jfree.chart.block.BlockBorder>
+        </frame>
+        <margin reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>26.031411330177637</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </leftBlock>
+  <rightBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>21.20633740813239</height>
+        <width>9.334761315213818</width>
+        <frame class="org.jfree.chart.block.BlockBorder" reference="../../../../leftBlock/org.jfree.chart.block.AbstractBlock/default/frame"/>
+        <margin reference="../../../../leftBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../../../../leftBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>91.51628661756149</double>
+      <double>0.0</double>
+      <double>9.334761315213818</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </rightBlock>
+</org.jfree.chart.block.BorderArrangement>;<org.jfree.chart.block.BorderArrangement>
+  <centerBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>21.20633740813239</height>
+        <width>9.334761315213818</width>
+        <frame class="org.jfree.chart.block.BlockBorder" serialization="custom">
+          <org.jfree.chart.block.BlockBorder>
+            <default>
+              <insets>
+                <unitType>
+                  <name>UnitType.ABSOLUTE</name>
+                </unitType>
+                <top>0.0</top>
+                <left>0.0</left>
+                <bottom>0.0</bottom>
+                <right>0.0</right>
+              </insets>
+            </default>
+            <boolean>false</boolean>
+            <java-class>java.awt.Color</java-class>
+            <awt-color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </awt-color>
+          </org.jfree.chart.block.BlockBorder>
+        </frame>
+        <margin reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>26.031411330177637</double>
+      <double>0.0</double>
+      <double>69.28556926895058</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </centerBlock>
+  <leftBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>80.25061046809589</height>
+        <width>26.031411330177637</width>
+        <frame class="org.jfree.chart.block.BlockBorder" reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame"/>
+        <margin reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>26.031411330177637</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </leftBlock>
+  <rightBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>6.0814268530936015</height>
+        <width>5.534067333647102</width>
+        <frame class="org.jfree.chart.block.BlockBorder" reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame"/>
+        <margin reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../../../../centerBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>95.31698059912821</double>
+      <double>0.0</double>
+      <double>5.534067333647102</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </rightBlock>
+</org.jfree.chart.block.BorderArrangement>;<org.jfree.chart.block.BorderArrangement>
+  <topBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>21.20633740813239</height>
+        <width>9.334761315213818</width>
+        <frame class="org.jfree.chart.block.BlockBorder" serialization="custom">
+          <org.jfree.chart.block.BlockBorder>
+            <default>
+              <insets>
+                <unitType>
+                  <name>UnitType.ABSOLUTE</name>
+                </unitType>
+                <top>0.0</top>
+                <left>0.0</left>
+                <bottom>0.0</bottom>
+                <right>0.0</right>
+              </insets>
+            </default>
+            <boolean>false</boolean>
+            <java-class>java.awt.Color</java-class>
+            <awt-color>
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+              <alpha>255</alpha>
+            </awt-color>
+          </org.jfree.chart.block.BlockBorder>
+        </frame>
+        <margin reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>0.0</double>
+      <double>0.0</double>
+      <double>100.85104793277532</double>
+      <double>21.20633740813239</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </topBlock>
+  <leftBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>80.25061046809589</height>
+        <width>26.031411330177637</width>
+        <frame class="org.jfree.chart.block.BlockBorder" reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame"/>
+        <margin reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>0.0</double>
+      <double>21.20633740813239</double>
+      <double>0.0</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </leftBlock>
+  <rightBlock class="org.jfree.chart.block.EmptyBlock" serialization="custom">
+    <org.jfree.chart.block.AbstractBlock>
+      <default>
+        <height>6.0814268530936015</height>
+        <width>5.534067333647102</width>
+        <frame class="org.jfree.chart.block.BlockBorder" reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame"/>
+        <margin reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+        <padding reference="../../../../topBlock/org.jfree.chart.block.AbstractBlock/default/frame/org.jfree.chart.block.BlockBorder/default/insets"/>
+      </default>
+      <boolean>false</boolean>
+      <java-class>java.awt.geom.Rectangle2D</java-class>
+      <double>95.31698059912821</double>
+      <double>21.20633740813239</double>
+      <double>5.534067333647102</double>
+      <double>80.25061046809589</double>
+    </org.jfree.chart.block.AbstractBlock>
+  </rightBlock>
+</org.jfree.chart.block.BorderArrangement>

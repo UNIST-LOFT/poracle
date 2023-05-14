@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:698"], "tool": "GenProg-A", "correctness": "Correct", "project": "Closure", "ID": "406_PFL_GenProg-A_Patch_8_2"}

@@ -1,0 +1,17 @@
+diff -wur before/src/java/org/apache/commons/lang/BooleanUtils.java after/src/java/org/apache/commons/lang/BooleanUtils.java
+--- before/src/java/org/apache/commons/lang/BooleanUtils.java	2021-08-02 12:00:05.867633485 +0900
++++ after/src/java/org/apache/commons/lang/BooleanUtils.java	2021-08-02 12:00:07.187632801 +0900
+@@ -690,7 +690,13 @@
+       char ch;
+       ch=str.charAt(0);
+       if (ch == 't') {
++        if((str.length() == 3) == true){
++return false;
++
++}else{
+         return result64711720=((str.charAt(1) == 'r' || str.charAt(1) == 'R') && (str.charAt(2) == 'u' || str.charAt(2) == 'U') && (str.charAt(3) == 'e' || str.charAt(3) == 'E'));
++
++}
+       }
+       if (ch == 'T') {
+         return result64711720=((str.charAt(1) == 'R' || str.charAt(1) == 'r') && (str.charAt(2) == 'U' || str.charAt(2) == 'u') && (str.charAt(3) == 'E' || str.charAt(3) == 'e'));

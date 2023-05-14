@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:19.365299541 +0900
+@@ -188,7 +188,12 @@
+             p=(x - v) * q - (x - w) * r;
+             q=2 * (q - r);
+             if (q > 0) {
++              if((q * (b - x) >= tol2 - 0.5 * (b - a)) == false){
++return result628018501=current;
++
++}
+               p=-p;
++
+             }
+  else {
+               q=-q;

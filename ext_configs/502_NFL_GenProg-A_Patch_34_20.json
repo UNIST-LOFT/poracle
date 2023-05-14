@@ -1,0 +1,1 @@
+{"bug_id": "114", "target": ["com/google/javascript/jscomp/AstChangeProxy.java:120"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "502_NFL_GenProg-A_Patch_34_20"}

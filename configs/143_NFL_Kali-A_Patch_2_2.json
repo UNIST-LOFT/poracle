@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:187"], "tool": "Kali-A", "correctness": "Correct", "project": "Math", "ID": "143_NFL_Kali-A_Patch_2_2"}

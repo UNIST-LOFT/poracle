@@ -1,0 +1,129 @@
+#!/usr/bin/python3
+
+import logging
+import argparse
+import os
+from os.path import join, exists
+import pathlib
+from subprocess import Popen, DEVNULL, TimeoutExpired
+from shutil import copyfile
+
+
+root_dir = os.getcwd()
+results_dir = join(root_dir, 'results')
+failures_dir = join(root_dir, 'failures')
+configs_dir = join(root_dir, 'configs')
+poracle_workdir = join(root_dir, ".poracle")
+
+logger = logging.getLogger("runexp")
+runexp_config = dict()
+
+
+def prep_dir(d):
+    if not exists(d):
+        pathlib.Path(d).mkdir(parents=True, exist_ok=True)
+
+
+def run(cmd, env=os.environ):
+    logger.debug('cmd: {}'.format(cmd))
+    if runexp_config['quiet']:
+        proc = Popen(cmd, env=env, stdout=DEVNULL, stderr=DEVNULL,
+                     shell=True)
+    else:
+        proc = Popen(cmd, env=env, shell=True)
+    try:
+        code = proc.wait()
+        return code
+    except TimeoutExpired:
+        logger.warning('timeout for: {}'.format(cmd))
+        return 1
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser('runexp')
+    parser.add_argument('exp_id', metavar='STR', help='experiment ID')
+    parser.add_argument('exp_num', metavar='NUM', help='experiment number')
+    parser.add_argument('--log', metavar='LOG', default=None,
+                        choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
+                        help='set the logging level')
+    parser.add_argument('--num-of-iter', metavar='NUM', type=int,
+                        default=2,
+                        help='''
+                        The number of iterations to run zest
+                        (default: %(default)s)
+                        ''')
+    parser.add_argument('--num-of-threads', metavar='NUM', type=int,
+                        default=1,
+                        help='The number of threads (default: %(default)s)')
+    parser.add_argument('--verbose', action='store_true',
+                        help='verbose printout (default: %(default)s)')
+    parser.add_argument('--quiet', action='store_true',
+                        help='print only errors (default: %(default)s)')
+    args = parser.parse_args()
+
+    runexp_config['num_of_iter'] = args.num_of_iter
+    runexp_config['num_of_threads'] = args.num_of_threads
+    runexp_config['verbose'] = args.verbose
+    runexp_config['quiet'] = args.quiet
+
+    rootLogger = logging.getLogger()
+    FORMAT = logging.Formatter('%(levelname)-8s %(name)-15s %(message)s')
+    if args.quiet:
+        rootLogger.setLevel(logging.ERROR)
+    elif args.log is not None:
+        log_level = getattr(logging, args.log, None)
+        rootLogger.setLevel(log_level)
+    else:
+        rootLogger.setLevel(logging.INFO)
+    fileHandler = logging.FileHandler("{0}/{1}.log".format(os.getcwd(), 'runexp'))
+    fileHandler.setFormatter(FORMAT)
+    rootLogger.addHandler(fileHandler)
+    consoleHandler = logging.StreamHandler()
+    consoleHandler.setFormatter(FORMAT)
+    rootLogger.addHandler(consoleHandler)
+
+    for subroot, dirs, files in os.walk(configs_dir):
+        run('{}/cleanup'.format(root_dir))
+        for config_file in files:
+            result_dir = join(results_dir, args.exp_id,
+                              args.exp_num,
+                              config_file.replace('.json', ''))
+            failure_dir = join(failures_dir, args.exp_id,
+                               args.exp_num,
+                               config_file.replace('.json', ''))
+            if exists(join(result_dir, 'statistics.json')):
+                logger.info('Already done: {}'.format(config_file))
+                continue
+            if exists(join(failure_dir, 'statistics.json')):
+                logger.info('Already failed: {}'.format(config_file))
+                continue
+
+            logger.info('Investigate {} ...'.format(config_file))
+            cmd = 'new_poracle configs/{} \
+            --num-of-iter {} \
+            --num-of-threads {} \
+            --quiet'.format(config_file,
+                            runexp_config['num_of_iter'],
+                            runexp_config['num_of_threads'])
+            stat_file = join(poracle_workdir, 'statistics.json')
+            log_file = join(poracle_workdir, 'poracle.log')
+            diff_file = join(poracle_workdir, 'diff')
+            if run(cmd) == 0:
+                if not exists(stat_file):
+                    logger.error('File does not exist: {}'.format(stat_file))
+                else:
+                    prep_dir(result_dir)
+                    copyfile(stat_file, join(result_dir, 'statistics.json'))
+                    if exists(log_file):
+                        copyfile(log_file, join(result_dir, 'poracle.log'))
+                    if exists(diff_file):
+                        copyfile(diff_file, join(result_dir, 'diff'))
+            else:
+                logger.error('Failed for {}'.format(config_file))
+                if not exists(stat_file):
+                    logger.error('File does not exist: {}'.format(stat_file))
+                else:
+                    prep_dir(failure_dir)
+                    copyfile(stat_file, join(failure_dir, 'statistics.json'))
+                    if exists(log_file):
+                        copyfile(log_file, join(failure_dir, 'poracle.log'))

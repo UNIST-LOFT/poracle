@@ -1,0 +1,1 @@
+{"bug_id": "57", "target": ["org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java:175"], "tool": "FixMiner", "correctness": "Correct", "project": "Math", "ID": "574_PFL_FixMiner_Patch_1_1"}

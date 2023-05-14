@@ -1,0 +1,1 @@
+{"bug_id": "45", "target": ["com/google/javascript/jscomp/NodeUtil.java:594"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "10_RSRepair-A_Patch_77_27"}

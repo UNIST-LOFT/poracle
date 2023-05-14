@@ -1,0 +1,1 @@
+{"bug_id": "112", "target": ["com/google/javascript/jscomp/TypeInference.java:1119"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "528_NFL_RSRepair-A_Patch_15_4"}

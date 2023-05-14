@@ -1,0 +1,43 @@
+diff -w -r -u Math49b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java Math49f/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
+--- Math49b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java	2020-08-02 08:58:21.651985238 +0000
++++ Math49f/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java	2020-08-02 08:58:25.647913158 +0000
+@@ -342,7 +342,8 @@
+     public OpenMapRealVector ebeDivide(RealVector v) {
+         checkVectorDimensions(v.getDimension());
+         OpenMapRealVector res = new OpenMapRealVector(this);
++        if (System.out != null) System.currentTimeMillis();
+-        Iterator iter = res.entries.iterator();
++        Iterator iter = entries.iterator();
+         while (iter.hasNext()) {
+             iter.advance();
+             res.setEntry(iter.key(), iter.value() / v.getEntry(iter.key()));
+@@ -355,7 +356,8 @@
+     public OpenMapRealVector ebeDivide(double[] v) {
+         checkVectorDimensions(v.length);
+         OpenMapRealVector res = new OpenMapRealVector(this);
++        if (System.out != null) System.currentTimeMillis();         
+-        Iterator iter = res.entries.iterator();
++        Iterator iter = entries.iterator();
+         while (iter.hasNext()) {
+             iter.advance();
+             res.setEntry(iter.key(), iter.value() / v[iter.key()]);
+@@ -367,7 +369,8 @@
+     public OpenMapRealVector ebeMultiply(RealVector v) {
+         checkVectorDimensions(v.getDimension());
+         OpenMapRealVector res = new OpenMapRealVector(this);
++        if (System.out != null) System.currentTimeMillis();         
+-        Iterator iter = res.entries.iterator();
++        Iterator iter = entries.iterator();
+         while (iter.hasNext()) {
+             iter.advance();
+             res.setEntry(iter.key(), iter.value() * v.getEntry(iter.key()));
+@@ -380,7 +383,8 @@
+     public OpenMapRealVector ebeMultiply(double[] v) {
+         checkVectorDimensions(v.length);
+         OpenMapRealVector res = new OpenMapRealVector(this);
++        if (System.out != null) System.currentTimeMillis();         
+-        Iterator iter = res.entries.iterator();
++        Iterator iter = entries.iterator();
+         while (iter.hasNext()) {
+             iter.advance();
+             res.setEntry(iter.key(), iter.value() * v[iter.key()]);

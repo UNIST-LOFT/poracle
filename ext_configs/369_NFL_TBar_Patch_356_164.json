@@ -1,0 +1,1 @@
+{"bug_id": "107", "target": ["com/google/javascript/jscomp/CommandLineRunner.java:861"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "369_NFL_TBar_Patch_356_164"}

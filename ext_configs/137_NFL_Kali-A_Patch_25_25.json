@@ -1,0 +1,1 @@
+{"bug_id": "78", "target": ["com/google/javascript/jscomp/AbstractPeepholeOptimization.java:54"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "137_NFL_Kali-A_Patch_25_25"}

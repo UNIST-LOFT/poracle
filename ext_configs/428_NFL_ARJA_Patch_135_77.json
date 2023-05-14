@@ -1,0 +1,1 @@
+{"bug_id": "75", "target": ["com/google/javascript/jscomp/CodeGenerator.java:1016", "com/google/javascript/jscomp/CodeGenerator.java:1155"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "428_NFL_ARJA_Patch_135_77"}

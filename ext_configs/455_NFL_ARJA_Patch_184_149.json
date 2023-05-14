@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/math/optimization/fitting/GaussianFitter.java:121"], "tool": "ARJA", "correctness": "Correct", "project": "Math", "ID": "455_NFL_ARJA_Patch_184_149"}

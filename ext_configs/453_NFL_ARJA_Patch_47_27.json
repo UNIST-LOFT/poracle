@@ -1,0 +1,1 @@
+{"bug_id": "10", "target": ["com/google/javascript/rhino/Node.java:1462"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "453_NFL_ARJA_Patch_47_27"}

@@ -1,0 +1,1 @@
+{"bug_id": "24", "target": ["org/apache/commons/lang3/math/NumberUtils.java:1413"], "tool": "kPAR", "correctness": "Correct", "project": "Lang", "ID": "162_PFL_kPAR_Patch_247_247"}

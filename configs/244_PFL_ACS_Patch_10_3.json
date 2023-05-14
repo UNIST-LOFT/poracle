@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:82"], "tool": "ACS", "correctness": "Correct", "project": "Math", "ID": "244_PFL_ACS_Patch_10_3"}

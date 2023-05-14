@@ -1,0 +1,1 @@
+{"bug_id": "11", "target": ["org/jfree/chart/util/ShapeUtilities.java:274"], "tool": "AVATAR", "correctness": "Correct", "project": "Chart", "ID": "67_NFL_AVATAR_Patch_38_34"}

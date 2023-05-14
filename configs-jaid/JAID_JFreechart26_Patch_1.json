@@ -1,0 +1,1 @@
+{"ID":"JAID_JFreechart26_Patch_1","project":"Chart","bug_id":"26","target":["org/jfree/chart/axis/Axis.java:1199"],"tool":"Jaid","correctness":"Correct"}

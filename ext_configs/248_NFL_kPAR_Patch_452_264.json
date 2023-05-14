@@ -1,0 +1,1 @@
+{"bug_id": "40", "target": ["org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java:260"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "248_NFL_kPAR_Patch_452_264"}

@@ -1,0 +1,1 @@
+{"bug_id": "130", "target": ["com/google/javascript/jscomp/CollapseProperties.java:179"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "506_NFL_RSRepair-A_Patch_10_2"}

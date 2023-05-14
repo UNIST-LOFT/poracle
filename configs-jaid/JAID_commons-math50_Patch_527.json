@@ -1,0 +1,1 @@
+{"ID":"JAID_commons-math50_Patch_527","project":"Math","bug_id":"50","target":["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:186"],"tool":"Jaid","correctness":"Unknown"}

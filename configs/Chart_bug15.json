@@ -1,0 +1,2 @@
+{"ID": "Chart_bug15", "project": "Chart", "bug_id": "15", "correctness": "Correct", "tool": "developer",
+ "target": ["org/jfree/chart/plot/PiePlot.java:1378", "org/jfree/chart/plot/PiePlot.java:2055"]}

@@ -1,0 +1,1 @@
+{"bug_id": "29", "target": ["org/mockito/internal/matchers/Same.java:29"], "tool": "AVATAR", "correctness": "Correct", "project": "Mockito", "ID": "15_PFL_AVATAR_Patch_8"}

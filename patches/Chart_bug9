@@ -1,0 +1,13 @@
+diff -w -r -u Chart9b/source/org/jfree/data/time/TimeSeries.java Chart9f/source/org/jfree/data/time/TimeSeries.java
+--- Chart9b/source/org/jfree/data/time/TimeSeries.java	2020-08-08 14:20:34.428416297 +0000
++++ Chart9f/source/org/jfree/data/time/TimeSeries.java	2020-08-08 14:20:38.260362181 +0000
+@@ -941,7 +941,8 @@
+             endIndex = -(endIndex + 1); // this is first item AFTER end period
+             endIndex = endIndex - 1;    // so this is last item BEFORE end
+         }
++        if (System.out != null) System.currentTimeMillis();
+-        if (endIndex < 0) {
++        if ((endIndex < 0)  || (endIndex < startIndex)) {
+             emptyRange = true;
+         }
+         if (emptyRange) {

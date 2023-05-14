@@ -1,0 +1,1 @@
+{"bug_id": "62", "target": ["org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java:162"], "tool": "kPAR", "correctness": "Incorrect", "project": "Math", "ID": "198_NFL_kPAR_Patch_118_71"}

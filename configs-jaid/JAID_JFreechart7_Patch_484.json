@@ -1,0 +1,1 @@
+{"ID":"JAID_JFreechart7_Patch_484","project":"Chart","bug_id":"7","target":["org/jfree/data/time/TimePeriodValues.java:309"],"tool":"Jaid","correctness":"Unknown"}

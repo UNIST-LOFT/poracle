@@ -1,0 +1,1 @@
+{"ID": "Math_bug40", "project": "Math", "bug_id": "40", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java:235", "org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java:242"]}

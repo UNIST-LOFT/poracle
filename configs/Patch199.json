@@ -1,0 +1,2 @@
+{"ID": "Patch199", "tool": "ACS", "correctness": "Correct", "bug_id": "35", "project": "Math","delta_allowed": "1.0e-6",
+  "target":["org/apache/commons/math3/genetics/ElitisticListPopulation.java:52","org/apache/commons/math3/genetics/ElitisticListPopulation.java:69" ]}

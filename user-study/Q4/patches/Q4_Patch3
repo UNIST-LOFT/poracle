@@ -1,0 +1,11 @@
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-04-28 15:35:10.000000000 +0900
++++ 3/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-05-28 12:31:51.829690554 +0900
+@@ -452,7 +452,7 @@
+                     if (dec == null
+                         && exp == null
+                         && isDigits(numeric.substring(1))
+-                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
++                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0))) || mant.isEmpty() == numeric.isEmpty()) {
+                         try {
+                             return createLong(numeric);
+                         } catch (NumberFormatException nfe) {

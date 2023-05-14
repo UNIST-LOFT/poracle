@@ -1,0 +1,1 @@
+{"bug_id": "116", "target": ["com/google/javascript/jscomp/FunctionInjector.java:555"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "463_NFL_ARJA_Patch_125_120"}

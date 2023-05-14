@@ -1,0 +1,1 @@
+{"bug_id": "75", "target": ["org/apache/commons/math/stat/Frequency.java:303"], "tool": "FixMiner", "correctness": "Correct", "project": "Math", "ID": "528_PFL_FixMiner_Patch_6_1"}

@@ -1,0 +1,19 @@
+diff -wur before/source/org/jfree/data/xy/XYSeries.java after/source/org/jfree/data/xy/XYSeries.java
+--- before/source/org/jfree/data/xy/XYSeries.java	2021-08-03 16:20:48.880540203 +0900
++++ after/source/org/jfree/data/xy/XYSeries.java	2021-08-03 16:20:49.180543469 +0900
+@@ -575,9 +575,15 @@
+  else {
+           this.data.add(new XYDataItem(x,y));
+         }
++        if((this.autoSort == this.allowDuplicateXValues) == true){
++this.autoSort=this.data.isEmpty();
++
++}else{
+         if (this.getItemCount() > this.maximumItemCount) {
+           this.data.remove(0);
+         }
++
++}
+       }
+       fireSeriesChanged();
+       return result209594370=(overwritten);

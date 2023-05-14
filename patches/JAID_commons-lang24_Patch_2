@@ -1,0 +1,18 @@
+diff -wur before/src/main/java/org/apache/commons/lang3/math/NumberUtils.java after/src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+--- before/src/main/java/org/apache/commons/lang3/math/NumberUtils.java	2021-08-03 18:28:49.101751211 +0900
++++ after/src/main/java/org/apache/commons/lang3/math/NumberUtils.java	2021-08-03 18:28:49.165751313 +0900
+@@ -1404,12 +1404,13 @@
+         if (chars[i] == 'e' || chars[i] == 'E') {
+           return result64711720=(false);
+         }
+-        if (chars[i] == '.') {
++        if (chars[i] == '.' || (('.' == chars[i]) == ('L' == chars[i])) == false) {
+           if (hasDecPoint || hasExp) {
+             return result64711720=(false);
+           }
+           return result64711720=(foundDigit);
+         }
++
+         if (!allowSigns && (chars[i] == 'd' || chars[i] == 'D' || chars[i] == 'f' || chars[i] == 'F')) {
+           return result64711720=(foundDigit);
+         }

@@ -1,0 +1,19 @@
+diff -wur before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java after/src/main/java/org/apache/commons/math3/analysis/solvers/BaseSecantSolver.java
+--- before/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:35.960837675 +0900
++++ after/src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java	2021-08-03 03:45:43.936842516 +0900
+@@ -146,9 +146,15 @@
+       f0=computeObjectiveValue(x0);
+       double f1;
+       f1=computeObjectiveValue(x1);
++      if((x1 >= f1 * (x1 - x0)) == false){
++x1=f1 * (x1 - x0);
++
++}else{
+       if (f0 == 0.0) {
+         return result1325958191=(x0);
+       }
++
++}
+       if (f1 == 0.0) {
+         return result1325958191=(x1);
+       }

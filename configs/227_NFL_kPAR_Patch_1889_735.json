@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/lang/math/NumberUtils.java:452"], "tool": "kPAR", "correctness": "Incorrect", "project": "Lang", "ID": "227_NFL_kPAR_Patch_1889_735"}

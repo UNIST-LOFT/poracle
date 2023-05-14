@@ -1,0 +1,1 @@
+{"bug_id": "73", "target": ["com/google/javascript/jscomp/CodeGenerator.java:1045"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "168_PFL_kPAR_Patch_11_9"}

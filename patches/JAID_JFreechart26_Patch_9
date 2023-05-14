@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/axis/Axis.java after/source/org/jfree/chart/axis/Axis.java
+--- before/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.007610176 +0900
++++ after/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.131609676 +0900
+@@ -1198,7 +1198,12 @@
+         ChartRenderingInfo owner;
+         owner=plotState.getOwner();
+         EntityCollection entities;
++        if((null == owner) == true){
++return result765417136=state;
++
++}
+         entities=owner.getEntityCollection();
++
+         if (entities != null) {
+           entities.add(new AxisLabelEntity(this,hotspot,this.labelToolTip,this.labelURL));
+         }

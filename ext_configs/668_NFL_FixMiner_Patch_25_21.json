@@ -1,0 +1,1 @@
+{"bug_id": "129", "target": ["com/google/javascript/rhino/Node.java:1546"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "668_NFL_FixMiner_Patch_25_21"}

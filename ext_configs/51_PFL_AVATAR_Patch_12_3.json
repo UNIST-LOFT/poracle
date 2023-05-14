@@ -1,0 +1,1 @@
+{"bug_id": "13", "target": ["org/apache/commons/lang3/SerializationUtils.java:254"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Lang", "ID": "51_PFL_AVATAR_Patch_12_3"}

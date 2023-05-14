@@ -1,0 +1,1 @@
+java.lang.IllegalArgumentException: Invalid endpoint parameters:  lowerBound=0.0 initial=-0.1955636364230418 upperBound=1.7976931348623157E308

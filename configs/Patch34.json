@@ -1,0 +1,3 @@
+{"ID": "Patch34", "tool": "jKali", "correctness": "Incorrect", "bug_id": "32", "project": "Math",
+ "delta_allowed": "3e-06",
+  "target": ["org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java:136"]}

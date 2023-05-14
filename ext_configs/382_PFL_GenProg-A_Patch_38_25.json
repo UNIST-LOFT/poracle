@@ -1,0 +1,1 @@
+{"bug_id": "86", "target": ["com/google/javascript/jscomp/NodeUtil.java:2462"], "tool": "GenProg-A", "correctness": "Correct", "project": "Closure", "ID": "382_PFL_GenProg-A_Patch_38_25"}

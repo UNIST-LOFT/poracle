@@ -1,0 +1,1 @@
+{"bug_id": "46", "target": ["org/apache/commons/lang/StringEscapeUtils.java:244"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Lang", "ID": "408_PFL_RSRepair-A_Patch_1738_1089"}

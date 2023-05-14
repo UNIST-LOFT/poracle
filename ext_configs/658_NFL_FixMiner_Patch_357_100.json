@@ -1,0 +1,1 @@
+{"bug_id": "79", "target": ["org/apache/commons/math/util/MathUtils.java:1624", "org/apache/commons/math/util/MathUtils.java:1626"], "tool": "FixMiner", "correctness": "Correct", "project": "Math", "ID": "658_NFL_FixMiner_Patch_357_100"}

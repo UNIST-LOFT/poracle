@@ -1,0 +1,22 @@
+diff -w -r -u Math61b/src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java Math61f/src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java
+--- Math61b/src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java	2020-08-02 09:01:02.977074258 +0000
++++ Math61f/src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java	2020-08-02 09:01:05.833022710 +0000
+@@ -19,7 +19,7 @@
+ import java.io.Serializable;
+ 
+ import org.apache.commons.math.MathException;
+-import org.apache.commons.math.MathRuntimeException;
++import org.apache.commons.math.exception.NotStrictlyPositiveException;
+ import org.apache.commons.math.exception.util.LocalizedFormats;
+ import org.apache.commons.math.special.Gamma;
+ import org.apache.commons.math.util.MathUtils;
+@@ -91,7 +91,8 @@
+      */
+     public PoissonDistributionImpl(double p, double epsilon, int maxIterations) {
+         if (p <= 0) {
++            if (System.out != null) System.currentTimeMillis();
+-            throw MathRuntimeException.createIllegalArgumentException(LocalizedFormats.NOT_POSITIVE_POISSON_MEAN, p);
++            throw new NotStrictlyPositiveException(LocalizedFormats.MEAN, p);
+         }
+         mean = p;
+         normal = new NormalDistributionImpl(p, FastMath.sqrt(p));

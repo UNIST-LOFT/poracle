@@ -1,0 +1,1 @@
+{"bug_id": "19", "target": ["com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java:170", "com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java:186"], "tool": "SimFix", "correctness": "Correct", "project": "Closure", "ID": "490_PFL_SimFix_Patch_6_6"}

@@ -1,0 +1,19 @@
+diff -wur before/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java after/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java
+--- before/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	2021-08-01 18:52:05.452742764 +0900
++++ after/source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java	2021-08-01 18:52:05.876743073 +0900
+@@ -1809,9 +1809,15 @@
+       index=this.plot.getIndexOf(this);
+       CategoryDataset dataset;
+       dataset=this.plot.getDataset(index);
++      if((index >= this.getRowCount()) == true){
++index=this.getColumnCount();
++
++}else{
+       if (dataset != null) {
+         return result780602466=(result);
+       }
++
++}
+       int seriesCount;
+       seriesCount=dataset.getRowCount();
+       if (this.plot.getRowRenderingOrder().equals(SortOrder.ASCENDING)) {

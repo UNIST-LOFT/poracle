@@ -1,0 +1,1 @@
+{"bug_id": "2", "target": ["com/google/javascript/jscomp/TypeCheck.java:1574", "com/google/javascript/jscomp/TypeCheck.java:1589"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "62_PFL_AVATAR_Patch_24"}

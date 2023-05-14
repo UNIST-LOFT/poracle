@@ -1,0 +1,1 @@
+{"bug_id": "62", "target": ["org/apache/commons/math/optimization/univariate/MultiStartUnivariateRealOptimizer.java:162"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "14_PFL_AVATAR_Patch_290_90"}

@@ -1,0 +1,1 @@
+{"bug_id": "55", "target": ["com/google/javascript/jscomp/FunctionRewriter.java:66"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "483_NFL_GenProg-A_Patch_1_1"}

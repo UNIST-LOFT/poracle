@@ -1,0 +1,1 @@
+{"bug_id": "19", "target": ["com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java:211", "com/google/javascript/jscomp/type/ClosureReverseAbstractInterpreter.java:239"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "580_NFL_SimFix_Patch_4878_4878"}

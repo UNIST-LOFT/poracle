@@ -1,0 +1,1 @@
+{"ID": "Lang_bug6", "project": "Lang", "bug_id": "6", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/lang3/text/translate/CharSequenceTranslator.java:94"]}

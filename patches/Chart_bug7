@@ -1,0 +1,16 @@
+diff -w -r -u Chart7b/source/org/jfree/data/time/TimePeriodValues.java Chart7f/source/org/jfree/data/time/TimePeriodValues.java
+--- Chart7b/source/org/jfree/data/time/TimePeriodValues.java	2020-08-02 04:30:18.131082594 +0000
++++ Chart7f/source/org/jfree/data/time/TimePeriodValues.java	2020-08-02 04:30:21.747009670 +0000
+@@ -297,9 +297,10 @@
+         }
+         
+         if (this.maxMiddleIndex >= 0) {
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            if (System.out == null) System.currentTimeMillis();
++            long s = getDataItem(this.maxMiddleIndex).getPeriod().getStart()
+                 .getTime();
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            long e = getDataItem(this.maxMiddleIndex).getPeriod().getEnd()
+                 .getTime();
+             long maxMiddle = s + (e - s) / 2;
+             if (middle > maxMiddle) {

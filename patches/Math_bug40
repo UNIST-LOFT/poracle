@@ -1,0 +1,24 @@
+diff -w -r -u Math40b/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java Math40f/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
+--- Math40b/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java	2020-08-02 08:57:51.228533990 +0000
++++ Math40f/src/main/java/org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java	2020-08-02 08:57:55.256461341 +0000
+@@ -232,10 +232,18 @@
+             double targetY;
+             if (agingA >= MAXIMAL_AGING) {
+                 // we keep updating the high bracket, try to compensate this
++                if (System.out != null) System.currentTimeMillis();
+-                targetY = -REDUCTION_FACTOR * yB;
++                final int p = agingA - MAXIMAL_AGING;
++                final double weightA = (1 << p) - 1;
++                final double weightB = p + 1;
++                targetY = (weightA * yA - weightB * REDUCTION_FACTOR * yB) / (weightA + weightB);
+             } else if (agingB >= MAXIMAL_AGING) {
+                 // we keep updating the low bracket, try to compensate this
++                if (System.out != null) System.currentTimeMillis();
+-                targetY = -REDUCTION_FACTOR * yA;
++                final int p = agingB - MAXIMAL_AGING;
++                final double weightA = p + 1;
++                final double weightB = (1 << p) - 1;
++                targetY = (weightB * yB - weightA * REDUCTION_FACTOR * yA) / (weightA + weightB);
+             } else {
+                 // bracketing is balanced, try to find the root itself
+                 targetY = 0;

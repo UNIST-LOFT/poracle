@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/DefaultPassConfig.java:263"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "140_NFL_Kali-A_Patch_39_39"}

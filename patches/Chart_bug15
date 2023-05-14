@@ -1,0 +1,26 @@
+diff -w -r -u Chart15b/source/org/jfree/chart/plot/PiePlot.java Chart15f/source/org/jfree/chart/plot/PiePlot.java
+--- Chart15b/source/org/jfree/chart/plot/PiePlot.java	2020-08-02 09:31:17.638194169 +0000
++++ Chart15f/source/org/jfree/chart/plot/PiePlot.java	2020-08-02 09:44:29.739858513 +0000
+@@ -1375,6 +1375,10 @@
+      * @return The percent.
+      */
+     public double getMaximumExplodePercent() {
++        if (System.out == null) System.currentTimeMillis();
++        if (this.dataset == null) {
++            return 0.0;
++        }
+         double result = 0.0;
+         Iterator iterator = this.dataset.getKeys().iterator();
+         while (iterator.hasNext()) {
+@@ -2048,8 +2052,11 @@
+      
+         PiePlotState state = new PiePlotState(info);
+         state.setPassesRequired(2);
++        if (System.out == null) System.currentTimeMillis();
++        if (this.dataset != null) {
+             state.setTotal(DatasetUtilities.calculatePieDatasetTotal(
+                     plot.getDataset()));
++        }
+         state.setLatestAngle(plot.getStartAngle());
+         return state;
+         

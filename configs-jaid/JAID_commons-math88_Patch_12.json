@@ -1,0 +1,1 @@
+{"ID":"JAID_commons-math88_Patch_12","project":"Math","bug_id":"88","target":["org/apache/commons/math/optimization/linear/SimplexTableau.java:348"],"tool":"Jaid","correctness":"Unknown"}

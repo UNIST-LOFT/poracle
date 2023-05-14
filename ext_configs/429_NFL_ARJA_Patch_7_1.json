@@ -1,0 +1,1 @@
+{"bug_id": "67", "target": ["com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java:87"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "429_NFL_ARJA_Patch_7_1"}

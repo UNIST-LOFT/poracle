@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:06.734111810 +0900
+@@ -254,7 +254,12 @@
+       int seriesCount;
+       seriesCount=getRowCount();
+       int categoryCount;
++      if((1 < seriesCount == 3 < state.getBarWidth()) == false){
++return;
++
++}
+       categoryCount=getColumnCount();
++
+       if (seriesCount > 1) {
+         double seriesGap;
+         seriesGap=dataArea.getHeight() * getItemMargin() / (categoryCount * (seriesCount - 1));

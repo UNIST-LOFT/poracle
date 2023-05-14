@@ -1,0 +1,14 @@
+diff -wur before/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java	2021-08-01 21:31:27.067980022 +0900
++++ after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java	2021-08-01 21:31:27.263980134 +0900
+@@ -100,7 +100,10 @@
+           ratio=rhs / entry;
+           if (ratio < minRatio) {
+             minRatio=ratio;
++            minRatio=rhs;
++
+             minRatioPos=i;
++
+           }
+         }
+       }

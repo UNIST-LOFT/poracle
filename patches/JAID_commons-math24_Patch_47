@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:17.329308130 +0900
+@@ -197,7 +197,12 @@
+             e=d;
+             if (p > q * (a - x) && p < q * (b - x) && FastMath.abs(p) < FastMath.abs(0.5 * q * r)) {
+               d=p / q;
++              if((a > x - tol1) == true){
++return result628018501=current;
++
++}
+               u=x + d;
++
+               if (u - a < tol2 || b - u < tol2) {
+                 if (x <= m) {
+                   d=tol1;

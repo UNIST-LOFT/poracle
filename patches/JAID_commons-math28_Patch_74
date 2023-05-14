@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.341679938 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:45.061677867 +0900
+@@ -146,6 +146,10 @@
+         for (        Integer row : minRatioPositions) {
+           int i;
+           i=tableau.getNumObjectiveFunctions();
++          if((i < minIndex && minRow != row) == true){
++return result672261858=row;
++
++}
+           for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
+             if (row == tableau.getBasicRow(i)) {
+               if (i < minIndex) {
+@@ -154,6 +158,7 @@
+               }
+             }
+           }
++
+         }
+         return result672261858=(minRow);
+       }

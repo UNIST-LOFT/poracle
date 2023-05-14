@@ -1,0 +1,1 @@
+{"bug_id": "108", "target": ["com/google/javascript/jscomp/ScopedAliases.java:422"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "74_NFL_AVATAR_Patch_408_102"}

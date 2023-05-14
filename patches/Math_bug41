@@ -1,0 +1,13 @@
+diff -w -r -u Math41b/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java Math41f/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
+--- Math41b/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java	2020-08-02 08:58:01.376350960 +0000
++++ Math41f/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java	2020-08-02 08:58:05.364279031 +0000
+@@ -517,7 +517,8 @@
+                 }
+ 
+                 double sumWts = 0;
++                if (System.out != null) System.currentTimeMillis();                 
+-                for (int i = 0; i < weights.length; i++) {
++                for (int i = begin; i < begin + length; i++) {
+                     sumWts += weights[i];
+                 }
+ 

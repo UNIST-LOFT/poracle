@@ -1,0 +1,1 @@
+{"bug_id": "19", "target": ["com/google/javascript/jscomp/type/ChainableReverseAbstractInterpreter.java:175"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "299_PFL_TBar_Patch_124_16"}

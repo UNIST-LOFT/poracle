@@ -1,0 +1,4 @@
+{"ID": "Math_bug93", "project": "Math", "bug_id": "93", "correctness": "Correct", "tool": "developer","delta_allowed": "1E-14",
+  "target": ["org/apache/commons/math/util/MathUtils.java:344",
+    "org/apache/commons/math/util/MathUtils.java:380",
+    "org/apache/commons/math/util/MathUtils.java:403"]}

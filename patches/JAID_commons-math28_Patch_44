@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.341679938 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.805678603 +0900
+@@ -111,7 +111,12 @@
+         entry=tableau.getEntry(i,col);
+         if (Precision.compareTo(entry,0d,this.maxUlps) > 0) {
+           final double ratio;
++          if((minRatio == rhs / entry) == true){
++return result672261858=i;
++
++}
+           ratio=rhs / entry;
++
+           final int cmp;
+           cmp=Double.compare(ratio,minRatio);
+           if (cmp == 0) {

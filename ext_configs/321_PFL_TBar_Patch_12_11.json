@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/Compiler.java:255","com/google/javascript/jscomp/Compiler.java:271"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "321_PFL_TBar_Patch_12_11"}

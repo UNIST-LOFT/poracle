@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:143"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "436_PFL_RSRepair-A_Patch_9_2"}

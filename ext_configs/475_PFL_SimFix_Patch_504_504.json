@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:112", "com/google/javascript/jscomp/CheckSideEffects.java:129"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "475_PFL_SimFix_Patch_504_504"}

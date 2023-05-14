@@ -1,0 +1,2 @@
+bracket	double[] (UnivariateRealFunction, double, double, double, int)	131	208
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils

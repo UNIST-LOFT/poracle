@@ -1,0 +1,12 @@
+diff -w -r -u Math34b/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java Math34f/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java
+--- Math34b/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java	2020-08-02 09:04:23.609451914 +0000
++++ Math34f/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java	2020-08-02 09:04:27.433382857 +0000
+@@ -206,6 +206,7 @@
+      * @return chromosome iterator
+      */
+     public Iterator<Chromosome> iterator() {
++        if (System.out != null) System.currentTimeMillis();
+-        return chromosomes.iterator();
++        return getChromosomes().iterator();
+     }
+ }

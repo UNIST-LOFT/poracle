@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:63"], "tool": "DynaMoth", "correctness": "Incorrect", "project": "Math", "ID": "154_NFL_DynaMoth_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:117"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "395_PFL_GenProg-A_Patch_1_1"}

@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:111"], "tool": "kPAR", "correctness": "Incorrect", "project": "Closure", "ID": "172_PFL_kPAR_Patch_1682_739"}

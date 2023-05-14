@@ -1,0 +1,1 @@
+{"bug_id": "40", "target": ["org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java:264"], "tool": "ARJA", "correctness": "Incorrect", "project": "Math", "ID": "454_NFL_ARJA_Patch_195_167"}

@@ -1,0 +1,1 @@
+{"bug_id": "41", "target": ["org/apache/commons/math/stat/descriptive/moment/Variance.java:318"], "tool": "DynaMoth", "correctness": "Incorrect", "project": "Math", "ID": "160_NFL_DynaMoth_Patch_1_1"}

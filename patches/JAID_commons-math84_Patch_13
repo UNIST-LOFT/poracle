@@ -1,0 +1,18 @@
+diff -wur before/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java after/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java
+--- before/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java	2021-08-07 13:05:44.385271070 +0900
++++ after/src/main/java/org/apache/commons/math/optimization/direct/MultiDirectional.java	2021-08-07 13:05:44.493270957 +0900
+@@ -91,9 +91,14 @@
+         }
+         final RealPointValuePair contracted;
+         contracted=this.evaluateNewSimplex(original,this.gamma,comparator);
++        if((original.length == 1) == false){
++return;
++
++}
+         if (comparator.compare(contracted,best) < 0) {
+           return;
+         }
++
+       }
+     }
+  catch (    FunctionEvaluationException t__JAID_VAR) {

@@ -1,0 +1,1 @@
+{"bug_id": "67", "target": ["com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java:84"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "480_NFL_GenProg-A_Patch_6_1"}

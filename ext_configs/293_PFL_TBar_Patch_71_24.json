@@ -1,0 +1,1 @@
+{"bug_id": "70", "target": ["com/google/javascript/jscomp/TypedScopeCreator.java:1745"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "293_PFL_TBar_Patch_71_24"}

@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:141"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "63_PFL_AVATAR_Patch_16_7"}

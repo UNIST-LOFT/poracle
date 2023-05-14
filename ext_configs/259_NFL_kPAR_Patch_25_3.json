@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:142"], "tool": "kPAR", "correctness": "Incorrect", "project": "Closure", "ID": "259_NFL_kPAR_Patch_25_3"}

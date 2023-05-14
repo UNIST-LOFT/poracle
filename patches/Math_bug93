@@ -1,0 +1,39 @@
+diff -w -r -u Math93b/src/java/org/apache/commons/math/util/MathUtils.java Math93f/src/java/org/apache/commons/math/util/MathUtils.java
+--- Math93b/src/java/org/apache/commons/math/util/MathUtils.java	2020-08-02 09:01:42.356363439 +0000
++++ Math93f/src/java/org/apache/commons/math/util/MathUtils.java	2020-08-02 09:01:46.240293327 +0000
+@@ -342,8 +342,11 @@
+      * @throws IllegalArgumentException if n < 0
+      */
+     public static long factorial(final int n) {
+-        long result = Math.round(factorialDouble(n));
+-        if (result == Long.MAX_VALUE) {
++        if (System.out != null) System.currentTimeMillis();
++        if (n < 0) {
++            throw new IllegalArgumentException("must have n >= 0 for n!");
++        }
++        if (n > 20) {
+             throw new ArithmeticException(
+                     "factorial value is too large to fit in a long");
+         }
+@@ -374,6 +377,10 @@
+         if (n < 0) {
+             throw new IllegalArgumentException("must have n >= 0 for n!");
+         }
++        if (System.out != null) System.currentTimeMillis();
++        if (n < 21) {
++            return factorial(n);
++        }
+         return Math.floor(Math.exp(factorialLog(n)) + 0.5);
+     }
+ 
+@@ -394,6 +400,10 @@
+         if (n < 0) {
+             throw new IllegalArgumentException("must have n > 0 for n!");
+         }
++        if (System.out != null) System.currentTimeMillis();
++        if (n < 21) {
++            return Math.log(factorial(n));
++        }
+         double logSum = 0;
+         for (int i = 2; i <= n; i++) {
+             logSum += Math.log((double)i);

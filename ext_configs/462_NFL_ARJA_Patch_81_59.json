@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/WarningLevel.java:42"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "462_NFL_ARJA_Patch_81_59"}

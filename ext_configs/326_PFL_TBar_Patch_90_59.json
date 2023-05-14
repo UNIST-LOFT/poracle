@@ -1,0 +1,1 @@
+{"bug_id": "35", "target": ["com/google/javascript/jscomp/TypeInference.java:1122"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "326_PFL_TBar_Patch_90_59"}

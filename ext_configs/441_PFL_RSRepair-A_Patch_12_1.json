@@ -1,0 +1,1 @@
+{"bug_id": "33", "target": ["com/google/javascript/rhino/jstype/PrototypeObjectType.java:558"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "441_PFL_RSRepair-A_Patch_12_1"}

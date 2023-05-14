@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/data/time/TimeSeries.java after/source/org/jfree/data/time/TimeSeries.java
+--- before/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:32.683003733 +0900
++++ after/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:33.015004467 +0900
+@@ -950,10 +950,11 @@
+       }
+       int endIndex;
+       endIndex=this.getIndex(end);
+-      if (endIndex < 0) {
++      if (endIndex < 0 && (startIndex == 1) != true) {
+         endIndex=-(endIndex + 1);
+         endIndex=endIndex - 1;
+       }
++
+       if (endIndex < 0) {
+         emptyRange=true;
+       }

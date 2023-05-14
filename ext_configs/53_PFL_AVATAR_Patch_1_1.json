@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:198"], "tool": "AVATAR", "correctness": "Correct", "project": "Math", "ID": "53_PFL_AVATAR_Patch_1_1"}

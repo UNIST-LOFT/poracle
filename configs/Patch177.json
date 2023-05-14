@@ -1,0 +1,2 @@
+{"ID": "Patch177", "tool": "Nopol2017", "correctness": "Incorrect", "bug_id": "105", "project": "Math",
+  "target":["org/apache/commons/math/stat/regression/SimpleRegression.java:108"]}

@@ -1,0 +1,12 @@
+diff -w -r -u Math104b/src/java/org/apache/commons/math/special/Gamma.java Math104f/src/java/org/apache/commons/math/special/Gamma.java
+--- Math104b/src/java/org/apache/commons/math/special/Gamma.java	2020-08-02 09:03:36.762297891 +0000
++++ Math104f/src/java/org/apache/commons/math/special/Gamma.java	2020-08-02 09:03:39.574247114 +0000
+@@ -34,7 +34,7 @@
+     private static final long serialVersionUID = -6587513359895466954L;
+ 
+     /** Maximum allowed numerical error. */
+-    private static final double DEFAULT_EPSILON = 10e-9;
++    private static final double DEFAULT_EPSILON = 10e-15;
+ 
+     /** Lanczos coefficients */
+     private static double[] lanczos =

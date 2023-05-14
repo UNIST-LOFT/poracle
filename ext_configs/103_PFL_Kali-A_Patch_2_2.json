@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:141"], "tool": "Kali-A", "correctness": "Correct", "project": "Closure", "ID": "103_PFL_Kali-A_Patch_2_2"}

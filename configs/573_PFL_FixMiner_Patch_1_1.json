@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["org/apache/commons/math3/distribution/FDistribution.java:275"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "573_PFL_FixMiner_Patch_1_1"}

@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/axis/Axis.java after/source/org/jfree/chart/axis/Axis.java
+--- before/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.007610176 +0900
++++ after/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.119609724 +0900
+@@ -1117,7 +1117,12 @@
+       g2.setFont(font);
+       g2.setPaint(this.getLabelPaint());
+       FontMetrics fm;
++      if((null == g2.getFontMetrics()) == false){
++return result765417136=state;
++
++}
+       fm=g2.getFontMetrics();
++
+       Rectangle2D labelBounds;
+       labelBounds=TextUtilities.getTextBounds(label,g2,fm);
+       Shape hotspot;

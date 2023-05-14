@@ -1,0 +1,23 @@
+diff -wur before/src/java/org/apache/commons/lang3/StringUtils.java after/src/java/org/apache/commons/lang/StringUtils.java
+--- before/src/java/org/apache/commons/lang3/StringUtils.java	2021-08-03 20:16:45.557602036 +0900
++++ after/src/java/org/apache/commons/lang3/StringUtils.java	2021-08-03 20:16:45.833602208 +0900
+@@ -3660,6 +3660,10 @@
+       start=0;
+       int increase;
+       increase=0;
++      if((timeToLive == 0) == true){
++timeToLive=0;
++
++}else{
+       for (int i=0; i < searchList.length; i++) {
+         int greater;
+         greater=replacementList[i].length() - searchList[i].length();
+@@ -3667,6 +3671,8 @@
+           increase+=3 * greater;
+         }
+       }
++
++}
+       increase=Math.min(increase,text.length() / 5);
+       StringBuilder buf;
+       buf=new StringBuilder(text.length() + increase);

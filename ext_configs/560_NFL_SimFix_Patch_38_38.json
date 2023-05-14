@@ -1,0 +1,1 @@
+{"bug_id": "18", "target": ["org/jfree/data/DefaultKeyedValues.java:318", "org/jfree/data/DefaultKeyedValues.java:327"], "tool": "SimFix", "correctness": "Incorrect", "project": "Chart", "ID": "560_NFL_SimFix_Patch_38_38"}

@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:143"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "79_NFL_AVATAR_Patch_4_3"}

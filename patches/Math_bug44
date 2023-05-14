@@ -1,0 +1,31 @@
+diff -w -r -u Math44b/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java Math44f/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java
+--- Math44b/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java	2020-12-27 18:36:50.685776885 +0900
++++ Math44f/src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java	2020-12-27 18:36:54.621772293 +0900
+@@ -277,7 +277,6 @@
+ 
+             double previousT = interpolator.getGlobalPreviousTime();
+             final double currentT = interpolator.getGlobalCurrentTime();
+-            resetOccurred = false;
+ 
+             // initialize the events states if needed
+             if (! statesInitialized) {
+@@ -331,6 +330,9 @@
+                 if (isLastStep) {
+                     // the event asked to stop integration
+                     System.arraycopy(eventY, 0, y, 0, y.length);
++                    for (final EventState remaining : occuringEvents) {
++                        remaining.stepAccepted(eventT, eventY);
++                    }
+                     return eventT;
+                 }
+ 
+@@ -340,6 +342,9 @@
+                     System.arraycopy(eventY, 0, y, 0, y.length);
+                     computeDerivatives(eventT, y, yDot);
+                     resetOccurred = true;
++                    for (final EventState remaining : occuringEvents) {
++                        remaining.stepAccepted(eventT, eventY);
++                    }
+                     return eventT;
+                 }
+ 

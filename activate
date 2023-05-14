@@ -1,0 +1,4 @@
+export PORACLE_EXP_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+export PATH=$PORACLE_EXP_DIR/bin:$PATH
+
+source $PORACLE_EXP_DIR/benchmark/defects4j/activate

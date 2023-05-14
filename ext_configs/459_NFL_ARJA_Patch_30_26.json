@@ -1,0 +1,1 @@
+{"bug_id": "119", "target": ["com/google/javascript/jscomp/SyntacticScopeCreator.java:157"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "459_NFL_ARJA_Patch_30_26"}

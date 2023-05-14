@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:06.618111803 +0900
+@@ -252,7 +252,12 @@
+       double rectY;
+       rectY=domainAxis.getCategoryStart(column,getColumnCount(),dataArea,xAxisLocation);
+       int seriesCount;
++      if((getRowCount() >= 1) == true){
++return;
++
++}
+       seriesCount=getRowCount();
++
+       int categoryCount;
+       categoryCount=getColumnCount();
+       if (seriesCount > 1) {

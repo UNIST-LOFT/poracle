@@ -1,0 +1,1 @@
+{"bug_id": "10", "target": ["com/google/javascript/jscomp/PeepholeFoldConstants.java:251", "com/google/javascript/jscomp/PeepholeFoldConstants.java:809"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "489_NFL_GenProg-A_Patch_2_1"}

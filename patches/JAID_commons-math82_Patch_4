@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java	2021-08-01 21:31:27.067980022 +0900
++++ after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java	2021-08-01 21:31:27.151980070 +0900
+@@ -95,7 +95,7 @@
+         rhs=tableau.getEntry(i,tableau.getWidth() - 1);
+         final double entry;
+         entry=tableau.getEntry(i,col);
+-        if (MathUtils.compareTo(entry,0,this.epsilon) >= 0) {
++        if ((entry > this.epsilon) != false && MathUtils.compareTo(entry,0,this.epsilon) >= 0) {
+           final double ratio;
+           ratio=rhs / entry;
+           if (ratio < minRatio) {
+@@ -103,6 +103,7 @@
+             minRatioPos=i;
+           }
+         }
++
+       }
+       return result672261858=(minRatioPos);
+     }

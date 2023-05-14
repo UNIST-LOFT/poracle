@@ -1,0 +1,1 @@
+{"bug_id": "67", "target": ["com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java:88"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "509_NFL_RSRepair-A_Patch_3_1"}

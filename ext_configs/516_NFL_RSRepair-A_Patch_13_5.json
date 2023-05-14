@@ -1,0 +1,1 @@
+{"bug_id": "120", "target": ["com/google/javascript/jscomp/ReferenceCollectingCallback.java:185"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "516_NFL_RSRepair-A_Patch_13_5"}

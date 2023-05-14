@@ -1,0 +1,23 @@
+diff -wur before/source/org/jfree/chart/block/BorderArrangement.java after/source/org/jfree/chart/block/BorderArrangement.java
+--- before/source/org/jfree/chart/block/BorderArrangement.java	2021-08-02 10:55:11.502344721 +0900
++++ after/source/org/jfree/chart/block/BorderArrangement.java	2021-08-02 10:55:14.158342669 +0900
+@@ -462,6 +462,10 @@
+         w[2]=size.width;
+       }
+       h[3]=h[2];
++      if((h[3] > h[0] + h[2]) == false){
++h[3]=h[0] + h[2];
++
++}else{
+       if (this.rightBlock != null) {
+         RectangleConstraint c4;
+         c4=new RectangleConstraint(0.0,new Range(0.0,constraint.getWidth() - w[2]),LengthConstraintType.RANGE,h[2],null,LengthConstraintType.FIXED);
+@@ -469,6 +473,8 @@
+         size=this.rightBlock.arrange(g2,c4);
+         w[3]=size.width;
+       }
++
++}
+       h[4]=h[2];
+       w[4]=constraint.getWidth() - w[3] - w[2];
+       RectangleConstraint c5;

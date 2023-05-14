@@ -1,0 +1,1 @@
+{"bug_id": "117", "target": ["com/google/javascript/jscomp/TypedScopeCreator.java:1805"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "141_NFL_Kali-A_Patch_8_8"}

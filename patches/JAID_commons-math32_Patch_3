@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+--- before/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-07-31 17:59:25.000000000 +0900
++++ after/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java	2021-07-31 18:10:33.000000000 +0900
+@@ -141,6 +141,10 @@
+     try {
+       final Vector2D[][] v;
+       v=this.getVertices();
++      if(((0 == v.length) == (null == v[0][0])) == false){
++return;
++
++}
+       if (v.length == 0) {
+         final BSPTree<Euclidean2D> tree;
+         tree=getTree(false);
+@@ -192,6 +196,7 @@
+           setBarycenter(new Vector2D(sumX / (3 * sum),sumY / (3 * sum)));
+         }
+       }
++
+     }
+  catch (    RuntimeException t__JAID_VAR) {
+       hasException__JAID_VAR=true;

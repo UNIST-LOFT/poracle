@@ -1,0 +1,1 @@
+{"bug_id": "33", "target": ["com/google/javascript/rhino/jstype/PrototypeObjectType.java:558"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "407_PFL_GenProg-A_Patch_1_1"}

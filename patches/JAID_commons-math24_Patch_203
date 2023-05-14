@@ -1,0 +1,14 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:19.085300724 +0900
+@@ -243,7 +243,10 @@
+             fu=-fu;
+           }
+           previous=current;
++          if(!((a > x - tol1) == true)){
+           current=new UnivariatePointValuePair(u,isMinim ? fu : -fu);
++
++}
+           if (checker != null) {
+             if (checker.converged(iter,previous,current)) {
+               return result628018501=(current);

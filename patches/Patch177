@@ -1,0 +1,14 @@
+diff -w -u -r Math105b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java Math105b_Patch177/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java
+--- Math105b/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2017-05-03 12:11:25.000000000 +0800
++++ Math105b_Patch177/src/java/org/apache/commons/math/stat/regression/SimpleRegression.java	2017-05-03 12:11:25.000000000 +0800
+@@ -105,7 +105,10 @@
+     public void addData(double x, double y) {
+         if (n == 0) {
+             xbar = x;
++                         if (System.out != null) System.currentTimeMillis();
++            if (y <= x) {
+             ybar = y;
++            }
+         } else {
+             double dx = x - xbar;
+             double dy = y - ybar;

@@ -1,0 +1,20 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.341679938 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:54.069652325 +0900
+@@ -114,7 +114,7 @@
+           ratio=rhs / entry;
+           final int cmp;
+           cmp=Double.compare(ratio,minRatio);
+-          if (cmp == 0) {
++          if ((i >= col) != false && cmp == 0) {
+             minRatioPositions.add(i);
+           }
+  else           if (cmp < 0) {
+@@ -122,6 +122,7 @@
+             minRatioPositions=new ArrayList<Integer>();
+             minRatioPositions.add(i);
+           }
++
+         }
+       }
+       if (minRatioPositions.size() == 0) {

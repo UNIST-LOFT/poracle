@@ -1,0 +1,20 @@
+diff -wur before/src/java/org/apache/commons/lang/NumberUtils.java after/src/java/org/apache/commons/lang/NumberUtils.java
+--- before/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:42.942132111 +0900
++++ after/src/java/org/apache/commons/lang/NumberUtils.java	2021-08-03 17:16:43.006132132 +0900
+@@ -204,7 +204,7 @@
+ switch (lastChar) {
+ case 'l':
+ case 'L':
+-          if (dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
++          if ((dec == null && numeric.isEmpty()) != true && dec == null && exp == null && (numeric.charAt(0) == '-' && NumberUtils.isDigits(numeric.substring(1)) || NumberUtils.isDigits(numeric))) {
+             try {
+               return result1950496919=(NumberUtils.createLong(numeric));
+             }
+@@ -212,6 +212,7 @@
+             }
+             return result1950496919=(NumberUtils.createBigInteger(numeric));
+           }
++
+         throw new NumberFormatException(val + " is not a valid number.");
+ case 'f':
+ case 'F':

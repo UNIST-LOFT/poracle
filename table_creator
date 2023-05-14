@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+
+import logging
+import argparse
+import os
+from os.path import join, exists
+import pathlib
+from subprocess import Popen, DEVNULL, TimeoutExpired
+from shutil import copyfile
+import json
+
+def extract_result(tool):
+    c_all = {"Chart": 0, "Lang": 0, "Math": 0, "Time": 0}
+    in_all = {"Chart": 0, "Lang": 0, "Math": 0, "Time": 0}
+    configs_dir = join(os.getcwd(), 'all_con_temp')
+    for subroot, dirs, files in os.walk(configs_dir):
+        for config_file in files:
+            f = open(join(configs_dir,config_file),'r')
+            data = json.load(f)
+            if data['tool']==tool:
+                if data['correctness']=='Incorrect':
+                    in_all[data['project']]+=1
+                elif data['correctness']=='Correct':
+                    c_all[data['project']]+=1
+    return c_all, in_all
+
+if __name__ == '__main__':
+    my_tools = ['jGenprog','GenProg-A','jKali','Kali-A','Nopol2015','Nopol2017','Nopol','ACS','HDRepair','ARJA',	'AVATAR',	'SimFix',	'DynaMoth', 'FixMiner',	'TBar','kPAR', 'RSRepair-A']
+
+    for tool in my_tools:
+        c_all, in_all = extract_result(tool)
+        print(tool)
+        print(f"Correct: {c_all}")
+        print(f"Incorrect: {in_all}")
+        print()
+        print()

@@ -1,0 +1,23 @@
+diff -wur before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+--- before/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.678542094 +0900
++++ after/src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java	2021-08-12 11:08:43.774542139 +0900
+@@ -343,6 +343,10 @@
+       for (int i=0; i < coefficients.length; i++) {
+         basicRow=this.getBasicRow(this.getNumObjectiveFunctions() + i);
+         coefficients[i]=(basicRow == null ? 0 : this.getEntry(basicRow,this.getRhsOffset())) - (this.restrictToNonNegative ? 0 : mostNegative);
++        if((mostNegative >= coefficients[i]) == true){
++mostNegative=this.getNumVariables();
++
++}else{
+         if (basicRow != null) {
+           for (int j=this.getNumObjectiveFunctions(); j < this.getNumObjectiveFunctions() + i; j++) {
+             if (this.tableau.getEntry(basicRow,j) == 1) {
+@@ -350,6 +354,8 @@
+             }
+           }
+         }
++
++}
+       }
+       return result1206454681=(new RealPointValuePair(coefficients,this.f.getValue(coefficients)));
+     }

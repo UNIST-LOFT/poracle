@@ -1,0 +1,2 @@
+{"ID": "Patch18", "tool": "jKali", "correctness": "Incorrect", "bug_id": "26", "project": "Chart",
+"target":["org/jfree/chart/plot/CategoryPlot.java:2547"]}

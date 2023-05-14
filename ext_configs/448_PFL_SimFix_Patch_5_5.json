@@ -1,0 +1,1 @@
+{"bug_id": "82", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:84", "org/apache/commons/math/optimization/linear/SimplexSolver.java:95"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "448_PFL_SimFix_Patch_5_5"}

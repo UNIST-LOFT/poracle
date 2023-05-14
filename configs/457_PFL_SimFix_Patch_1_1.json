@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/lang/math/NumberUtils.java:452", "org/apache/commons/lang/math/NumberUtils.java:475"], "tool": "SimFix", "correctness": "Correct", "project": "Lang", "ID": "457_PFL_SimFix_Patch_1_1"}

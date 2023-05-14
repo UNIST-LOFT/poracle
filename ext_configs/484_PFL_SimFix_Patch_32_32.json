@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:141", "com/google/javascript/jscomp/MinimizeExitPoints.java:155"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "484_PFL_SimFix_Patch_32_32"}

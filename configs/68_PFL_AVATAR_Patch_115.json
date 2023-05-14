@@ -1,0 +1,1 @@
+{"bug_id": "7", "target": ["org/joda/time/format/DateTimeFormatter.java:710"], "tool": "AVATAR", "correctness": "Correct", "project": "Time", "ID": "68_PFL_AVATAR_Patch_115"}

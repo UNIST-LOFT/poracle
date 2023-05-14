@@ -1,0 +1,1 @@
+{"bug_id": "18", "target": ["com/google/javascript/jscomp/Compiler.java:1288"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Closure", "ID": "552_PFL_FixMiner_Patch_1_1"}

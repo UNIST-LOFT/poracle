@@ -1,0 +1,14 @@
+diff -wur before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java
+--- before/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.270111738 +0900
++++ after/source/org/jfree/chart/renderer/category/StatisticalBarRenderer.java	2021-08-03 15:17:05.786111763 +0900
+@@ -264,7 +264,10 @@
+         rectY=rectY + row * state.getBarWidth();
+       }
+       Number meanValue;
++      column=row;
++
+       meanValue=dataset.getMeanValue(row,column);
++
+       double value;
+       value=meanValue.doubleValue();
+       double base;

@@ -1,0 +1,1 @@
+{"bug_id": "57", "target": ["org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java:99"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "26_NFL_AVATAR_Patch_447_97"}

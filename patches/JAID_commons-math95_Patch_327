@@ -1,0 +1,16 @@
+diff -wur before/src/java/org/apache/commons/math/distribution/FDistributionImpl.java after/src/java/org/apache/commons/math/distribution/FDistributionImpl.java
+--- before/src/java/org/apache/commons/math/distribution/FDistributionImpl.java	2021-08-06 12:03:03.118295558 +0900
++++ after/src/java/org/apache/commons/math/distribution/FDistributionImpl.java	2021-08-06 12:03:05.946305972 +0900
+@@ -157,7 +157,12 @@
+       double d;
+       d=this.getDenominatorDegreesOfFreedom();
+       ret=d / (d - 2.0);
++      if((p == ret) == false){
++return result1325958191=this.numeratorDegreesOfFreedom;
++
++}
+       return result1325958191=(ret);
++
+     }
+  catch (    RuntimeException t__JAID_VAR) {
+       hasException__JAID_VAR=true;

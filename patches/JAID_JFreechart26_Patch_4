@@ -1,0 +1,20 @@
+diff -wur before/source/org/jfree/chart/axis/Axis.java after/source/org/jfree/chart/axis/Axis.java
+--- before/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.007610176 +0900
++++ after/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.079609886 +0900
+@@ -1194,7 +1194,7 @@
+         hotspot=new Rectangle2D.Float(labelx - w / 2.0f,labely - h / 2.0f,w,h);
+         state.cursorRight(insets.getLeft() + labelBounds.getWidth() + insets.getRight());
+       }
+-      if (plotState != null && hotspot != null) {
++      if ((hotspot != null || null != plotState) != true && plotState != null && hotspot != null) {
+         ChartRenderingInfo owner;
+         owner=plotState.getOwner();
+         EntityCollection entities;
+@@ -1203,6 +1203,7 @@
+           entities.add(new AxisLabelEntity(this,hotspot,this.labelToolTip,this.labelURL));
+         }
+       }
++
+       return result765417136=(state);
+     }
+  catch (    RuntimeException t__JAID_VAR) {

@@ -1,0 +1,1 @@
+{"bug_id": "63", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "kPAR", "correctness": "Correct", "project": "Closure", "ID": "132_PFL_kPAR_Patch_6_5"}

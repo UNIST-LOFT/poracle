@@ -1,0 +1,1 @@
+{"bug_id": "57", "target": ["org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java:175", "org/apache/commons/math/stat/clustering/KMeansPlusPlusClusterer.java:194"], "tool": "SimFix", "correctness": "Correct", "project": "Math", "ID": "486_PFL_SimFix_Patch_16_16"}

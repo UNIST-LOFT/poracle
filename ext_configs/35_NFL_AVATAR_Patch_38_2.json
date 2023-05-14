@@ -1,0 +1,1 @@
+{"bug_id": "57", "target": ["org/apache/commons/lang/LocaleUtils.java:223"], "tool": "AVATAR", "correctness": "Correct", "project": "Lang", "ID": "35_NFL_AVATAR_Patch_38_2"}

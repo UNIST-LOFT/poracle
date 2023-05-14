@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/DefaultPassConfig.java:263"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "100_PFL_Kali-A_Patch_2_2"}

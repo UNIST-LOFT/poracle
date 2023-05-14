@@ -1,0 +1,1 @@
+{"bug_id": "77", "target": ["org/apache/commons/math/linear/ArrayRealVector.java:721"], "tool": "TBar", "correctness": "Correct", "project": "Math", "ID": "272_PFL_TBar_Patch_1_1"}

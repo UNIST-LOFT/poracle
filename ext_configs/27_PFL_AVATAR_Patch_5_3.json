@@ -1,0 +1,1 @@
+{"bug_id": "7", "target": ["org/apache/commons/lang3/math/NumberUtils.java:452"], "tool": "AVATAR", "correctness": "Correct", "project": "Lang", "ID": "27_PFL_AVATAR_Patch_5_3"}

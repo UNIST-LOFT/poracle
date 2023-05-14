@@ -1,0 +1,1 @@
+{"bug_id": "73", "target": ["com/google/javascript/jscomp/CodeGenerator.java:1045"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "37_PFL_AVATAR_Patch_1"}

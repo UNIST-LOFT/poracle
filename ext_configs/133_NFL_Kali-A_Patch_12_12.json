@@ -1,0 +1,1 @@
+{"bug_id": "31", "target": ["org/apache/commons/math3/util/ContinuedFraction.java:177"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Math", "ID": "133_NFL_Kali-A_Patch_12_12"}

@@ -1,0 +1,2 @@
+{"ID": "Patch189", "tool": "ACS", "correctness": "Correct", "bug_id": "19", "project": "Chart",
+"target":  ["org/jfree/chart/plot/CategoryPlot.java:698","org/jfree/chart/plot/CategoryPlot.java:982"]}

@@ -1,0 +1,1 @@
+{"bug_id": "61", "target": ["org/apache/commons/math/distribution/PoissonDistributionImpl.java:17", "org/apache/commons/math/distribution/PoissonDistributionImpl.java:94"], "tool": "ACS", "correctness": "Correct", "project": "Math", "ID": "230_PFL_ACS_Patch_1_1"}

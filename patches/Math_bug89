@@ -1,0 +1,16 @@
+diff -w -r -u Math89b/src/java/org/apache/commons/math/stat/Frequency.java Math89f/src/java/org/apache/commons/math/stat/Frequency.java
+--- Math89b/src/java/org/apache/commons/math/stat/Frequency.java	2020-08-02 09:01:22.316725176 +0000
++++ Math89f/src/java/org/apache/commons/math/stat/Frequency.java	2020-08-02 09:01:26.196655141 +0000
+@@ -107,7 +107,12 @@
+      */
+     @Deprecated
+     public void addValue(Object v) {
++        if (System.out != null) System.currentTimeMillis();
++        if (v instanceof Comparable<?>){
+             addValue((Comparable<?>) v);            
++        } else {
++            throw new IllegalArgumentException("Object must implement Comparable");
++        }
+     }
+     
+     /**

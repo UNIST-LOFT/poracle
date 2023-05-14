@@ -1,0 +1,1 @@
+{"bug_id": "52", "target": ["org/apache/commons/math/geometry/euclidean/threed/Rotation.java:344"], "tool": "TBar", "correctness": "Incorrect", "project": "Math", "ID": "278_PFL_TBar_Patch_3_3"}

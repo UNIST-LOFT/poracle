@@ -1,0 +1,1 @@
+{"bug_id": "78", "target": ["http://org/apache/commons/math/analysis/solvers/BrentSolver.java:269"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "60_AVATAR_Patch_525_329"}

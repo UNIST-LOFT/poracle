@@ -1,0 +1,1 @@
+{"bug_id": "3", "target": ["com/google/javascript/jscomp/FlowSensitiveInlineVariables.java:155"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "362_PFL_ARJA_Patch_1_1"}

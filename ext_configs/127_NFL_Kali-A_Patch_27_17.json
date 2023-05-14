@@ -1,0 +1,1 @@
+{"bug_id": "3", "target": ["com/google/javascript/jscomp/FlowSensitiveInlineVariables.java:405"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "127_NFL_Kali-A_Patch_27_17"}

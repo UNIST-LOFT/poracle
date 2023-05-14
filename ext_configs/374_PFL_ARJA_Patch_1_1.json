@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730"], "tool": "ARJA", "correctness": "Correct", "project": "Closure", "ID": "374_PFL_ARJA_Patch_1_1"}

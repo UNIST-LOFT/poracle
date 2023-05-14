@@ -1,0 +1,1 @@
+{"bug_id": "67", "target": ["com/google/javascript/jscomp/RemoveUnusedPrototypeProperties.java:100"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "99_NFL_Kali-A_Patch_4_4"}

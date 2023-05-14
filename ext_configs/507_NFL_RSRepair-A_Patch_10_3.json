@@ -1,0 +1,1 @@
+{"bug_id": "124", "target": ["com/google/javascript/jscomp/ExploitAssigns.java:171"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "507_NFL_RSRepair-A_Patch_10_3"}

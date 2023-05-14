@@ -1,0 +1,1 @@
+{"bug_id": "70", "target": ["org/apache/commons/math/analysis/solvers/BisectionSolver.java:72"], "tool": "kPAR", "correctness": "Correct", "project": "Math", "ID": "134_PFL_kPAR_Patch_16_16"}

@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/data/time/TimeSeries.java after/source/org/jfree/data/time/TimeSeries.java
+--- before/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:32.683003733 +0900
++++ after/source/org/jfree/data/time/TimeSeries.java	2021-08-01 22:02:32.759003901 +0900
+@@ -964,7 +964,12 @@
+         return result1522070588=(copy);
+       }
+  else {
++        if((endIndex >= startIndex) == false){
++return result1522070588=this;
++
++}
+         return result1522070588=(this.createCopy(startIndex,endIndex));
++
+       }
+     }
+  catch (    CloneNotSupportedException t__JAID_VAR) {

@@ -1,0 +1,1 @@
+{"bug_id": "7", "target": ["org/apache/commons/lang3/math/NumberUtils.java:449"], "tool": "TBar", "correctness": "Correct", "project": "Lang", "ID": "366_NFL_TBar_Patch_1504_1083"}

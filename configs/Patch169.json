@@ -1,0 +1,2 @@
+{"ID": "Patch169", "tool": "Nopol2017", "correctness": "Incorrect", "bug_id": "69", "project": "Math",
+  "target":["org/apache/commons/math/stat/correlation/PearsonsCorrelation.java:193"]}

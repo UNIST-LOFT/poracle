@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:198", "org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:212"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "585_NFL_SimFix_Patch_5_5"}

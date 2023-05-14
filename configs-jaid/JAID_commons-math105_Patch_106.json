@@ -1,0 +1,1 @@
+{"ID":"JAID_commons-math105_Patch_106","project":"Math","bug_id":"105","target":["org/apache/commons/math/stat/regression/SimpleRegression.java:276"],"tool":"Jaid","correctness":"Unknown"}

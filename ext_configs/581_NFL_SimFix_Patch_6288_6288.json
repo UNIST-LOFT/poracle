@@ -1,0 +1,1 @@
+{"bug_id": "26", "target": ["com/google/javascript/jscomp/PeepholeFoldConstants.java:477", "com/google/javascript/jscomp/PeepholeFoldConstants.java:496"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "581_NFL_SimFix_Patch_6288_6288"}

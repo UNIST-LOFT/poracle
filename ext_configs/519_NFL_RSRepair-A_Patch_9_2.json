@@ -1,0 +1,1 @@
+{"bug_id": "121", "target": ["com/google/javascript/jscomp/InlineVariables.java:86"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "519_NFL_RSRepair-A_Patch_9_2"}

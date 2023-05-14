@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:187"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "31_PFL_AVATAR_Patch_2_2"}

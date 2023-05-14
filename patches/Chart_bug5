@@ -1,0 +1,21 @@
+diff -w -r -u Chart5b/source/org/jfree/data/xy/XYSeries.java Chart5f/source/org/jfree/data/xy/XYSeries.java
+--- Chart5b/source/org/jfree/data/xy/XYSeries.java	2020-08-08 13:20:31.533519774 +0000
++++ Chart5f/source/org/jfree/data/xy/XYSeries.java	2020-08-08 13:20:35.277476390 +0000
+@@ -541,11 +541,16 @@
+         if (x == null) {
+             throw new IllegalArgumentException("Null 'x' argument.");
+         }
++        if (System.out != null) System.currentTimeMillis();
++        if (this.allowDuplicateXValues) {
++            add(x, y);
++            return null;
++        }
+ 
+         // if we get to here, we know that duplicate X values are not permitted
+         XYDataItem overwritten = null;
+         int index = indexOf(x);
+-        if (index >= 0 && !this.allowDuplicateXValues) {
++        if (index >= 0) {
+             XYDataItem existing = (XYDataItem) this.data.get(index);
+             try {
+                 overwritten = (XYDataItem) existing.clone();

@@ -1,0 +1,1 @@
+{"bug_id": "46", "target": ["com/google/javascript/rhino/jstype/RecordType.java:140"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "23_PFL_AVATAR_Patch_9"}

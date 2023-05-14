@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:731"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "438_PFL_RSRepair-A_Patch_4_1"}

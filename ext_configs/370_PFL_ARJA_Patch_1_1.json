@@ -1,0 +1,1 @@
+{"bug_id": "59", "target": ["com/google/javascript/jscomp/Compiler.java:255"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "370_PFL_ARJA_Patch_1_1"}

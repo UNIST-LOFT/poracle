@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730"], "tool": "TBar", "correctness": "Incorrect", "project": "Closure", "ID": "405_NFL_TBar_Patch_704_253"}

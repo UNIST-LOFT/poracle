@@ -1,0 +1,1 @@
+{"bug_id": "88", "target": ["org/apache/commons/math/optimization/linear/SimplexSolver.java:83", "org/apache/commons/math/optimization/linear/SimplexSolver.java:94"], "tool": "SimFix", "correctness": "Incorrect", "project": "Math", "ID": "596_NFL_SimFix_Patch_4565_4565"}

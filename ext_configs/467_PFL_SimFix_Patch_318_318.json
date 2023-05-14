@@ -1,0 +1,1 @@
+{"bug_id": "60", "target": ["org/apache/commons/lang/text/StrBuilder.java:1673", "org/apache/commons/lang/text/StrBuilder.java:1686", "org/apache/commons/lang/text/StrBuilder.java:1739", "org/apache/commons/lang/text/StrBuilder.java:1752"], "tool": "SimFix", "correctness": "Correct", "project": "Lang", "ID": "467_PFL_SimFix_Patch_318_318"}

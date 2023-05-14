@@ -1,0 +1,13 @@
+diff -w -r -u Math58b/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java Math58f/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java
+--- Math58b/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java	2020-08-02 08:58:49.079490463 +0000
++++ Math58f/src/main/java/org/apache/commons/math/optimization/fitting/GaussianFitter.java	2020-08-02 08:58:51.943438794 +0000
+@@ -118,7 +118,8 @@
+      */
+     public double[] fit() {
+         final double[] guess = (new ParameterGuesser(getObservations())).guess();
++        if (System.out != null) System.currentTimeMillis();
+-        return fit(new Gaussian.Parametric(), guess);
++        return fit(guess);
+     }
+ 
+     /**

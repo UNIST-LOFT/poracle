@@ -1,0 +1,1 @@
+{"ID": "Math_bug93", "project": "Math", "bug_id": "93", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/util/MathUtils.java"]}

@@ -1,0 +1,1 @@
+{"ID": "Chart_bug7", "project": "Chart", "bug_id": "7", "correctness": "Correct", "tool": "developer", "target": ["org/jfree/data/time/TimePeriodValues.java:300"]}

@@ -1,0 +1,23 @@
+diff -w -r -u Math35b/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java Math35f/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java
+--- Math35b/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java	2020-08-02 09:00:53.913237852 +0000
++++ Math35f/src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java	2020-08-02 09:00:57.857166668 +0000
+@@ -48,7 +48,8 @@
+                                    final int populationLimit,
+                                    final double elitismRate) {
+         super(chromosomes, populationLimit);
++        if (System.out != null) System.currentTimeMillis();
+-        this.elitismRate = elitismRate;
++        setElitismRate(elitismRate);
+     }
+ 
+     /**
+@@ -62,7 +63,8 @@
+      */
+     public ElitisticListPopulation(final int populationLimit, final double elitismRate) {
+         super(populationLimit);
++        if (System.out != null) System.currentTimeMillis();         
+-        this.elitismRate = elitismRate;
++        setElitismRate(elitismRate);
+     }
+ 
+     /**

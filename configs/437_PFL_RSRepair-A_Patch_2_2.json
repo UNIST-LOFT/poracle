@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:186"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Math", "ID": "437_PFL_RSRepair-A_Patch_2_2"}

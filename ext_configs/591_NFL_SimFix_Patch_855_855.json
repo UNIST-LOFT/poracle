@@ -1,0 +1,1 @@
+{"bug_id": "45", "target": ["org/apache/commons/lang/WordUtils.java:622", "org/apache/commons/lang/WordUtils.java:636"], "tool": "SimFix", "correctness": "Incorrect", "project": "Lang", "ID": "591_NFL_SimFix_Patch_855_855"}

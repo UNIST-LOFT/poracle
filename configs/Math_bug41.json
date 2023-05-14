@@ -1,0 +1,1 @@
+{"ID": "Math_bug41", "project": "Math", "bug_id": "41", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/stat/descriptive/moment/Variance.java:520"]}

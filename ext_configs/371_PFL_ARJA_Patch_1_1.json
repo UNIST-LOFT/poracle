@@ -1,0 +1,1 @@
+{"bug_id": "117", "target": ["com/google/javascript/jscomp/TypeValidator.java:728"], "tool": "ARJA", "correctness": "Incorrect", "project": "Closure", "ID": "371_PFL_ARJA_Patch_1_1"}

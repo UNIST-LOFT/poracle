@@ -1,0 +1,1 @@
+{"bug_id": "73", "target": ["com/google/javascript/jscomp/CodeGenerator.java:1045"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "297_PFL_TBar_Patch_8_8"}

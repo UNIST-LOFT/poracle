@@ -1,0 +1,1 @@
+{"bug_id": "102", "target": ["com/google/javascript/jscomp/Normalize.java:89", "com/google/javascript/jscomp/Normalize.java:96"], "tool": "TBar", "correctness": "Correct", "project": "Closure", "ID": "340_PFL_TBar_Patch_17_17"}

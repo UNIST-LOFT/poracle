@@ -1,0 +1,22 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:19.521298882 +0900
+@@ -270,6 +270,10 @@
+  else {
+               b=u;
+             }
++            if((0 <= d == tol2 > u - a) == true){
++return result628018501=previous;
++
++}
+             if (fu <= fw || Precision.equals(w,x)) {
+               v=w;
+               fv=fw;
+@@ -280,6 +284,7 @@
+               v=u;
+               fv=fu;
+             }
++
+           }
+         }
+  else {

@@ -1,0 +1,2 @@
+{"ID": "Patch1", "tool": "jGenprog", "correctness": "Incorrect", "bug_id": "1", "project": "Chart",
+  "target": ["org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:1797"]}

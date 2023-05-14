@@ -1,0 +1,1 @@
+{"bug_id": "70", "target": ["org/apache/commons/math/analysis/solvers/BisectionSolver.java:72"], "tool": "TBar", "correctness": "Correct", "project": "Math", "ID": "251_PFL_TBar_Patch_28_28"}

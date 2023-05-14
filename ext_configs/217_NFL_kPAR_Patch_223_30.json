@@ -1,0 +1,1 @@
+{"bug_id": "46", "target": ["com/google/javascript/rhino/jstype/RecordType.java:142"], "tool": "kPAR", "correctness": "Incorrect", "project": "Closure", "ID": "217_NFL_kPAR_Patch_223_30"}

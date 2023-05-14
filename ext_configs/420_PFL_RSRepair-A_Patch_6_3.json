@@ -1,0 +1,1 @@
+{"bug_id": "107", "target": ["com/google/javascript/jscomp/CommandLineRunner.java:853"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Closure", "ID": "420_PFL_RSRepair-A_Patch_6_3"}

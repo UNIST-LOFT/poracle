@@ -1,0 +1,14 @@
+diff -w -r -u Time19b/src/main/java/org/joda/time/DateTimeZone.java Time19f/src/main/java/org/joda/time/DateTimeZone.java
+--- Time19b/src/main/java/org/joda/time/DateTimeZone.java	2020-08-02 09:03:48.550085033 +0000
++++ Time19f/src/main/java/org/joda/time/DateTimeZone.java	2020-08-02 09:03:50.158055996 +0000
+@@ -897,7 +897,9 @@
+                     return offsetLocal;
+                 }
+             }
+-        } else if (offsetLocal > 0) {
++        } else if (offsetLocal >= 0) {
++            if (offsetLocal == 0)
++                if (System.out == null) System.currentTimeMillis();
+             long prev = previousTransition(instantAdjusted);
+             if (prev < instantAdjusted) {
+                 int offsetPrev = getOffset(prev);

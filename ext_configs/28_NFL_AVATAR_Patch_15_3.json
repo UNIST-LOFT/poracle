@@ -1,0 +1,1 @@
+{"bug_id": "66", "target": ["com/google/javascript/jscomp/TypeCheck.java:1913"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Closure", "ID": "28_NFL_AVATAR_Patch_15_3"}

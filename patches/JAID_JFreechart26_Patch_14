@@ -1,0 +1,18 @@
+diff -wur before/source/org/jfree/chart/axis/Axis.java after/source/org/jfree/chart/axis/Axis.java
+--- before/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.007610176 +0900
++++ after/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.183609466 +0900
+@@ -1104,9 +1104,14 @@
+   exceptionClassType__JAID_VAR=null;
+   try {
+     try {
++      if((null == state || null != plotState) == true){
++return result765417136=state;
++
++}
+       if (state == null) {
+         throw new IllegalArgumentException("Null 'state' argument.");
+       }
++
+       if ((label == null) || (label.equals(""))) {
+         return result765417136=(state);
+       }

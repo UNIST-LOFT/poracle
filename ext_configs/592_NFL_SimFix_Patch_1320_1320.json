@@ -1,0 +1,1 @@
+{"bug_id": "79", "target": ["org/apache/commons/math/util/MathUtils.java:1624", "org/apache/commons/math/util/MathUtils.java:1639"], "tool": "SimFix", "correctness": "Correct", "project": "Math", "ID": "592_NFL_SimFix_Patch_1320_1320"}

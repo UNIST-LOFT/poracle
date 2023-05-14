@@ -1,0 +1,1 @@
+{"bug_id": "77", "target": ["org/apache/commons/math/linear/OpenMapRealVector.java:498"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "558_PFL_FixMiner_Patch_11_5"}

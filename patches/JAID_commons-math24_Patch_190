@@ -1,0 +1,16 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+--- before/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:16.785310423 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java	2021-08-16 11:12:18.941301332 +0900
+@@ -228,7 +228,12 @@
+           }
+           if (FastMath.abs(d) < tol1) {
+             if (d >= 0) {
++              if((b > b - u) == true){
++b=b - u;
++
++}
+               u=x + tol1;
++
+             }
+  else {
+               u=x - tol1;

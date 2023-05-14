@@ -1,0 +1,1 @@
+{"ID": "Math_bug50", "project": "Math", "bug_id": "50", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"]}

@@ -1,0 +1,1 @@
+{"bug_id": "50", "target": ["org/apache/commons/math/analysis/solvers/BaseSecantSolver.java:188"], "tool": "FixMiner", "correctness": "Incorrect", "project": "Math", "ID": "645_NFL_FixMiner_Patch_26_20"}

@@ -1,0 +1,1 @@
+{"bug_id": "39", "target": ["org/apache/commons/lang3/StringUtils.java:3676"], "tool": "TBar", "correctness": "Correct", "project": "Lang", "ID": "254_PFL_TBar_Patch_7_4"}

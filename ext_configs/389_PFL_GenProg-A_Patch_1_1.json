@@ -1,0 +1,1 @@
+{"bug_id": "107", "target": ["com/google/javascript/jscomp/CommandLineRunner.java:853"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "389_PFL_GenProg-A_Patch_1_1"}

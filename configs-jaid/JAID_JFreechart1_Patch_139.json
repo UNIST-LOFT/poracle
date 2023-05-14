@@ -1,0 +1,1 @@
+{"ID":"JAID_JFreechart1_Patch_139","project":"Chart","bug_id":"1","target":["org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.java:1812"],"tool":"Jaid","correctness":"Unknown"}

@@ -1,0 +1,1 @@
+{"ID": "Math_bug70", "project": "Math", "bug_id": "70", "correctness": "Correct", "tool": "developer", "target": ["org/apache/commons/math/analysis/solvers/BisectionSolver.java:72"]}

@@ -1,0 +1,1 @@
+{"bug_id": "62", "target": ["com/google/javascript/jscomp/LightweightMessageFormatter.java:98"], "tool": "AVATAR", "correctness": "Correct", "project": "Closure", "ID": "54_NFL_AVATAR_Patch_52_19"}

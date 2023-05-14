@@ -1,0 +1,1 @@
+{"bug_id": "39", "target": ["org/apache/commons/lang3/StringUtils.java:3675", "org/apache/commons/lang3/StringUtils.java:3693"], "tool": "SimFix", "correctness": "Correct", "project": "Lang", "ID": "444_PFL_SimFix_Patch_17_17"}

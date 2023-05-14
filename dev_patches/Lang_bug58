@@ -1,0 +1,13 @@
+diff -w -r -u Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java Lang58f/src/java/org/apache/commons/lang/math/NumberUtils.java
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java	2020-08-02 08:56:31.057979643 +0000
++++ Lang58f/src/java/org/apache/commons/lang/math/NumberUtils.java	2020-08-02 08:56:34.869910919 +0000
+@@ -451,8 +451,7 @@
+                 case 'L' :
+                     if (dec == null
+                         && exp == null
+-                        && isDigits(numeric.substring(1))
+-                        && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
++                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
+                         try {
+                             return createLong(numeric);
+                         } catch (NumberFormatException nfe) {

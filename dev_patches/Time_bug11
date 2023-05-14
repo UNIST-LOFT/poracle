@@ -1,0 +1,18 @@
+diff -w -r -u Time11b/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java Time11f/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java
+--- Time11b/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java	2020-08-02 09:03:43.706172503 +0000
++++ Time11f/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java	2020-08-02 09:03:45.270144261 +0000
+@@ -65,10 +65,11 @@
+ 
+     static Chronology cLenientISO;
+ 
+-    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>();
+-    static {
+-        cVerbose.set(Boolean.FALSE);
++    static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>() {
++        protected Boolean initialValue() {
++            return Boolean.FALSE;
+     }
++    };
+ 
+     /**
+      * Gets a flag indicating that verbose logging is required.

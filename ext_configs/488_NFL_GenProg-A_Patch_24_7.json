@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:116"], "tool": "GenProg-A", "correctness": "Incorrect", "project": "Closure", "ID": "488_NFL_GenProg-A_Patch_24_7"}

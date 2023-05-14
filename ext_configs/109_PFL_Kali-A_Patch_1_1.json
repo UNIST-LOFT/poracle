@@ -1,0 +1,1 @@
+{"bug_id": "15", "target": ["com/google/javascript/jscomp/FlowSensitiveInlineVariables.java:370"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "109_PFL_Kali-A_Patch_1_1"}

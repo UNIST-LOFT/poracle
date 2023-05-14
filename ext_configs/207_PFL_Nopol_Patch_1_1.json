@@ -1,0 +1,1 @@
+{"bug_id": "85", "target": ["org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:198", "org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java:200"], "tool": "Nopol", "correctness": "Incorrect", "project": "Math", "ID": "207_PFL_Nopol_Patch_1_1"}

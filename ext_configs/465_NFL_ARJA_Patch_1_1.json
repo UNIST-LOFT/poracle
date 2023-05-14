@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:137"], "tool": "ARJA", "correctness": "Correct", "project": "Closure", "ID": "465_NFL_ARJA_Patch_1_1"}

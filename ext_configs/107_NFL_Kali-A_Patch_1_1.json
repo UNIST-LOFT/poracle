@@ -1,0 +1,1 @@
+{"bug_id": "122", "target": ["com/google/javascript/jscomp/parsing/IRFactory.java:252"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "107_NFL_Kali-A_Patch_1_1"}

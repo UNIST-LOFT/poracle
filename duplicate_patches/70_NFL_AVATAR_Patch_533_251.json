@@ -1,0 +1,1 @@
+{"bug_id": "104", "target": ["org/apache/commons/math/special/Gamma.java:162"], "tool": "AVATAR", "correctness": "Incorrect", "project": "Math", "ID": "70_NFL_AVATAR_Patch_533_251"}

@@ -1,0 +1,265 @@
+ID,Group name,Test name,Minutes,Seconds,Method,Correctness,Time,Grade Group,Experience
+1,First group,Test 1 (Q1),16,21,Poracle,Correct,,Top-50%,Very Positive
+1,First group,Test 2 (Q2),15,29,Poracle,Correct,,Top-50%,Positive
+1,First group,Test 3 (Q3),27,54,Manual,Incorrect,,Top-50%,Very Negative
+1,First group,Test 4 (Q4),8,28,Manual,Correct,,Top-50%,Neutral
+2,First group,Test 1 (Q1),,,Poracle,Incorrect,1906,Low-50%,
+2,First group,Test 2 (Q2),,,Poracle,Incorrect,90,Low-50%,
+2,First group,Test 3 (Q3),,,Manual,Incorrect,4259,Low-50%,
+2,First group,Test 4 (Q4),,,Manual,Incorrect,N/A,Low-50%,
+3,Second group,Test 1 (Q3),21,17,Poracle,Incorrect,64,Low-50%,Negative
+3,Second group,Test 2 (Q4),38,38,Poracle,Incorrect,19,Low-50%,Negative
+3,Second group,Test 3 (Q1),8,26,Manual,Incorrect,1441,Low-50%,Neutral
+3,Second group,Test 4 (Q2),4,41,Manual,Correct,534,Low-50%,Positive
+4,First group,Test 1 (Q1),19,26,Poracle,Correct,861,Low-50%,Positive
+4,First group,Test 2 (Q2),20,44,Poracle,Correct,528,Low-50%,Neutral
+4,First group,Test 3 (Q3),32,56,Manual,Correct,468,Low-50%,Negative
+4,First group,Test 4 (Q4),6,49,Manual,Correct,1157,Low-50%,Negative
+5,Second group,Test 1 (Q3),,,Poracle,Incorrect,,Low-50%,
+5,Second group,Test 2 (Q4),,,Poracle,Incorrect,,Low-50%,
+5,Second group,Test 3 (Q1),0,41,Manual,Correct,,Low-50%,Neutral
+5,Second group,Test 4 (Q2),4,6,Manual,Correct,,Low-50%,Negative
+6,First group,Test 1 (Q1),30,52,Poracle,Correct,,Top-50%,Positive
+6,First group,Test 2 (Q2),14,23,Poracle,Correct,,Top-50%,Very Positive
+6,First group,Test 3 (Q3),22,25,Manual,Correct,,Top-50%,Neutral
+6,First group,Test 4 (Q4),15,21,Manual,Correct,,Top-50%,Neutral
+7,Second group,Test 1 (Q3),104,53,Poracle,Correct,0,Top-50%,
+7,Second group,Test 2 (Q4),91,43,Poracle,Correct,0,Top-50%,
+7,Second group,Test 3 (Q1),84,23,Manual,Incorrect,728,Top-50%,Positive
+7,Second group,Test 4 (Q2),63,48,Manual,Correct,1330,Top-50%,Positive
+8,Second group,Test 1 (Q3),16,10,Poracle,Correct,,Top-50%,Positive
+8,Second group,Test 2 (Q4),8,17,Poracle,Correct,,Top-50%,Positive
+8,Second group,Test 3 (Q1),15,30,Manual,Correct,,Top-50%,Positive
+8,Second group,Test 4 (Q2),10,52,Manual,Correct,,Top-50%,Positive
+9,First group,Test 1 (Q1),,,Poracle,Incorrect,634,Low-50%,
+9,First group,Test 2 (Q2),,,Poracle,Incorrect,1506,Low-50%,
+9,First group,Test 3 (Q3),,,Manual,Incorrect,36,Low-50%,
+9,First group,Test 4 (Q4),,,Manual,Incorrect,904,Low-50%,
+10,First group,Test 1 (Q1),,,Poracle,Incorrect,1723,,
+10,First group,Test 2 (Q2),,,Poracle,Incorrect,903,,
+10,First group,Test 3 (Q3),,,Manual,Incorrect,1198,,
+10,First group,Test 4 (Q4),,,Manual,Incorrect,278,,
+11,First group,Test 1 (Q1),36,51,Poracle,Correct,,Top-50%,Neutral
+11,First group,Test 2 (Q2),5,54,Poracle,Correct,,Top-50%,Neutral
+11,First group,Test 3 (Q3),28,27,Manual,Correct,,Top-50%,Positive
+11,First group,Test 4 (Q4),2,32,Manual,Correct,,Top-50%,Positive
+12,Second group,Test 1 (Q3),25,51,Poracle,Incorrect,706,Low-50%,Very Negative
+12,Second group,Test 2 (Q4),1,11,Poracle,Incorrect,400,Low-50%,Negative
+12,Second group,Test 3 (Q1),0,47,Manual,Incorrect,476,Low-50%,Neutral
+12,Second group,Test 4 (Q2),0,32,Manual,Incorrect,N/A,Low-50%,Neutral
+13,First group,Test 1 (Q1),15,43,Poracle,Correct,,Top-50%,Very Positive
+13,First group,Test 2 (Q2),11,15,Poracle,Correct,,Top-50%,Positive
+13,First group,Test 3 (Q3),34,47,Manual,Incorrect,,Top-50%,Neutral
+13,First group,Test 4 (Q4),8,18,Manual,Incorrect,,Top-50%,Neutral
+14,Second group,Test 1 (Q3),25,49,Poracle,Correct,1403,Top-50%,Neutral
+14,Second group,Test 2 (Q4),13,34,Poracle,Correct,527,Top-50%,Positive
+14,Second group,Test 3 (Q1),19,17,Manual,Correct,2851,Top-50%,Negative
+14,Second group,Test 4 (Q2),7,48,Manual,Correct,N/A,Top-50%,Positive
+15,First group,Test 1 (Q1),21,27,Poracle,Correct,559,Low-50%,Neutral
+15,First group,Test 2 (Q2),13,16,Poracle,Incorrect,2159,Low-50%,Positive
+15,First group,Test 3 (Q3),18,11,Manual,Incorrect,0,Low-50%,Negative
+15,First group,Test 4 (Q4),13,11,Manual,Incorrect,0,Low-50%,Neutral
+16,Second group,Test 1 (Q3),30,28,Poracle,Correct,,Top-50%,Very Positive
+16,Second group,Test 2 (Q4),12,57,Poracle,Correct,,Top-50%,Very Positive
+16,Second group,Test 3 (Q1),25,17,Manual,Correct,,Top-50%,Very Negative
+16,Second group,Test 4 (Q2),6,34,Manual,Correct,,Top-50%,Very Negative
+17,Second group,Test 1 (Q3),76,30,Poracle,Incorrect,N/A,Low-50%,Neutral
+17,Second group,Test 2 (Q4),14,48,Poracle,Incorrect,N/A,Low-50%,Neutral
+17,Second group,Test 3 (Q1),9,30,Manual,Incorrect,1985,Low-50%,Positive
+17,Second group,Test 4 (Q2),5,26,Manual,Incorrect,680,Low-50%,Neutral
+18,Second group,Test 1 (Q3),,,Poracle,Incorrect,,Low-50%,
+18,Second group,Test 2 (Q4),,,Poracle,Incorrect,,Low-50%,
+18,Second group,Test 3 (Q1),,,Manual,Incorrect,,Low-50%,
+18,Second group,Test 4 (Q2),,,Manual,Incorrect,,Low-50%,
+19,Second group,Test 1 (Q3),16,55,Poracle,Correct,,Top-50%,Positive
+19,Second group,Test 2 (Q4),10,12,Poracle,Correct,,Top-50%,Very Positive
+19,Second group,Test 3 (Q1),21,16,Manual,Correct,,Top-50%,Negative
+19,Second group,Test 4 (Q2),8,43,Manual,Correct,,Top-50%,Neutral
+20,First group,Test 1 (Q1),9,26,Poracle,Incorrect,921,Low-50%,Positive
+20,First group,Test 2 (Q2),0,48,Poracle,Incorrect,1345,Low-50%,Neutral
+20,First group,Test 3 (Q3),2,19,Manual,Incorrect,0,Low-50%,Neutral
+20,First group,Test 4 (Q4),0,33,Manual,Incorrect,0,Low-50%,Positive
+21,Second group,Test 1 (Q3),22,36,Poracle,Correct,625,Top-50%,Very Positive
+21,Second group,Test 2 (Q4),14,22,Poracle,Correct,289,Top-50%,Very Positive
+21,Second group,Test 3 (Q1),25,6,Manual,Correct,N/A,Top-50%,Positive
+21,Second group,Test 4 (Q2),10,34,Manual,Correct,N/A,Top-50%,Positive
+22,Second group,Test 1 (Q3),54,52,Poracle,Correct,N/A,Low-50%,Neutral
+22,Second group,Test 2 (Q4),41,10,Poracle,Correct,N/A,Low-50%,Positive
+22,Second group,Test 3 (Q1),15,4,Manual,Correct,N/A,Low-50%,Neutral
+22,Second group,Test 4 (Q2),0,36,Manual,Correct,N/A,Low-50%,Positive
+23,First group,Test 1 (Q1),26,53,Poracle,Correct,2118,Top-50%,Neutral
+23,First group,Test 2 (Q2),11,20,Poracle,Incorrect,2782,Top-50%,Positive
+23,First group,Test 3 (Q3),20,17,Manual,Incorrect,651,Top-50%,Negative
+23,First group,Test 4 (Q4),17,27,Manual,Incorrect,1401,Top-50%,Negative
+24,First group,Test 1 (Q1),29,55,Poracle,Incorrect,2876,Low-50%,Neutral
+24,First group,Test 2 (Q2),17,38,Poracle,Correct,N/A,Low-50%,Neutral
+24,First group,Test 3 (Q3),35,15,Manual,Incorrect,1562,Low-50%,Negative
+24,First group,Test 4 (Q4),18,14,Manual,Correct,436,Low-50%,Positive
+25,First group,Test 1 (Q1),40,12,Poracle,Correct,,Top-50%,Positive
+25,First group,Test 2 (Q2),12,39,Poracle,Correct,,Top-50%,Positive
+25,First group,Test 3 (Q3),9,16,Manual,Incorrect,,Top-50%,Very Positive
+25,First group,Test 4 (Q4),2,0,Manual,Correct,,Top-50%,Very Positive
+26,First group,Test 1 (Q1),,,Poracle,Incorrect,,,
+26,First group,Test 2 (Q2),,,Poracle,Incorrect,,,
+26,First group,Test 3 (Q3),,,Manual,Incorrect,,,
+26,First group,Test 4 (Q4),,,Manual,Incorrect,,,
+27,Second group,Test 1 (Q3),72,59,Poracle,Incorrect,17,Low-50%,Very Negative
+27,Second group,Test 2 (Q4),0,46,Poracle,Incorrect,972,Low-50%,Very Negative
+27,Second group,Test 3 (Q1),51,34,Manual,Incorrect,3828,Low-50%,Very Negative
+27,Second group,Test 4 (Q2),23,0,Manual,Incorrect,5063,Low-50%,Very Negative
+28,First group,Test 1 (Q1),47,10,Poracle,Incorrect,1052,Low-50%,Neutral
+28,First group,Test 2 (Q2),,,Poracle,Incorrect,462,Low-50%,
+28,First group,Test 3 (Q3),,,Manual,Incorrect,1118,Low-50%,
+28,First group,Test 4 (Q4),,,Manual,Incorrect,493,Low-50%,
+29,Second group,Test 1 (Q3),24,24,Poracle,Correct,1252,Top-50%,Neutral
+29,Second group,Test 2 (Q4),17,46,Poracle,Incorrect,854,Top-50%,Neutral
+29,Second group,Test 3 (Q1),22,45,Manual,Correct,713,Top-50%,Very Positive
+29,Second group,Test 4 (Q2),4,9,Manual,Correct,454,Top-50%,
+30,Second group,Test 1 (Q3),58,26,Poracle,Correct,1174,Low-50%,Neutral
+30,Second group,Test 2 (Q4),39,55,Poracle,Correct,546,Low-50%,
+30,Second group,Test 3 (Q1),0,19,Manual,Correct,1493,Low-50%,Neutral
+30,Second group,Test 4 (Q2),1,4,Manual,Correct,547,Low-50%,Negative
+31,Second group,Test 1 (Q3),23,12,Poracle,Correct,921,Low-50%,Positive
+31,Second group,Test 2 (Q4),19,29,Poracle,Correct,1013,Low-50%,Positive
+31,Second group,Test 3 (Q1),8,54,Manual,Incorrect,1530,Low-50%,Negative
+31,Second group,Test 4 (Q2),24,1,Manual,Correct,702,Low-50%,Neutral
+32,First group,Test 1 (Q1),29,25,Poracle,Correct,1047,Top-50%,Negative
+32,First group,Test 2 (Q2),15,36,Poracle,Correct,1217,Top-50%,Neutral
+32,First group,Test 3 (Q3),16,44,Manual,Correct,1094,Top-50%,Neutral
+32,First group,Test 4 (Q4),10,32,Manual,Correct,2115,Top-50%,Neutral
+33,Second group,Test 1 (Q3),,,Poracle,Incorrect,,Low-50%,
+33,Second group,Test 2 (Q4),,,Poracle,Incorrect,,Low-50%,
+33,Second group,Test 3 (Q1),,,Manual,Incorrect,,Low-50%,
+33,Second group,Test 4 (Q2),,,Manual,Incorrect,,Low-50%,
+34,First group,Test 1 (Q1),,,Poracle,Incorrect,,Low-50%,
+34,First group,Test 2 (Q2),,,Poracle,Incorrect,,Low-50%,
+34,First group,Test 3 (Q3),,,Manual,Incorrect,,Low-50%,
+34,First group,Test 4 (Q4),,,Manual,Incorrect,,Low-50%,
+35,First group,Test 1 (Q1),28,15,Poracle,Correct,0,Top-50%,
+35,First group,Test 2 (Q2),13,30,Poracle,Correct,0,Top-50%,Negative
+35,First group,Test 3 (Q3),31,17,Manual,Correct,0,Top-50%,
+35,First group,Test 4 (Q4),0,30,Manual,Correct,0,Top-50%,Neutral
+36,First group,Test 1 (Q1),53,26,Poracle,Correct,,Top-50%,Very Positive
+36,First group,Test 2 (Q2),,,Poracle,Incorrect,,Top-50%,
+36,First group,Test 3 (Q3),6,11,Manual,Incorrect,,Top-50%,Neutral
+36,First group,Test 4 (Q4),10,40,Manual,Incorrect,,Top-50%,Neutral
+37,First group,Test 1 (Q1),36,18,Poracle,Correct,,Low-50%,Positive
+37,First group,Test 2 (Q2),7,24,Poracle,Correct,,Low-50%,Positive
+37,First group,Test 3 (Q3),8,48,Manual,Incorrect,,Low-50%,Neutral
+37,First group,Test 4 (Q4),14,21,Manual,Correct,,Low-50%,Neutral
+38,First group,Test 1 (Q1),72,19,Poracle,Incorrect,,Low-50%,Very Negative
+38,First group,Test 2 (Q2),,,Poracle,Incorrect,,Low-50%,
+38,First group,Test 3 (Q3),,,Manual,Incorrect,,Low-50%,
+38,First group,Test 4 (Q4),,,Manual,Incorrect,,Low-50%,
+39,First group,Test 1 (Q1),27,19,Poracle,Correct,,Low-50%,Positive
+39,First group,Test 2 (Q2),7,56,Poracle,Correct,,Low-50%,Positive
+39,First group,Test 3 (Q3),22,10,Manual,Incorrect,,Low-50%,Negative
+39,First group,Test 4 (Q4),12,8,Manual,Incorrect,,Low-50%,Neutral
+40,Second group,Test 1 (Q3),21,1,Poracle,Correct,652,Top-50%,Negative
+40,Second group,Test 2 (Q4),10,32,Poracle,Correct,930,Top-50%,Very Positive
+40,Second group,Test 3 (Q1),8,14,Manual,Incorrect,369,Top-50%,Very Negative
+40,Second group,Test 4 (Q2),2,8,Manual,Incorrect,1395,Top-50%,Very Negative
+41,First group,Test 1 (Q1),21,24,Poracle,Correct,1379,Top-50%,Negative
+41,First group,Test 2 (Q2),11,13,Poracle,Correct,748,Top-50%,Neutral
+41,First group,Test 3 (Q3),18,41,Manual,Correct,326,Top-50%,Neutral
+41,First group,Test 4 (Q4),9,20,Manual,Correct,570,Top-50%,Neutral
+42,First group,Test 1 (Q1),18,3,Poracle,Correct,,Top-50%,Neutral
+42,First group,Test 2 (Q2),34,45,Poracle,Correct,,Top-50%,Neutral
+42,First group,Test 3 (Q3),12,28,Manual,Incorrect,,Top-50%,Positive
+42,First group,Test 4 (Q4),22,59,Manual,Correct,,Top-50%,Positive
+43,First group,Test 1 (Q1),39,19,Poracle,Correct,0,Top-50%,
+43,First group,Test 2 (Q2),16,44,Poracle,Correct,0,Top-50%,Neutral
+43,First group,Test 3 (Q3),13,7,Manual,Correct,281,Top-50%,Positive
+43,First group,Test 4 (Q4),0,36,Manual,Correct,506,Top-50%,Neutral
+44,Second group,Test 1 (Q3),,,Poracle,Incorrect,,Low-50%,
+44,Second group,Test 2 (Q4),,,Poracle,Incorrect,,Low-50%,
+44,Second group,Test 3 (Q1),,,Manual,Incorrect,,Low-50%,
+44,Second group,Test 4 (Q2),,,Manual,Incorrect,,Low-50%,
+45,First group,Test 1 (Q1),20,14,Poracle,Incorrect,140,Low-50%,Neutral
+45,First group,Test 2 (Q2),1,4,Poracle,Incorrect,1004,Low-50%,Neutral
+45,First group,Test 3 (Q3),0,33,Manual,Incorrect,221,Low-50%,Neutral
+45,First group,Test 4 (Q4),0,29,Manual,Incorrect,1146,Low-50%,Neutral
+46,Second group,Test 1 (Q3),18,36,Poracle,Correct,,Top-50%,Neutral
+46,Second group,Test 2 (Q4),33,3,Poracle,Incorrect,,Top-50%,Neutral
+46,Second group,Test 3 (Q1),16,12,Manual,Incorrect,,Top-50%,Neutral
+46,Second group,Test 4 (Q2),0,17,Manual,Incorrect,,Top-50%,Neutral
+47,Second group,Test 1 (Q3),36,34,Poracle,Correct,2000,Low-50%,Very Positive
+47,Second group,Test 2 (Q4),8,59,Poracle,Correct,403,Low-50%,Very Positive
+47,Second group,Test 3 (Q1),12,21,Manual,Correct,806,Low-50%,Very Positive
+47,Second group,Test 4 (Q2),7,11,Manual,Correct,4143,Low-50%,Very Positive
+48,Second group,Test 1 (Q3),29,40,Poracle,Incorrect,1967,Low-50%,Neutral
+48,Second group,Test 2 (Q4),29,36,Poracle,Incorrect,363,Low-50%,Neutral
+48,Second group,Test 3 (Q1),3,26,Manual,Incorrect,1778.8,Low-50%,Neutral
+48,Second group,Test 4 (Q2),5,4,Manual,Incorrect,1022,Low-50%,Neutral
+49,Second group,Test 1 (Q3),29,38,Poracle,Incorrect,,Low-50%,Neutral
+49,Second group,Test 2 (Q4),8,40,Poracle,Incorrect,,Low-50%,Negative
+49,Second group,Test 3 (Q1),17,4,Manual,Correct,,Low-50%,Positive
+49,Second group,Test 4 (Q2),9,46,Manual,Correct,,Low-50%,Neutral
+50,Second group,Test 1 (Q3),24,35,Poracle,Incorrect,,Top-50%,Negative
+50,Second group,Test 2 (Q4),1,55,Poracle,Incorrect,,Top-50%,Negative
+50,Second group,Test 3 (Q1),22,28,Manual,Incorrect,,Top-50%,Very Positive
+50,Second group,Test 4 (Q2),11,38,Manual,Incorrect,,Top-50%,Neutral
+51,Second group,Test 1 (Q3),,,Poracle,Incorrect,508,Low-50%,
+51,Second group,Test 2 (Q4),,,Poracle,Incorrect,1674,Low-50%,
+51,Second group,Test 3 (Q1),,,Manual,Incorrect,586,Low-50%,
+51,Second group,Test 4 (Q2),,,Manual,Incorrect,1024,Low-50%,
+52,Second group,Test 1 (Q3),30,38,Poracle,Correct,,Low-50%,Positive
+52,Second group,Test 2 (Q4),29,16,Poracle,Incorrect,,Low-50%,Positive
+52,Second group,Test 3 (Q1),7,52,Manual,Incorrect,,Low-50%,Positive
+52,Second group,Test 4 (Q2),0,33,Manual,Incorrect,,Low-50%,Positive
+53,First group,Test 1 (Q1),33,42,Poracle,Correct,,Top-50%,Positive
+53,First group,Test 2 (Q2),18,19,Poracle,Incorrect,,Top-50%,Very Positive
+53,First group,Test 3 (Q3),26,50,Manual,Incorrect,1837,Top-50%,Negative
+53,First group,Test 4 (Q4),4,14,Manual,Correct,1565,Top-50%,Negative
+54,First group,Test 1 (Q1),29,7,Poracle,Correct,555,Top-50%,Very Positive
+54,First group,Test 2 (Q2),11,46,Poracle,Correct,N/A,Top-50%,Very Positive
+54,First group,Test 3 (Q3),15,8,Manual,Correct,N/A,Top-50%,Very Positive
+54,First group,Test 4 (Q4),9,6,Manual,Correct,N/A,Top-50%,Very Positive
+55,Second group,Test 1 (Q3),55,15,Poracle,Correct,,Low-50%,Neutral
+55,Second group,Test 2 (Q4),11,14,Poracle,Correct,,Low-50%,Neutral
+55,Second group,Test 3 (Q1),23,15,Manual,Correct,,Low-50%,Positive
+55,Second group,Test 4 (Q2),6,9,Manual,Correct,,Low-50%,Positive
+56,First group,Test 1 (Q1),18,1,Poracle,Incorrect,,Top-50%,Positive
+56,First group,Test 2 (Q2),72,37,Poracle,Correct,,Top-50%,Very Positive
+56,First group,Test 3 (Q3),31,57,Manual,Incorrect,,Top-50%,Very Positive
+56,First group,Test 4 (Q4),16,40,Manual,Correct,,Top-50%,Very Positive
+57,Second group,Test 1 (Q3),12,48,Poracle,Correct,,Top-50%,Neutral
+57,Second group,Test 2 (Q4),7,47,Poracle,Correct,,Top-50%,Neutral
+57,Second group,Test 3 (Q1),35,59,Manual,Correct,,Top-50%,Negative
+57,Second group,Test 4 (Q2),9,19,Manual,Correct,,Top-50%,Negative
+58,Second group,Test 1 (Q3),39,43,Poracle,Incorrect,,Low-50%,Very Negative
+58,Second group,Test 2 (Q4),27,10,Poracle,Incorrect,,Low-50%,Very Negative
+58,Second group,Test 3 (Q1),,,Manual,Incorrect,,Low-50%,
+58,Second group,Test 4 (Q2),,,Manual,Incorrect,,Low-50%,
+59,First group,Test 1 (Q1),14,21,Poracle,Correct,,Top-50%,Positive
+59,First group,Test 2 (Q2),8,42,Poracle,Correct,,Top-50%,Very Positive
+59,First group,Test 3 (Q3),25,32,Manual,Correct,,Top-50%,Neutral
+59,First group,Test 4 (Q4),8,42,Manual,Correct,,Top-50%,Neutral
+60,First group,Test 1 (Q1),47,3,Poracle,Incorrect,,Low-50%,Positive
+60,First group,Test 2 (Q2),14,48,Poracle,Correct,,Low-50%,Very Positive
+60,First group,Test 3 (Q3),16,44,Manual,Incorrect,,Low-50%,Neutral
+60,First group,Test 4 (Q4),2,20,Manual,Incorrect,,Low-50%,Neutral
+61,First group,Test 1 (Q1),25,36,Poracle,Correct,N/A,Top-50%,Neutral
+61,First group,Test 2 (Q2),20,0,Poracle,Correct,N/A,Top-50%,Neutral
+61,First group,Test 3 (Q3),19,6,Manual,Correct,1866,Top-50%,Neutral
+61,First group,Test 4 (Q4),3,41,Manual,Correct,444,Top-50%,Neutral
+62,Second group,Test 1 (Q3),59,59,Poracle,Incorrect,,Top-50%,Very Negative
+62,Second group,Test 2 (Q4),3,24,Poracle,Incorrect,,Top-50%,Very Negative
+62,Second group,Test 3 (Q1),29,34,Manual,Incorrect,,Top-50%,Very Positive
+62,Second group,Test 4 (Q2),3,15,Manual,Correct,,Top-50%,Very Positive
+63,Second group,Test 1 (Q3),37,1,Poracle,Incorrect,,Top-50%,Negative
+63,Second group,Test 2 (Q4),19,15,Poracle,Incorrect,,Top-50%,Very Negative
+63,Second group,Test 3 (Q1),4,28,Manual,Incorrect,,Top-50%,Neutral
+63,Second group,Test 4 (Q2),3,16,Manual,Incorrect,,Top-50%,Neutral
+64,Second group,Test 1 (Q3),29,53,Poracle,Correct,,Top-50%,Positive
+64,Second group,Test 2 (Q4),27,0,Poracle,Correct,,Top-50%,Positive
+64,Second group,Test 3 (Q1),46,22,Manual,Correct,,Top-50%,Very Positive
+64,Second group,Test 4 (Q2),35,18,Manual,Correct,,Top-50%,Very Positive
+65,Second group,Test 1 (Q3),31,54,Poracle,Correct,,Top-50%,Very Positive
+65,Second group,Test 2 (Q4),15,0,Poracle,Correct,,Top-50%,Neutral
+65,Second group,Test 3 (Q1),23,21,Manual,Correct,,Top-50%,Positive
+65,Second group,Test 4 (Q2),10,51,Manual,Correct,,Top-50%,Positive
+66,First group,Test 1 (Q1),34,29,Poracle,Correct,0,Low-50%,
+66,First group,Test 2 (Q2),11,21,Poracle,Correct,,Low-50%,Neutral
+66,First group,Test 3 (Q3),24,53,Manual,Incorrect,32,Low-50%,Neutral
+66,First group,Test 4 (Q4),91,43,Manual,Correct,47,Low-50%,Positive

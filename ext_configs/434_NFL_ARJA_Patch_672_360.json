@@ -1,0 +1,1 @@
+{"bug_id": "56", "target": ["org/apache/commons/math/util/MultidimensionalCounter.java:240"], "tool": "ARJA", "correctness": "Incorrect", "project": "Math", "ID": "434_NFL_ARJA_Patch_672_360"}

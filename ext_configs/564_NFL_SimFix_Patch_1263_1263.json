@@ -1,0 +1,1 @@
+{"bug_id": "107", "target": ["com/google/javascript/jscomp/CommandLineRunner.java:852", "com/google/javascript/jscomp/CommandLineRunner.java:869"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "564_NFL_SimFix_Patch_1263_1263"}

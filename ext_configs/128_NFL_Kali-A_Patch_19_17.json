@@ -1,0 +1,1 @@
+{"bug_id": "10", "target": ["com/google/javascript/jscomp/NodeUtil.java:1271"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "128_Kali-A_Patch_19_17"}

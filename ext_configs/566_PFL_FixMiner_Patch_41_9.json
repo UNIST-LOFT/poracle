@@ -1,0 +1,1 @@
+{"bug_id": "4", "target": ["org/apache/commons/math3/geometry/euclidean/twod/SubLine.java:120"], "tool": "FixMiner", "correctness": "Correct", "project": "Math", "ID": "566_PFL_FixMiner_Patch_41_9"}

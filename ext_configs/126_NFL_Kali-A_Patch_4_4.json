@@ -1,0 +1,1 @@
+{"bug_id": "22", "target": ["com/google/javascript/jscomp/CheckSideEffects.java:111"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "126_NFL_Kali-A_Patch_4_4"}

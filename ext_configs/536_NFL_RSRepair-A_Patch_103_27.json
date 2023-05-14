@@ -1,0 +1,1 @@
+{"bug_id": "126", "target": ["com/google/javascript/jscomp/MinimizeExitPoints.java:137"], "tool": "RSRepair-A", "correctness": "Correct", "project": "Closure", "ID": "536_NFL_RSRepair-A_Patch_103_27"}

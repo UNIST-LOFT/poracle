@@ -1,0 +1,1 @@
+{"bug_id": "7", "target": ["org/joda/time/format/DateTimeFormatter.java:710"], "tool": "FixMiner", "correctness": "Correct", "project": "Time", "ID": "578_PFL_FixMiner_Patch_13_1"}

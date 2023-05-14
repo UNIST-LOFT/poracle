@@ -1,0 +1,5 @@
+{"ID": "Chart_bug25", "project": "Chart", "bug_id": "25", "correctness": "Correct", "tool": "developer",
+  "target": ["org/jfree/chart/renderer/category/StatisticalBarRenderer.java:259",
+    "org/jfree/chart/renderer/category/StatisticalBarRenderer.java:319",
+    "org/jfree/chart/renderer/category/StatisticalBarRenderer.java:411",
+    "org/jfree/chart/renderer/category/StatisticalBarRenderer.java:471"]}

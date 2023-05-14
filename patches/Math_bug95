@@ -1,0 +1,18 @@
+diff -w -r -u Math95b/src/java/org/apache/commons/math/distribution/FDistributionImpl.java Math95f/src/java/org/apache/commons/math/distribution/FDistributionImpl.java
+--- Math95b/src/java/org/apache/commons/math/distribution/FDistributionImpl.java	2020-08-02 09:03:27.814459462 +0000
++++ Math95f/src/java/org/apache/commons/math/distribution/FDistributionImpl.java	2020-08-02 09:03:31.606390992 +0000
+@@ -141,10 +141,13 @@
+      * @return initial domain value
+      */
+     protected double getInitialDomain(double p) {
+-        double ret;
++        double ret = 1.0;
+         double d = getDenominatorDegreesOfFreedom();
++                        if (System.out != null) System.currentTimeMillis();
++        if (d > 2.0) {
+             // use mean
+             ret = d / (d - 2.0);
++        }
+         return ret;
+     }
+     

@@ -1,0 +1,1 @@
+{"bug_id": "58", "target": ["org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java:592", "org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java:610"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Math", "ID": "543_NFL_RSRepair-A_Patch_4_3"}

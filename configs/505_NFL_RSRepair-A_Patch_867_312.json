@@ -1,0 +1,1 @@
+{"bug_id": "84", "target": ["org/apache/commons/math/optimization/direct/MultiDirectional.java:66", "org/apache/commons/math/optimization/direct/MultiDirectional.java:91"], "tool": "RSRepair-A", "correctness": "Incorrect", "project": "Math", "ID": "505_NFL_RSRepair-A_Patch_867_312"}

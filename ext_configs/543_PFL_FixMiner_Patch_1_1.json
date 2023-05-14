@@ -1,0 +1,1 @@
+{"bug_id": "19", "target": ["org/joda/time/DateTimeZone.java:900"], "tool": "FixMiner", "correctness": "Correct", "project": "Time", "ID": "543_PFL_FixMiner_Patch_1_1"}

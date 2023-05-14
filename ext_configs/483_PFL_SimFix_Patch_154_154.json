@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:701", "com/google/javascript/jscomp/FunctionInjector.java:710"], "tool": "SimFix", "correctness": "Incorrect", "project": "Closure", "ID": "483_PFL_SimFix_Patch_154_154"}

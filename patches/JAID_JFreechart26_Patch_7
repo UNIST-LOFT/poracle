@@ -1,0 +1,16 @@
+diff -wur before/source/org/jfree/chart/axis/Axis.java after/source/org/jfree/chart/axis/Axis.java
+--- before/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.007610176 +0900
++++ after/source/org/jfree/chart/axis/Axis.java	2021-08-03 12:52:23.111609757 +0900
+@@ -1111,7 +1111,12 @@
+         return result765417136=(state);
+       }
+       Font font;
++      if((null == this.getLabelFont()) == false){
++return result765417136=state;
++
++}
+       font=this.getLabelFont();
++
+       RectangleInsets insets;
+       insets=this.getLabelInsets();
+       g2.setFont(font);

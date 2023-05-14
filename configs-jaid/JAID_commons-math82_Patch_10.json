@@ -1,0 +1,1 @@
+{"ID":"JAID_commons-math82_Patch_10","project":"Math","bug_id":"82","target":["org/apache/commons/math/optimization/linear/SimplexSolver.java:98"],"tool":"Jaid","correctness":"Unknown"}

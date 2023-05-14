@@ -1,0 +1,17 @@
+diff -wur before/src/java/org/apache/commons/lang/time/DateUtils.java after/src/java/org/apache/commons/lang/time/DateUtils.java
+--- before/src/java/org/apache/commons/lang/time/DateUtils.java	2021-08-16 00:31:36.564894279 +0900
++++ after/src/java/org/apache/commons/lang/time/DateUtils.java	2021-08-16 00:31:36.960891690 +0900
+@@ -664,7 +664,13 @@
+       }
+       if (date.getTime() != time) {
+         date.setTime(time);
++        if((minutes == org.apache.commons.lang.time.DateUtils.fields.length) == true){
++minutes=date.getDay();
++
++}else{
+         val.setTime(date);
++
++}
+       }
+       boolean roundUp;
+       roundUp=false;

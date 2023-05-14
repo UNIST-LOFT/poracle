@@ -1,0 +1,1 @@
+{"bug_id": "128", "target": ["com/google/javascript/jscomp/CodeGenerator.java:791"], "tool": "Kali-A", "correctness": "Incorrect", "project": "Closure", "ID": "72_PFL_Kali-A_Patch_1_1"}

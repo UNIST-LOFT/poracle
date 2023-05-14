@@ -1,0 +1,11 @@
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-05-28 12:50:42.698197290 +0900
++++ Lang58b_f/src/java/org/apache/commons/lang/math/NumberUtils.java	2022-06-01 16:48:09.277906585 +0900
+@@ -461,7 +461,7 @@
+                         return createBigInteger(numeric);
+ 
+                     }
+-                    throw new NumberFormatException(str + " is not a valid number.");
++                    if (expPos > -1) throw new NumberFormatException(str + " is not a valid number.");
+                 case 'f' :
+                 case 'F' :
+                     try {

@@ -1,0 +1,1 @@
+{"bug_id": "115", "target": ["com/google/javascript/jscomp/FunctionInjector.java:730", "com/google/javascript/jscomp/FunctionInjector.java:739"], "tool": "SimFix", "correctness": "Correct", "project": "Closure", "ID": "602_NFL_SimFix_Patch_3_3"}

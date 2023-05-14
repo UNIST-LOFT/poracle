@@ -1,0 +1,17 @@
+diff -wur before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java after/src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- before/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.341679938 +0900
++++ after/src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java	2021-08-04 16:23:44.945678200 +0900
+@@ -155,7 +155,13 @@
+             }
+           }
+         }
++        if((null == minRow) == false){
++minRow=null;
++
++}else{
+         return result672261858=(minRow);
++
++}
+       }
+       return result672261858=(minRatioPositions.get(0));
+     }

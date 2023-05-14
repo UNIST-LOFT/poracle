@@ -1,0 +1,18 @@
+diff -wur before/src/java/org/apache/commons/math/analysis/BrentSolver.java after/src/java/org/apache/commons/math/analysis/BrentSolver.java
+--- before/src/java/org/apache/commons/math/analysis/BrentSolver.java	2021-08-12 10:43:08.404545197 +0900
++++ after/src/java/org/apache/commons/math/analysis/BrentSolver.java	2021-08-12 10:43:08.412545222 +0900
+@@ -146,12 +146,13 @@
+       yMax=f.value(max);
+       double sign;
+       sign=yMin * yMax;
+-      if (sign >= 0) {
++      if (sign >= 0 && (yMax > yMin) != false) {
+         throw new IllegalArgumentException("Function values at endpoints do not have different signs." + "  Endpoints: [" + min + ","+ max+ "]"+ "  Values: ["+ yMin+ ","+ yMax+ "]");
+       }
+  else {
+         ret=this.solve(min,yMin,max,yMax,min,yMin);
+       }
++
+       return result1325958191=(ret);
+     }
+  catch (    MaxIterationsExceededException t__JAID_VAR) {
