@@ -1,1 +1,1 @@
-This directory contains the materials for the four questions used in our user study. The user study result is available in [user-study-result.csv](user-study-result.csv).
+This directory contains the materials for the four questions used in our user study. The user study result is available in the [results](https://github.com/UNIST-LOFT/poracle/tree/main/user-study/results) directory.
